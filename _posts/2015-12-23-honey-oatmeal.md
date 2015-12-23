@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: Honey Oatmeal Soap
+title: Oatmeal Honey Soap
 
 # Ounces
 AcaiButter_ounces: 
