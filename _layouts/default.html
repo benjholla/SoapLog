@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <script>if(window.location.protocol != "https:") { window.location.href = "https:" + window.location.href.substring(window.location.protocol.length); }</script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript">
+   	$(document).ready(function() {
+	        // Tooltip only Text
+	        $('.hover-tooltip').hover(function(){
+	                // Hover over code
+	                var tip = $(this).attr('tip');
+	                $(this).data('tipText', tip).removeAttr('tip');
+	                $('<p class="tooltip"></p>')
+	                .text(tip)
+	                .appendTo('body')
+	                .fadeIn('slow');
+	        }, function() {
+	                // Hover out code
+	                $(this).attr('tip', $(this).data('tipText'));
+	                $('.tooltip').remove();
+	        }).mousemove(function(e) {
+	                var mousex = e.pageX + 20; //Get X coordinates
+	                var mousey = e.pageY + 10; //Get Y coordinates
+	                $('.tooltip')
+	                .css({ top: mousey, left: mousex })
+	        });
+	});
+    </script>
+
+    <!-- Created with SoapLog - http://github.com/benjholla/SoapLog -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          
+          <nav>
+            <a href="{{ site.baseurl }}/">Batch Log</a>
+            <a href="{{ site.baseurl }}/about">Batchmaster</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
