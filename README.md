@@ -58,9 +58,9 @@ There are 3 different ways that you can make changes to your blog's files:
   
 ### Step 3) Publish your first batch
 
-Edit `/_posts/2014-12-5-oatmeal-stout.md` to replace the default content and log your first blog batch. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+Edit `/_posts/2015-12-23-honey-oatmeal.md` to replace the default content and log your first blog batch. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
-Note that file (batch day) dates are formatted as `yyyy-dd-mm`, whereas `bottle-date` or `keg-date` dates are formatted as `mm-dd-yyyy`.
+Note that file (batch day) dates are formatted as `yyyy-dd-mm`.
 
 > You can add additional batchs in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog batch and make sure the batch's filename is in this format: `year-month-day-title.md`
 
