@@ -5,7 +5,7 @@ title: Honey Oatmeal Soap
 # Ounces
 AcaiButter_ounces: 
 SweetAlmondButter_ounces: 
-SweetAlmondOil_ounces: 
+SweetAlmondOil_ounces: .5
 AloeExtract_ounces: 
 AloeVeraButter_ounces: 
 ApricotKernelOil_ounces: 
@@ -28,7 +28,7 @@ CarrotOil_ounces:
 CastorOil_ounces: 
 CherryOil_ounces: 
 CocoaButter_ounces: 
-CoconutOil_ounces: 
+CoconutOil_ounces: 8
 CoconutOilFractions_ounces: 
 VirginCoconutOil_ounces: 
 CoffeeButter_ounces: 
@@ -57,7 +57,7 @@ MowrahButter_ounces:
 NeemOil_ounces: 
 OatOil_ounces: 
 OliveButter_ounces: 
-OliveOil_ounces: 
+OliveOil_ounces: 20
 OrangeButter_ounces: 
 PalmKernelOil_ounces: 
 PalmOil_ounces: 
@@ -177,7 +177,7 @@ SunflowerOil_grams:
 TamanuOil_grams: 
 WalnutOil_grams: 
 WheatGermOil_grams: 
-Beeswax_grams: 
+Beeswax_grams: 7
 Butterfat_grams: 
 EmuOil_grams: 
 GoatFat_grams: 
@@ -189,20 +189,17 @@ NeatsFootOil_grams:
 Tallow_grams: 
 
 # Lye
-SodiumHydroxide_NaOH_ounces: 
+SodiumHydroxide_NaOH_ounces: 4.03
 PotassiumHydroxide_KOH_ounces: 
 SodiumHydroxide_NaOH_grams: 
 PotassiumHydroxide_KOH_grams: 
 ---
 
 ## Special Ingredients
-1 tablespoon ground oats
+1 tablespoon coarse bentonite, 1/2 tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
 
 ## Recipe
-TODO
+At trace add bentonite, honey, and essential oils.  Divide soap into two bowls and add ground oats to one bowl.  Pour and swirl the two soaps into the mold.
 
 ## Batch Notes
-I love honey! :thumbsup: Remember to leave the soaps with honey uncovered and uninsulated to prevent cracking when the soap cures.  If cracking begins to occur you may even try putting the soap in the refrigerator for a while until the soap cools completely.
-
-### Changing this page
-The easiest way to publish your first batch is to edit this one. Go into /_posts/ and update the `2014-12-5-oatmeal-stout.md` file.  For some examples check out [https://github.com/benjholla/SoapLog/tree/gh-pages/_posts](https://github.com/benjholla/SoapLog/tree/gh-pages/_posts).
+Remember to leave soaps with honey as an ingredient uncovered and uninsulated to prevent cracking when the soap begins to cure.  If cracking begins to occur you may even try putting the soap in the refrigerator for a while until the soap cools completely.
