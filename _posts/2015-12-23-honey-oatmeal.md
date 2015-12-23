@@ -2,7 +2,6 @@
 layout: batch
 title: Oatmeal Honey Soap
 
-# Ounces
 AcaiButter_ounces: 
 SweetAlmondButter_ounces: 
 SweetAlmondOil_ounces: .5
@@ -95,7 +94,6 @@ Mutton_ounces:
 NeatsFootOil_ounces: 
 Tallow_ounces: 
 
-# Grams
 AcaiButter_grams: 
 SweetAlmondButter_grams: 
 SweetAlmondOil_grams: 
@@ -188,7 +186,6 @@ Mutton_grams:
 NeatsFootOil_grams: 
 Tallow_grams: 
 
-# Lye
 SodiumHydroxide_NaOH_ounces: 4.03
 PotassiumHydroxide_KOH_ounces: 
 SodiumHydroxide_NaOH_grams: 
