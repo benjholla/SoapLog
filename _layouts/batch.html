@@ -209,8 +209,8 @@ layout: default
     {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
     {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
     {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
-    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
     </table>
     
     {% if page.SpecialIngredients %}
@@ -235,15 +235,19 @@ layout: default
       });
 
       var totalLye = 0.0;
+      var water = 0.0;
       $("#lye-mixture tr:gt(0)").each(function() {
         var row = $(this);
         // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           totalLye = totalLye + getQuantityPounds(this);
+           if(this.hasClass("liquid-base")){
+             water = water + getQuantityPounds(this);
+           } else {
+             totalLye = totalLye + getQuantityPounds(this);
+           }
         });
       });
-
-      var water = 0.0;
+      
       var yield = totalOilsAndFats + totalLye;
       $("#yield").html(yield.toFixed(2) + " - " + (yield + water).toFixed(2) + " pounds");
       
