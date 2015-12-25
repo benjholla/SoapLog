@@ -16,6 +16,7 @@ layout: default
   <div class="entry">
     <h2>Primary Ingredients</h2>
     <table>
+    {% if page.AcaiButter_ounces %}<tr><td>{{ page.AcaiButter_ounces }} ounces</td><td>Acai Butter</td></tr>{% endif %}
     {% if page.SweetAlmondButter_ounces %}<tr><td>{{ page.SweetAlmondButter_ounces }} ounces</td><td>Sweet Almond Butter</td></tr>{% endif %}
     {% if page.SweetAlmondOil_ounces %}<tr><td>{{ page.SweetAlmondOil_ounces }} ounces</td><td>Sweet Almond Oil</td></tr>{% endif %}
     {% if page.AloeExtract_ounces %}<tr><td>{{ page.AloeExtract_ounces }} ounces</td><td>Aloe Extract</td></tr>{% endif %}
@@ -107,6 +108,7 @@ layout: default
     {% if page.NeatsFootOil_ounces %}<tr><td>{{ page.NeatsFootOil_ounces }} ounces</td><td>Neats Foot Oil</td></tr>{% endif %}
     {% if page.Tallow_ounces %}<tr><td>{{ page.Tallow_ounces }} ounces</td><td>Tallow</td></tr>{% endif %}
 
+    {% if page.AcaiButter_grams %}<tr><td>{{ page.AcaiButter_grams }} grams</td><td>Acai Butter</td></tr>{% endif %}
     {% if page.SweetAlmondButter_grams %}<tr><td>{{ page.SweetAlmondButter_grams }} grams</td><td>Sweet Almond Butter</td></tr>{% endif %}
     {% if page.SweetAlmondOil_grams %}<tr><td>{{ page.SweetAlmondOil_grams }} grams</td><td>Sweet Almond Oil</td></tr>{% endif %}
     {% if page.AloeExtract_grams %}<tr><td>{{ page.AloeExtract_grams }} grams</td><td>Aloe Extract</td></tr>{% endif %}
