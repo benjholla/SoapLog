@@ -216,11 +216,31 @@ layout: default
   </div>
 
   <script>
-    $(document).ready(function() {
-      $("#ingredients tr:gt(0)").each(function(row) {
-        var cell0 = $('td:eq(0)', this).val();
-        console.log(cell0.text());
+    function computeYield(){
+      var yield = 0.0;
+      // iterate over each ingredient row, starting after the header
+      $("#ingredients tr:gt(0)").each(function() {
+        $(this).find('td').each(function(index) {
+           // quantities are stored in the first cell of each row
+           if(index == 0){
+             var quantityText = this.text();
+             if(quantityText.indexOf(" ounces") > -1){
+                quantityText = quantityText.replace(" ounces", "");
+                var quantityPounds = parseFloat(quantityText) * 0.0625;
+                yield = yield + quantityPounds;
+             } else if(quantityText.indexOf(" grams") > -1){
+                quantityText = quantityText.replace(" grams", "");
+                var quantityPounds = parseFloat(quantityText) * 0.00220462;
+                yield = yield + quantityPounds;
+             }
+           }
+        });
       });
+      $("#yield").html(yield + " pounds");
+    }
+
+    $(document).ready(function() {
+      computeYield();
     });
   </script>
 
