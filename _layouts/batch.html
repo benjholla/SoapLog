@@ -7,11 +7,14 @@ layout: default
 
   <div class="batch-details">
     <table>
-        <tr><td>Created on</td><td>{{ page.date | date: "%B %e, %Y" }}</td></tr>
+        <tr><td>Batch Date</td><td>{{ page.date | date: "%B %e, %Y" }}</td></tr>
+        <tr><td>Yield</td><td>TODO</td></tr>
+        <tr><td>Superfat</td><td>TODO</td></tr>
     </table>
   </div>
 
   <div class="entry">
+    <h2>Primary Ingredients</h2>
     <table>
     {% if page.SweetAlmondButter_ounces %}<tr><td>{{ page.SweetAlmondButter_ounces }} ounces</td><td>Sweet Almond Butter</td></tr>{% endif %}
     {% if page.SweetAlmondOil_ounces %}<tr><td>{{ page.SweetAlmondOil_ounces }} ounces</td><td>Sweet Almond Oil</td></tr>{% endif %}
