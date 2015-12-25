@@ -8,14 +8,14 @@ layout: default
   <div class="batch-details">
     <table>
         <tr><td>Batch Date</td><td>{{ page.date | date: "%B %e, %Y" }}</td></tr>
-        <tr><td>Yield</td><td>Calculating...</td></tr>
-        <tr><td>Superfat</td><td>Calculating...</td></tr>
+        <tr><td>Yield</td><td id="yield">Calculating...</td></tr>
+        <tr><td>Superfat</td><td id="superfat">Calculating...</td></tr>
     </table>
   </div>
 
   <div class="entry">
     <h2>Primary Ingredients</h2>
-    <table>
+    <table id="ingredients">
     <tr><td>Quantity</td><td>Percent</td><td>Ingredient</td></tr>
     {% if page.AcaiButter_ounces %}<tr><td>{{ page.AcaiButter_ounces }} ounces</td><td>Calculating...</td><td>Acai Butter</td></tr>{% endif %}
     {% if page.SweetAlmondButter_ounces %}<tr><td>{{ page.SweetAlmondButter_ounces }} ounces</td><td>Calculating...</td><td>Sweet Almond Butter</td></tr>{% endif %}
@@ -217,7 +217,9 @@ layout: default
 
   <script>
     $(document).ready(function() {
-     console.log("document loaded");
+      $("#ingredients tr").each(function(i, tr) {
+		  console.log(tr.text());
+		});
     });
   </script>
 
