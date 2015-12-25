@@ -250,13 +250,13 @@ layout: default
               quantityText = quantityText.replace(" ounces", "");
               var quantityPounds = parseFloat(quantityText) * 0.0625;
               row.find('td:nth-child(2)').each(function() {
-                $(this).html(quantityPounds.toFixed(2) + "%");
+                $(this).html((quantityPounds / yieldPounds) * 100).toFixed(2) + "%");
               });
            } else if(quantityText.indexOf(" grams") > -1){
               quantityText = quantityText.replace(" grams", "");
               var quantityPounds = parseFloat(quantityText) * 0.00220462;
               row.find('td:nth-child(2)').each(function() {
-                $(this).html(quantityPounds.toFixed(2) + "%");
+                $(this).html((quantityPounds / yieldPounds) * 100).toFixed(2) + "%");
               });
            }
         });
