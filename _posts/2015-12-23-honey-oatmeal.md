@@ -190,10 +190,9 @@ SodiumHydroxide_NaOH_ounces: 4.03
 PotassiumHydroxide_KOH_ounces: 
 SodiumHydroxide_NaOH_grams: 
 PotassiumHydroxide_KOH_grams: 
----
 
-## Special Ingredients
-1 tablespoon coarse bentonite, 1/2 tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
+SpecialIngredients: 1 tablespoon coarse bentonite, 1/2 tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
+---
 
 ## Recipe
 At trace add bentonite, honey, and essential oils.  Divide soap into two bowls and add ground oats to one bowl.  Pour and swirl the two soaps into the mold.
