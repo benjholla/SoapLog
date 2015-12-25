@@ -209,8 +209,8 @@ layout: default
     {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
     {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
     {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td>{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
-    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td>{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
     </table>
     
     {% if page.SpecialIngredients %}
@@ -224,43 +224,43 @@ layout: default
   <script>
     // computes the total yield and returns the total fats/oils in pounds
     function computeYield(){
-      var yield = 0.0;
+      var totalOilsAndFats = 0.0;
       // iterate over each ingredient row, starting after the header
       $("#ingredients tr:gt(0)").each(function() {
         var row = $(this);
+        // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           // quantities are stored in the first cell of each row
-           var quantityText = this.innerHTML;
-           if(quantityText.indexOf(" ounces") > -1){
-              quantityText = quantityText.replace(" ounces", "");
-              var quantityPounds = parseFloat(quantityText) * 0.0625;
-              yield = yield + quantityPounds;
-           } else if(quantityText.indexOf(" grams") > -1){
-              quantityText = quantityText.replace(" grams", "");
-              var quantityPounds = parseFloat(quantityText) * 0.00220462;
-              yield = yield + quantityPounds;
-           }
+           oilsAndFats = oilsAndFats + getQuantityPounds(this);
         });
       });
-      var oilsAndFats = yield;
+
+      var totalLye = 0.0;
       $("#lye-mixture tr:gt(0)").each(function() {
         var row = $(this);
+        // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           // quantities are stored in the first cell of each row
-           var quantityText = this.innerHTML;
-           if(quantityText.indexOf(" ounces") > -1){
-              quantityText = quantityText.replace(" ounces", "");
-              var quantityPounds = parseFloat(quantityText) * 0.0625;
-              yield = yield + quantityPounds;
-           } else if(quantityText.indexOf(" grams") > -1){
-              quantityText = quantityText.replace(" grams", "");
-              var quantityPounds = parseFloat(quantityText) * 0.00220462;
-              yield = yield + quantityPounds;
-           }
+           yield = yield + getQuantityPounds(this);
         });
       });
-      $("#yield").html(yield.toFixed(2) + " pounds");
-      return oilsAndFats;
+
+      var water = 0.0;
+      var yield = totalOilsAndFats + totalLye;
+      $("#yield").html(yield.toFixed(2) + " - " + (yield + water).toFixed(2) + " pounds");
+      
+      return totalOilsAndFats;
+    }
+
+    function getQuantityPounds(quantity){
+      var quantityPounds = 0.0;
+      var quantityText = quantity.innerHTML;
+      if(quantityText.indexOf(" ounces") > -1){
+        quantityText = quantityText.replace(" ounces", "");
+        quantityPounds = parseFloat(quantityText) * 0.0625;
+      } else if(quantityText.indexOf(" grams") > -1){
+        quantityText = quantityText.replace(" grams", "");
+        quantityPounds = parseFloat(quantityText) * 0.00220462;
+      }
+      return quantityPounds;
     }
 
     function computePercentages(yieldPounds){
