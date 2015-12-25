@@ -203,7 +203,7 @@ layout: default
     </table>
 
     <br />
-    <table>
+    <table id="lye-mixture">
     <tr><td>Quantity</td><td>Ingredient</td></tr>
     {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
     {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
@@ -222,6 +222,7 @@ layout: default
   </div>
 
   <script>
+    // computes the total yield and returns the total fats/oils in pounds
     function computeYield(){
       var yield = 0.0;
       // iterate over each ingredient row, starting after the header
@@ -241,8 +242,25 @@ layout: default
            }
         });
       });
+      var oilsAndFats = yield;
+      $("#lye-mixture tr:gt(0)").each(function() {
+        var row = $(this);
+        row.find('td:nth-child(1)').each(function() {
+           // quantities are stored in the first cell of each row
+           var quantityText = this.innerHTML;
+           if(quantityText.indexOf(" ounces") > -1){
+              quantityText = quantityText.replace(" ounces", "");
+              var quantityPounds = parseFloat(quantityText) * 0.0625;
+              yield = yield + quantityPounds;
+           } else if(quantityText.indexOf(" grams") > -1){
+              quantityText = quantityText.replace(" grams", "");
+              var quantityPounds = parseFloat(quantityText) * 0.00220462;
+              yield = yield + quantityPounds;
+           }
+        });
+      });
       $("#yield").html(yield.toFixed(2) + " pounds");
-      return yield;
+      return oilsAndFats;
     }
 
     function computePercentages(yieldPounds){
@@ -271,10 +289,10 @@ layout: default
 
     $(document).ready(function() {
       // compute the total yield in pounds
-      var yield = computeYield();
+      var oils = computeYield();
 
       // compute the percentage of each ingredient in the recipie
-      computePercentages(yield);
+      computePercentages(oils);
     });
   </script>
 
