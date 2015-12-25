@@ -186,10 +186,14 @@ Mutton_grams:
 NeatsFootOil_grams: 
 Tallow_grams: 
 
-SodiumHydroxide_NaOH_ounces: 4.03
+SodiumHydroxide_NaOH_ounces: 
 PotassiumHydroxide_KOH_ounces: 
-SodiumHydroxide_NaOH_grams: 
+SodiumHydroxide_NaOH_grams: 114.25
 PotassiumHydroxide_KOH_grams: 
+
+LiquidBase_name: Distilled Water
+LiquidBase_ounces: 9
+LiquidBase_grams: 
 
 SpecialIngredients: 1 tablespoon coarse bentonite, 1/2 tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
 ---

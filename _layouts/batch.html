@@ -200,11 +200,16 @@ layout: default
     {% if page.Mutton_grams %}<tr><td>{{ page.Mutton_grams }} grams</td><td align="right">Calculating...</td><td>Mutton</td></tr>{% endif %}
     {% if page.NeatsFootOil_grams %}<tr><td>{{ page.NeatsFootOil_grams }} grams</td><td align="right">Calculating...</td><td>Neats Foot Oil</td></tr>{% endif %}
     {% if page.Tallow_grams %}<tr><td>{{ page.Tallow_grams }} grams</td><td align="right">Calculating...</td><td>Tallow</td></tr>{% endif %}
-    
-    {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td align="right">Calculating...</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-    {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td align="right">Calculating...</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-    {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td align="right">Calculating...</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-    {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td align="right">Calculating...</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+    </table>
+
+    <table>
+    <th><td>Quantity</td><td>Ingredient</td></th>
+    {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+    {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+    {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+    {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td>{{ page.LiquidBase_ounces }} ounces</td><td>page.LiquidBase_name</td></tr>{% endif %}{% endif %}
+    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td>{{ page.LiquidBase_grams }} ounces</td><td>page.LiquidBase_name</td></tr>{% endif %}{% endif %}
     </table>
     
     {% if page.SpecialIngredients %}
