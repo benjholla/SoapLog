@@ -218,11 +218,8 @@ layout: default
   <script>
     $(document).ready(function() {
       $("#ingredients tr:gt(0)").each(function(row) {
-        var $row = $(row)
-        row.find('td').each(function(cell) {
-          var $cell = $(cell)
-          console.log(cell.text());
-        });
+        var cell0 = $('td:eq(0)', this).val();
+        console.log(cell0.text());
       });
     });
   </script>
