@@ -217,9 +217,11 @@ layout: default
 
   <script>
     $(document).ready(function() {
-      $("#ingredients tr").each(function(i, tr) {
-		  console.log(tr.text());
-		});
+      $("#ingredients tr:gt(0)").each(function(tr) {
+        tr.find('td').each(function(td) {
+          console.log(td);
+        });
+      });
     });
   </script>
 
