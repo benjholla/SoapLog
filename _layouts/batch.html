@@ -230,7 +230,7 @@ layout: default
         var row = $(this);
         // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           oilsAndFats = oilsAndFats + getQuantityPounds(this);
+           totalOilsAndFats = totalOilsAndFats + getQuantityPounds(this);
         });
       });
 
@@ -239,7 +239,7 @@ layout: default
         var row = $(this);
         // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           yield = yield + getQuantityPounds(this);
+           totalLye = totalLye + getQuantityPounds(this);
         });
       });
 
