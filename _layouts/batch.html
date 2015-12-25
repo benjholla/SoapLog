@@ -223,7 +223,7 @@ layout: default
         $(this).find('td').each(function(index) {
            // quantities are stored in the first cell of each row
            if(index == 0){
-             var quantityText = this.text();
+             var quantityText = this.innerHTML;
              if(quantityText.indexOf(" ounces") > -1){
                 quantityText = quantityText.replace(" ounces", "");
                 var quantityPounds = parseFloat(quantityText) * 0.0625;
@@ -236,7 +236,7 @@ layout: default
            }
         });
       });
-      $("#yield").html(yield + " pounds");
+      $("#yield").html(yield.toFixed(2) + " pounds");
     }
 
     $(document).ready(function() {
