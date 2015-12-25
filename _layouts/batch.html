@@ -219,7 +219,7 @@ layout: default
     $(document).ready(function() {
       $("#ingredients tr:gt(0)").each(function(row) {
         var $row = $(row)
-        tr.find('td').each(function(cell) {
+        row.find('td').each(function(cell) {
           var $cell = $(cell)
           console.log(cell.text());
         });
