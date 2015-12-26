@@ -241,6 +241,7 @@ nav {
 // .main
 //
 
+// code styling
 blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -263,6 +264,7 @@ code {
   background-color: $lightGray;
 }
 
+// batch styling
 .batchs > .batch {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -274,7 +276,6 @@ code {
 }
 
 .batch {
-
   table, th, td {
     border: 1px solid black;
     padding: 2px 4px 2px 4px;
@@ -290,12 +291,21 @@ code {
   }
 }
 
+// page tables
 .page {
   table {
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb
+  }
+
+  table td {
+    background-color: transparent
+  }
+
+  tbody tr {
+   background-color: transparent;
   }
 
   table td, table th {
