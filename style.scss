@@ -281,6 +281,14 @@ code {
     padding: 2px 4px 2px 4px;
   }
 
+  table td {
+    background-color: transparent
+  }
+
+  tbody tr {
+   background-color: transparent;
+  }
+
   .comments {
     margin-top: 10px;
   }
@@ -298,14 +306,6 @@ code {
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb
-  }
-
-  table td {
-    background-color: transparent
-  }
-
-  tbody tr {
-   background-color: transparent;
   }
 
   table td, table th {
