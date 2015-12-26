@@ -5,8 +5,8 @@
 // IMPORTS
 //
 
-@import "_reset";
-@import "_variables";
+@import "reset";
+@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,14 +18,14 @@ html {
 }
 
 body {
-    background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 760px;
   padding: 0 10px;
   width: 100%;
 }
@@ -71,7 +71,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-    cursor: pointer;
+	cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -224,7 +224,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 15px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -241,107 +241,6 @@ nav {
 // .main
 //
 
-.batchs > .batch {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.batchs > .batch:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-.batch {
-
-  table, th, td {
-   border: 1px solid black;
-   padding: 2px 4px 2px 4px;
-  }
-
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-.hover-tooltip {
-  color:#4183C4;
-}
-
-// hover over tooltip styling
-.tooltip {
-  display:none;
-  position:absolute;
-  border:1px solid #333;
-  background-color:#161616;
-  border-radius:5px;
-  padding:10px;
-  color:#fff;
-  font-size:12px Arial;
-}
-
-// tables
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    empty-cells: show;
-    border: 1px solid #cbcbcb
-}
-
-table td, table th {
-    border-left: 1px solid #cbcbcb;
-    border-width: 0 0 0 1px;
-    font-size: inherit;
-    margin: 0;
-    overflow: visible;
-    padding: .5em 1em;
-}
-
-table td:first-child, table th:first-child {
-    border-left-width: 0;
-}
-
-table thead {
-    background-color: #e0e0e0;
-    color: #000;
-    text-align: left;
-    vertical-align: bottom;
-}
-
-table td {
-    background-color: transparent;
-}
-
-tbody tr:nth-child(odd) {
-   background-color: #f2f2f2;
-}
-
-// code highlighting
 blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -364,7 +263,75 @@ code {
   background-color: $lightGray;
 }
 
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb
+}
+
+table td, table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em
+}
+
+table td:first-child, table th:first-child {
+    border-left-width: 0
+}
+
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom
+}
+
+table td {
+    background-color: transparent
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #f2f2f2;
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "_highlights";
-@import "_svg-icons";
+@import "highlights";
+@import "svg-icons";
