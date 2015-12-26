@@ -3,10 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+SoapLog is a public soaping log with a lye calculator and version control! I built this as a way to gain a deeper understanding of what a lye calculator computes and to record details about my own soaping experiments.  If you'd like to deploy your own SoapLog you can simply [fork this project](http://github.com/benjholla/SoapLog) to host a SoapLog on Github Pages for free.
 
+# Saponification Values
 SoapLog uses the following saponification values.  To reference a fat or oil in a recipe use the variable name appended with either `_ounces` or `_grams` depending on the unit of measurement. For example to add half an ounce of Sweet Almond Oil to a recipe write `sweet_almond_oil_ounces: .5`.
 
-| **Variable Name**                          | **Display Name**                                                             | **Saponification Value** |
+| **Variable Name**                          | **Display Name**                                                             | **Sap. Value** |
 |:-------------------------------------------|:-----------------------------------------------------------------------------|-------------------------:|
 | abyssinian_oil                             | [Abyssinian&nbsp;Oil](http://soapee.com/oils/1)                              |                    0.168 |
 | almond_butter                              | [Almond&nbsp;Butter](http://soapee.com/oils/2)                               |                    0.188 |
