@@ -6,7 +6,7 @@ SoapLog uses the following saponification values.  To reference
 |--------------------------------------------|------------------------------------------------------------------------------|-------------------------:|
 | abyssinian_oil                             | [Abyssinian Oil](http://soapee.com/oils/1)                                   |                    0.168 |
 | almond_butter                              | [Almond Butter](http://soapee.com/oils/2)                                    |                    0.188 |
-| almond_oil_sweet                           | [Sweet Almond Oil](http://soapee.com/oils/3)                                 |                    0.195 |
+| sweet_almond_oil                           | [Sweet Almond Oil](http://soapee.com/oils/3)                                 |                    0.195 |
 | aloe_butter                                | [Aloe Butter](http://soapee.com/oils/4)                                      |                     0.24 |
 | andiroba_oil_karaba_crabwood               | [Andiroba Oil (karaba, crabwood)](http://soapee.com/oils/5)                   |                    0.188 |
 | apricot_kernal_oil                         | [Apricot Kernal Oil](http://soapee.com/oils/6)                               |                    0.195 |

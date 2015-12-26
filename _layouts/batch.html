@@ -19,7 +19,7 @@ layout: default
       <tr><td>Quantity</td><td>Percent</td><td>Ingredient</td></tr>
       {% if page.abyssinian_oil_ounces %}<tr><td>{{ page.abyssinian_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/1">Abyssinian Oil</a></td></tr>{% endif %}
       {% if page.almond_butter_ounces %}<tr><td>{{ page.almond_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/2">Almond Butter</a></td></tr>{% endif %}
-      {% if page.almond_oil_sweet_ounces %}<tr><td>{{ page.almond_oil_sweet_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
+      {% if page.sweet_almond_oil_ounces %}<tr><td>{{ page.sweet_almond_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
       {% if page.aloe_butter_ounces %}<tr><td>{{ page.aloe_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/4">Aloe Butter</a></td></tr>{% endif %}
       {% if page.andiroba_oil_karaba_crabwood_ounces %}<tr><td>{{ page.andiroba_oil_karaba_crabwood_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/5">Andiroba Oil (karaba, crabwood)</a></td></tr>{% endif %}
       {% if page.apricot_kernal_oil_ounces %}<tr><td>{{ page.apricot_kernal_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/6">Apricot Kernal Oil</a></td></tr>{% endif %}
@@ -169,7 +169,7 @@ layout: default
 
       {% if page.abyssinian_oil_grams %}<tr><td>{{ page.abyssinian_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/1">Abyssinian Oil</a></td></tr>{% endif %}
       {% if page.almond_butter_grams %}<tr><td>{{ page.almond_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/2">Almond Butter</a></td></tr>{% endif %}
-      {% if page.almond_oil_sweet_grams %}<tr><td>{{ page.almond_oil_sweet_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
+      {% if page.sweet_almond_oil_grams %}<tr><td>{{ page.sweet_almond_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
       {% if page.aloe_butter_grams %}<tr><td>{{ page.aloe_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/4">Aloe Butter</a></td></tr>{% endif %}
       {% if page.andiroba_oil_karaba_crabwood_grams %}<tr><td>{{ page.andiroba_oil_karaba_crabwood_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/5">Andiroba Oil (karaba, crabwood)</a></td></tr>{% endif %}
       {% if page.apricot_kernal_oil_grams %}<tr><td>{{ page.apricot_kernal_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/6">Apricot Kernal Oil</a></td></tr>{% endif %}
@@ -321,13 +321,13 @@ layout: default
     <br />
     <table id="lye-mixture">
     <tr><td>Quantity</td><td>Ingredient</td></tr>
-      {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
-      {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+      {% if page.liquid_base_ounces %}{% if page.liquid_base_name %}<tr><td class="liquid-base">{{ page.liquid_base_ounces }} ounces</td><td>{{ page.liquid_base_name }}</td></tr>{% endif %}{% endif %}
+      {% if page.liquid_base_grams %}{% if page.liquid_base_name %}<tr><td class="liquid-base">{{ page.liquid_base_grams }} ounces</td><td>{{ page.liquid_base_name }}</td></tr>{% endif %}{% endif %}
 
-      {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-      {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-      {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-      {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_ounces %}<tr><td>{{ page.sodium_hydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_ounces %}<tr><td>{{ page.potassium_hydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_grams %}<tr><td>{{ page.sodium_hydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_grams %}<tr><td>{{ page.potassium_hydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
     </table>
     
       {% if page.SpecialIngredients %}
