@@ -133,7 +133,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | saw_palmetto_extract                       | [Saw&nbsp;Palmetto&nbsp;Extract](http://soapee.com/oils/121)                           |                     0.23 |
 | saw_palmetto_oil                           | [Saw&nbsp;Palmetto&nbsp;Oil](http://soapee.com/oils/122)                               |                     0.22 |
 | sea_buckthorn_oil_seed                     | [Sea&nbsp;Buckthorn&nbsp;Oil (seed only)](http://soapee.com/oils/123)                       |                    0.195 |
-| sea_buckthorn_oil_seed_and_berry           | [Sea&nbsp;Buckthorn&nbsp;Oil (seed&nbsp;and&nbsp;berry)](http://soapee.com/oils/124)             |                    0.183 |
+| sea_buckthorn_oil_seed_berry           | [Sea&nbsp;Buckthorn&nbsp;Oil (seed&nbsp;and&nbsp;berry)](http://soapee.com/oils/124)             |                    0.183 |
 | sesame_oil                                 | [Sesame&nbsp;Oil](http://soapee.com/oils/125)                                     |                    0.188 |
 | shea_butter                                | [Shea&nbsp;Butter](http://soapee.com/oils/126)                                    |                    0.179 |
 | shea_oil_fractionated                      | [Shea&nbsp;Oil (fractionated)](http://soapee.com/oils/127)                        |                    0.185 |
