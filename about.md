@@ -74,7 +74,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | laurel_fruit_oil                           | [Laurel&nbsp;Fruit&nbsp;Oil](http://soapee.com/oils/62)                                |                    0.198 |
 | lauric_acid                                | [Lauric&nbsp;Acid](http://soapee.com/oils/63)                                     |                     0.28 |
 | linseed_oil_flax                           | [Linseed&nbsp;Oil (flax)](http://soapee.com/oils/64)                              |                     0.19 |
-| loofa_seed_oil_luffa_cylinderica           | [Loofa&nbsp;Seed&nbsp;Oil (Luffa&nbsp;cylinderica)](http://soapee.com/oils/65)              |                    0.187 |
+| loofa_seed_oil           | [Loofa&nbsp;Seed&nbsp;Oil (Luffa&nbsp;cylinderica)](http://soapee.com/oils/65)              |                    0.187 |
 | macadamia_nut_butter                       | [Macadamia&nbsp;Nut&nbsp;Butter](http://soapee.com/oils/66)                            |                    0.188 |
 | macadamia_nut_oil                          | [Macadamia&nbsp;Nut&nbsp;Oil](http://soapee.com/oils/67)                               |                    0.195 |
 | mafura_butter_trichilia_emetica            | [Mafura&nbsp;Butter (Trichilia&nbsp;emetica)](http://soapee.com/oils/68)               |                    0.198 |
@@ -100,12 +100,12 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | olive_oil_pomace                           | [Olive&nbsp;Oil (pomace)](http://soapee.com/oils/88)                              |                    0.188 |
 | ostrich_oil                                | [Ostrich&nbsp;Oil](http://soapee.com/oils/89)                                     |                   0.1946 |
 | palm_kernel_oil                            | [Palm&nbsp;Kernel&nbsp;Oil](http://soapee.com/oils/90)                                 |                    0.247 |
-| palm_kernel_oil_flakes_hydrogenated        | [Palm&nbsp;Kernel&nbsp;Oil&nbsp;Flakes (hydrogenated)](http://soapee.com/oils/91)           |                    0.247 |
+| palm_kernel_oil_hydrogenated        | [Palm&nbsp;Kernel&nbsp;Oil&nbsp;Flakes (hydrogenated)](http://soapee.com/oils/91)           |                    0.247 |
 | palm_oil                                   | [Palm&nbsp;Oil](http://soapee.com/oils/92)                                        |                    0.199 |
 | palm_stearin                               | [Palm&nbsp;Stearin](http://soapee.com/oils/93)                                    |                    0.199 |
 | palmitic_acid                              | [Palmitic&nbsp;Acid](http://soapee.com/oils/94)                                   |                    0.215 |
 | palmolein                                  | [Palmolein](http://soapee.com/oils/95)                                       |                      0.2 |
-| papaya_seed_oil_carica_papaya              | [Papaya&nbsp;Seed&nbsp;Oil (Carica&nbsp;papaya)](http://soapee.com/oils/96)                 |                    0.158 |
+| papaya_seed_oil              | [Papaya&nbsp;Seed&nbsp;Oil (Carica&nbsp;papaya)](http://soapee.com/oils/96)                 |                    0.158 |
 | passion_fruit_seed_oil                     | [Passion&nbsp;Fruit&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/97)                          |                    0.183 |
 | pataua_patawa_oil                          | [Pataua&nbsp;Oil (Patawa)](http://soapee.com/oils/98)                             |                      0.2 |
 | peach_kernel_oil                           | [Peach&nbsp;Kernel&nbsp;Oil](http://soapee.com/oils/99)                                |                    0.191 |
