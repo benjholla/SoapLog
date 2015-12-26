@@ -1,6 +1,10 @@
-# Saponification Values
+---
+layout: page
+title: Saponification Values
+permalink: /saponification/
+---
 
-SoapLog uses the following saponification values.  To reference 
+SoapLog uses the following saponification values.  To reference a fat or oil in a recipe use the variable name appended with either `_ounces` or `_grams` depending on the unit of measurement. For example to add half an ounce of Sweet Almond Oil to a recipe write `sweet_almond_oil_ounces: .5`. 
 
 | **Variable Name**                          | **Display Name**                                                             | **Saponification Value** |
 |--------------------------------------------|------------------------------------------------------------------------------|-------------------------:|
