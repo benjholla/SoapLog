@@ -12,7 +12,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | almond_butter                              | [Almond Butter](http://soapee.com/oils/2)                                    |                    0.188 |
 | sweet_almond_oil                           | [Sweet Almond Oil](http://soapee.com/oils/3)                                 |                    0.195 |
 | aloe_butter                                | [Aloe Butter](http://soapee.com/oils/4)                                      |                     0.24 |
-| andiroba_oil_karaba_crabwood               | [Andiroba Oil (karaba, crabwood)](http://soapee.com/oils/5)                   |                    0.188 |
+| andiroba_oil_karaba_crabwood               | [Andiroba Oil (karaba, crabwood)](http://soapee.com/oils/5)                  |                    0.188 |
 | apricot_kernal_oil                         | [Apricot Kernal Oil](http://soapee.com/oils/6)                               |                    0.195 |
 | argan_oil                                  | [Argan Oil](http://soapee.com/oils/7)                                        |                    0.191 |
 | avocado_oil                                | [Avocado Oil](http://soapee.com/oils/9)                                      |                    0.186 |
@@ -20,21 +20,21 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | babassu_oil                                | [Babassu Oil](http://soapee.com/oils/10)                                     |                    0.245 |
 | baobab_oil                                 | [Baobab Oil](http://soapee.com/oils/11)                                      |                      0.2 |
 | beeswax                                    | [Beeswax](http://soapee.com/oils/12)                                         |                    0.094 |
-| black_cumin_seed_oil_nigella_sativa        | [Black Cumin Seed Oil (nigella sativa)](http://soapee.com/oils/13)            |                    0.195 |
+| black_cumin_seed_oil_nigella_sativa        | [Black Cumin Seed Oil (nigella sativa)](http://soapee.com/oils/13)           |                    0.195 |
 | black_current_seed_oil                     | [Black Current Seed Oil](http://soapee.com/oils/14)                          |                     0.19 |
 | borage_oil                                 | [Borage Oil](http://soapee.com/oils/15)                                      |                     0.19 |
 | brazil_nut_oil                             | [Brazil Nut Oil](http://soapee.com/oils/16)                                  |                     0.19 |
-| broccoli_seed_oil_brassica_oleracea        | [Broccoli Seed Oil (Brassica Oleracea)](http://soapee.com/oils/17)            |                    0.172 |
+| broccoli_seed_oil_brassica_oleracea        | [Broccoli Seed Oil (Brassica Oleracea)](http://soapee.com/oils/17)           |                    0.172 |
 | buriti_oil                                 | [Buriti Oil](http://soapee.com/oils/18)                                      |                    0.223 |
 | camelina_seed_oil                          | [Camelina Seed Oil](http://soapee.com/oils/19)                               |                    0.188 |
-| camellia_oil_tea_seed                      | [Camellia Oil (Tea Seed)](http://soapee.com/oils/20)                          |                    0.193 |
+| camellia_oil_tea_seed                      | [Camellia Oil (Tea Seed)](http://soapee.com/oils/20)                         |                    0.193 |
 | candelilla_wax                             | [Candelilla Wax](http://soapee.com/oils/21)                                  |                    0.044 |
 | canola_oil                                 | [Canola Oil](http://soapee.com/oils/22)                                      |                    0.186 |
-| canola_oil_high_oleic                      | [Canola Oil (high oleic)](http://soapee.com/oils/23)                          |                    0.186 |
-| carrot_seed_oil_cold_pressed               | [Carrot Seed Oil (cold pressed)](http://soapee.com/oils/24)                   |                    0.144 |
+| canola_oil_high_oleic                      | [Canola Oil (high oleic)](http://soapee.com/oils/23)                         |                    0.186 |
+| carrot_seed_oil_cold_pressed               | [Carrot Seed Oil (cold pressed)](http://soapee.com/oils/24)                  |                    0.144 |
 | castor_oil                                 | [Castor Oil](http://soapee.com/oils/25)                                      |                     0.18 |
-| cherry_kern1_oil_p_avium                   | [Cherry Kern1 Oil (p. avium)](http://soapee.com/oils/26)                      |                     0.19 |
-| cherry_kern2_oil_p_cerasus                 | [Cherry Kern2 Oil (p. cerasus)](http://soapee.com/oils/27)                    |                    0.192 |
+| cherry_kern1_oil_p_avium                   | [Cherry Kern1 Oil (p. avium)](http://soapee.com/oils/26)                     |                     0.19 |
+| cherry_kern2_oil_p_cerasus                 | [Cherry Kern2 Oil (p. cerasus)](http://soapee.com/oils/27)                   |                    0.192 |
 | chicken_fat                                | [Chicken Fat](http://soapee.com/oils/28)                                     |                    0.195 |
 | cocoa_butter                               | [Cocoa Butter](http://soapee.com/oils/29)                                    |                    0.194 |
 | coconut_oil_76_deg                         | [Coconut Oil (76 deg)](http://soapee.com/oils/30)                            |                    0.257 |
