@@ -16,7 +16,7 @@ layout: default
   <div class="entry">
     <h2>Primary Ingredients</h2>
     <table id="ingredients">
-      <tr><td>Ingredient</td><td>Quantity</td><td>Percent</td><td style="display:none;">Saponification Value</td><td style="display:none;">Lye Addition</td></tr>
+      <tr><td>Ingredient</td><td>Quantity</td><td>Percent</td><td style="display:none;">Saponification Value</td><td style="display:none;">Lye Addition (Grams)</td></tr>
       {% if page.abyssinian_oil_ounces %}<tr><td><a href="http://soapee.com/oils/1">Abyssinian Oil</a></td><td>{{ page.abyssinian_oil_ounces }} ounces</td><td align="right">Calculating...</td><td style="display:none;">0.168</td><td style="display:none;"></td></tr>{% endif %}
       {% if page.almond_butter_ounces %}<tr><td><a href="http://soapee.com/oils/2">Almond Butter</a></td><td>{{ page.almond_butter_ounces }} ounces</td><td align="right">Calculating...</td><td style="display:none;">0.188</td><td style="display:none;"></td></tr>{% endif %}
       {% if page.sweet_almond_oil_ounces %}<tr><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td><td>{{ page.sweet_almond_oil_ounces }} ounces</td><td align="right">Calculating...</td><td style="display:none;">0.195</td><td style="display:none;"></td></tr>{% endif %}
@@ -400,7 +400,7 @@ layout: default
     }
 
     function computeLyeAdditions(){
-      var totalLyeAdditions = 0.0;
+      var totalLyeAdditionsGrams = 0.0;
       // iterate over each ingredient row, starting after the header
       $("#ingredients tr:gt(0)").each(function() {
         var row = $(this);
@@ -414,13 +414,13 @@ layout: default
            });
            // store the computed lye addition to the fifth cell of the row
            row.find('td:nth-child(5)').each(function() {
-             var lyeAddition = (quantityPounds * sap);
-             $(this).html(lyeAddition);
-             totalLyeAdditions = totalLyeAdditions + lyeAddition;
+             var lyeAdditionGrams = (quantityPounds * sap) * 453.592;
+             $(this).html(lyeAdditionGrams);
+             totalLyeAdditionsGrams = totalLyeAdditionsGrams + lyeAdditionGrams;
            });
         });
       });
-      return totalLyeAdditions;
+      return totalLyeAdditionsGrams;
     }
 
     $(document).ready(function() {
@@ -431,7 +431,8 @@ layout: default
       computePercentages(oils);
 
       // computes the lye addition for each oil
-      var totalLyeAdditions = computeLyeAdditions();
+      var totalLyeAdditionsGrams = computeLyeAdditions();
+      console.log(totalLyeAdditionsGrams + " grams")
     });
   </script>
 
