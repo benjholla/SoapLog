@@ -8,25 +8,25 @@ SoapLog is a public soaping log with a lye calculator and version control! I bui
 # Saponification Values
 SoapLog uses the following saponification values.  To reference a fat or oil in a recipe use the variable name appended with either `_ounces` or `_grams` depending on the unit of measurement. For example to add half an ounce of Sweet Almond Oil to a recipe write `sweet_almond_oil_ounces: .5`.
 
-| **Variable Name**                          | **Display Name**                                                             | **Sap. Value** |
-|:-------------------------------------------|:-----------------------------------------------------------------------------|-------------------------:|
+| **Variable Name**                          | **Display Name**                                                             | **Sap. ** |
+|:-------------------------------------------|:-----------------------------------------------------------------------------|----------:|
 | abyssinian_oil                             | [Abyssinian&nbsp;Oil](http://soapee.com/oils/1)                              |                    0.168 |
 | almond_butter                              | [Almond&nbsp;Butter](http://soapee.com/oils/2)                               |                    0.188 |
 | sweet_almond_oil                           | [Sweet&nbsp;Almond&nbsp;Oil](http://soapee.com/oils/3)                       |                    0.195 |
-| aloe_butter                                | [Aloe&nbsp;Butter](http://soapee.com/oils/4)                                      |                     0.24 |
-| andiroba_oil_karaba_crabwood               | [Andiroba&nbsp;Oil&nbsp;(karaba, crabwood)](http://soapee.com/oils/5)                  |                    0.188 |
-| apricot_kernal_oil                         | [Apricot&nbsp;Kernal&nbsp;Oil](http://soapee.com/oils/6)                               |                    0.195 |
-| argan_oil                                  | [Argan&nbsp;Oil](http://soapee.com/oils/7)                                        |                    0.191 |
-| avocado_oil                                | [Avocado&nbsp;Oil](http://soapee.com/oils/9)                                      |                    0.186 |
-| avocado_butter                             | [Avocado&nbsp;Butter](http://soapee.com/oils/8)                                   |                    0.187 |
-| babassu_oil                                | [Babassu&nbsp;Oil](http://soapee.com/oils/10)                                     |                    0.245 |
-| baobab_oil                                 | [Baobab&nbsp;Oil](http://soapee.com/oils/11)                                      |                      0.2 |
+| aloe_butter                                | [Aloe&nbsp;Butter](http://soapee.com/oils/4)                                 |                     0.24 |
+| andiroba_oil_karaba_crabwood               | [Andiroba&nbsp;Oil&nbsp;(karaba, crabwood)](http://soapee.com/oils/5)        |                    0.188 |
+| apricot_kernal_oil                         | [Apricot&nbsp;Kernal&nbsp;Oil](http://soapee.com/oils/6)                     |                    0.195 |
+| argan_oil                                  | [Argan&nbsp;Oil](http://soapee.com/oils/7)                                   |                    0.191 |
+| avocado_oil                                | [Avocado&nbsp;Oil](http://soapee.com/oils/9)                                 |                    0.186 |
+| avocado_butter                             | [Avocado&nbsp;Butter](http://soapee.com/oils/8)                              |                    0.187 |
+| babassu_oil                                | [Babassu&nbsp;Oil](http://soapee.com/oils/10)                                |                    0.245 |
+| baobab_oil                                 | [Baobab&nbsp;Oil](http://soapee.com/oils/11)                                 |                      0.2 |
 | beeswax                                    | [Beeswax](http://soapee.com/oils/12)                                         |                    0.094 |
-| black_cumin_seed_oil_nigella_sativa        | [Black&nbsp;Cumin&nbsp;Seed&nbsp;Oil (nigella&nbsp;sativa)](http://soapee.com/oils/13)           |                    0.195 |
-| black_current_seed_oil                     | [Black&nbsp;Current&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/14)                          |                     0.19 |
+| black_cumin_seed_oil        | [Black&nbsp;Cumin&nbsp;Seed&nbsp;Oil (nigella&nbsp;sativa)](http://soapee.com/oils/13)      |                    0.195 |
+| black_current_seed_oil                     | [Black&nbsp;Current&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/14)           |                     0.19 |
 | borage_oil                                 | [Borage&nbsp;Oil](http://soapee.com/oils/15)                                      |                     0.19 |
 | brazil_nut_oil                             | [Brazil&nbsp;Nut&nbsp;Oil](http://soapee.com/oils/16)                                  |                     0.19 |
-| broccoli_seed_oil_brassica_oleracea        | [Broccoli&nbsp;Seed&nbsp;Oil (Brassica&nbsp;Oleracea)](http://soapee.com/oils/17)           |                    0.172 |
+| broccoli_seed_oil        | [Broccoli&nbsp;Seed&nbsp;Oil (Brassica&nbsp;Oleracea)](http://soapee.com/oils/17)           |                    0.172 |
 | buriti_oil                                 | [Buriti&nbsp;Oil](http://soapee.com/oils/18)                                      |                    0.223 |
 | camelina_seed_oil                          | [Camelina&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/19)                               |                    0.188 |
 | camellia_oil_tea_seed                      | [Camellia&nbsp;Oil (Tea&nbsp;Seed)](http://soapee.com/oils/20)                         |                    0.193 |
@@ -64,7 +64,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | illipe_butter                              | [Illipe&nbsp;Butter](http://soapee.com/oils/52)                                   |                    0.185 |
 | japan_wax                                  | [Japan&nbsp;Wax](http://soapee.com/oils/53)                                       |                    0.215 |
 | jatropha_oil_soapnut_seed_oil              | [Jatropha&nbsp;Oil (soapnut&nbsp;seed&nbsp;oil)](http://soapee.com/oils/54)                 |                    0.193 |
-| jojoba_oil_a_liquid_wax_ester              | [Jojoba&nbsp;Oil (Liquid&nbsp;Wax&nbsp;Ester)](http://soapee.com/oils/55)                 |                    0.092 |
+| jojoba_oil              | [Jojoba&nbsp;Oil (Liquid&nbsp;Wax&nbsp;Ester)](http://soapee.com/oils/55)                 |                    0.092 |
 | karanja_oil                                | [Karanja&nbsp;Oil](http://soapee.com/oils/56)                                     |                    0.183 |
 | kokum_butter                               | [Kokum&nbsp;Butter](http://soapee.com/oils/57)                                    |                     0.19 |
 | kpangnan_butter                            | [Kpangnan&nbsp;Butter](http://soapee.com/oils/58)                                 |                    0.191 |
@@ -89,7 +89,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | moringa_oil                                | [Moringa&nbsp;Oil](http://soapee.com/oils/77)                                     |                    0.192 |
 | mowrah_butter                              | [Mowrah&nbsp;Butter](http://soapee.com/oils/78)                                   |                    0.194 |
 | murumuru_butter                            | [Murumuru&nbsp;Butter](http://soapee.com/oils/79)                                 |                    0.275 |
-| mustard_oil_kachi_ghani                    | [Mustard&nbsp;Oil (kachi&nbsp;ghani)](http://soapee.com/oils/80)                       |                    0.173 |
+| mustard_oil                    | [Mustard&nbsp;Oil (kachi&nbsp;ghani)](http://soapee.com/oils/80)                       |                    0.173 |
 | myristic_acid                              | [Myristic&nbsp;Acid](http://soapee.com/oils/81)                                   |                    0.247 |
 | neatsfoot_oil                              | [Neatsfoot&nbsp;Oil](http://soapee.com/oils/82)                                   |                     0.18 |
 | neem_seed_oil                              | [Neem&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/83)                                   |                    0.193 |
@@ -153,7 +153,7 @@ SoapLog uses the following saponification values.  To reference a fat or oil in 
 | tamanu_oil_kamani                          | [Tamanu&nbsp;Oil (kamani)](http://soapee.com/oils/141)                            |                    0.208 |
 | tucuma_seed_butter                         | [Tucuma&nbsp;Seed&nbsp;Butter](http://soapee.com/oils/142)                             |                    0.238 |
 | ucuuba_butter                              | [Ucuuba&nbsp;Butter](http://soapee.com/oils/143)                                  |                    0.205 |
-| walmart_gv_shortening_tallow_palm          | [Walmart&nbsp;GV&nbsp;Shortening (tallow&nbsp;and&nbsp;palm)](http://soapee.com/oils/144)        |                    0.198 |
+| walmart_gv_shortening          | [Walmart&nbsp;GV&nbsp;Shortening (tallow&nbsp;and&nbsp;palm)](http://soapee.com/oils/144)        |                    0.198 |
 | walnut_oil                                 | [Walnut&nbsp;Oil](http://soapee.com/oils/145)                                     |                    0.189 |
 | watermelon_seed_oil                        | [Watermelon&nbsp;Seed&nbsp;Oil](http://soapee.com/oils/146)                            |                     0.19 |
 | wheat_germ_oil                             | [Wheat&nbsp;Germ&nbsp;Oil](http://soapee.com/oils/147)                                 |                    0.183 |
