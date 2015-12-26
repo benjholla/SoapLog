@@ -16,205 +16,321 @@ layout: default
   <div class="entry">
     <h2>Primary Ingredients</h2>
     <table id="ingredients">
-    <tr><td>Quantity</td><td>Percent</td><td>Ingredient</td></tr>
-    {% if page.AcaiButter_ounces %}<tr><td>{{ page.AcaiButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Acai Butter</td></tr>{% endif %}
-    {% if page.SweetAlmondButter_ounces %}<tr><td>{{ page.SweetAlmondButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Sweet Almond Butter</td></tr>{% endif %}
-    {% if page.SweetAlmondOil_ounces %}<tr><td>{{ page.SweetAlmondOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Sweet Almond Oil</td></tr>{% endif %}
-    {% if page.AloeExtract_ounces %}<tr><td>{{ page.AloeExtract_ounces }} ounces</td><td align="right">Calculating...</td><td>Aloe Extract</td></tr>{% endif %}
-    {% if page.AloeVeraButter_ounces %}<tr><td>{{ page.AloeVeraButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Aloe Vera Butter</td></tr>{% endif %}
-    {% if page.ApricotKernelOil_ounces %}<tr><td>{{ page.ApricotKernelOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Apricot Kernel Oil</td></tr>{% endif %}
-    {% if page.ArganOil_ounces %}<tr><td>{{ page.ArganOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Argan Oil</td></tr>{% endif %}
-    {% if page.AvocadoButter_ounces %}<tr><td>{{ page.AvocadoButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Avocado Butter</td></tr>{% endif %}
-    {% if page.AvocadoOil_ounces %}<tr><td>{{ page.AvocadoOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Avocado Oil</td></tr>{% endif %}
-    {% if page.BabassuOil_ounces %}<tr><td>{{ page.BabassuOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Babassu Oil</td></tr>{% endif %}
-    {% if page.BlackCuminOil_ounces %}<tr><td>{{ page.BlackCuminOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Black Cumin Oil</td></tr>{% endif %}
-    {% if page.BlackCurrantOil_ounces %}<tr><td>{{ page.BlackCurrantOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Black Currant Oil</td></tr>{% endif %}
-    {% if page.BlackSeedOil_ounces %}<tr><td>{{ page.BlackSeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Black Seed Oil</td></tr>{% endif %}
-    {% if page.BlueberryButter_ounces %}<tr><td>{{ page.BlueberryButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Blueberry Butter</td></tr>{% endif %}
-    {% if page.BorageOil_ounces %}<tr><td>{{ page.BorageOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Borage Oil</td></tr>{% endif %}
-    {% if page.CalendulaOil_ounces %}<tr><td>{{ page.CalendulaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Calendula Oil</td></tr>{% endif %}
-    {% if page.CamelinaOil_ounces %}<tr><td>{{ page.CamelinaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Camelina Oil</td></tr>{% endif %}
-    {% if page.CamelliaOil_ounces %}<tr><td>{{ page.CamelliaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Camellia Oil</td></tr>{% endif %}
-    {% if page.CandelillaWax_ounces %}<tr><td>{{ page.CandelillaWax_ounces }} ounces</td><td align="right">Calculating...</td><td>Candelilla Wax</td></tr>{% endif %}
-    {% if page.CanolaOil_ounces %}<tr><td>{{ page.CanolaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Canola Oil</td></tr>{% endif %}
-    {% if page.CarnaubaWax_ounces %}<tr><td>{{ page.CarnaubaWax_ounces }} ounces</td><td align="right">Calculating...</td><td>Carnauba Wax</td></tr>{% endif %}
-    {% if page.CarrotOil_ounces %}<tr><td>{{ page.CarrotOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Carrot Oil</td></tr>{% endif %}
-    {% if page.CastorOil_ounces %}<tr><td>{{ page.CastorOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Castor Oil</td></tr>{% endif %}
-    {% if page.CherryOil_ounces %}<tr><td>{{ page.CherryOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Cherry Oil</td></tr>{% endif %}
-    {% if page.CocoaButter_ounces %}<tr><td>{{ page.CocoaButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Cocoa Butter</td></tr>{% endif %}
-    {% if page.CoconutOil_ounces %}<tr><td>{{ page.CoconutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Coconut Oil</td></tr>{% endif %}
-    {% if page.CoconutOilFractions_ounces %}<tr><td>{{ page.CoconutOilFractions_ounces }} ounces</td><td align="right">Calculating...</td><td>Coconut Oil Fractions</td></tr>{% endif %}
-    {% if page.VirginCoconutOil_ounces %}<tr><td>{{ page.VirginCoconutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Virgin Coconut Oil</td></tr>{% endif %}
-    {% if page.CoffeeButter_ounces %}<tr><td>{{ page.CoffeeButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Coffee Butter</td></tr>{% endif %}
-    {% if page.CoffeeOil_ounces %}<tr><td>{{ page.CoffeeOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Coffee Oil</td></tr>{% endif %}
-    {% if page.CornOil_ounces %}<tr><td>{{ page.CornOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Corn Oil</td></tr>{% endif %}
-    {% if page.CottonseedOil_ounces %}<tr><td>{{ page.CottonseedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Cottonseed Oil</td></tr>{% endif %}
-    {% if page.CranberrySeedOil_ounces %}<tr><td>{{ page.CranberrySeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Cranberry Seed Oil</td></tr>{% endif %}
-    {% if page.CupuacuButter_ounces %}<tr><td>{{ page.CupuacuButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Cupuacu Butter</td></tr>{% endif %}
-    {% if page.EveningPrimroseOil_ounces %}<tr><td>{{ page.EveningPrimroseOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Evening Primrose Oil</td></tr>{% endif %}
-    {% if page.FlaxSeedOil_ounces %}<tr><td>{{ page.FlaxSeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Flax Seed Oil</td></tr>{% endif %}
-    {% if page.GrapeseedOil_ounces %}<tr><td>{{ page.GrapeseedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Grapeseed Oil</td></tr>{% endif %}
-    {% if page.GreenTeaButter_ounces %}<tr><td>{{ page.GreenTeaButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Green Tea Butter</td></tr>{% endif %}
-    {% if page.HazelnutOil_ounces %}<tr><td>{{ page.HazelnutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Hazelnut Oil</td></tr>{% endif %}
-    {% if page.HempButter_ounces %}<tr><td>{{ page.HempButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Hemp Butter</td></tr>{% endif %}
-    {% if page.HempOil_ounces %}<tr><td>{{ page.HempOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Hemp Oil</td></tr>{% endif %}
-    {% if page.IllipeButter_ounces %}<tr><td>{{ page.IllipeButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Illipe Butter</td></tr>{% endif %}
-    {% if page.JojobaOil_ounces %}<tr><td>{{ page.JojobaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Jojoba Oil</td></tr>{% endif %}
-    {% if page.KokumButter_ounces %}<tr><td>{{ page.KokumButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Kokum Butter</td></tr>{% endif %}
-    {% if page.KukuiOil_ounces %}<tr><td>{{ page.KukuiOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Kukui Oil</td></tr>{% endif %}
-    {% if page.MacadamiaButter_ounces %}<tr><td>{{ page.MacadamiaButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Macadamia Butter</td></tr>{% endif %}
-    {% if page.MacadamiaNutOil_ounces %}<tr><td>{{ page.MacadamiaNutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Macadamia Nut Oil</td></tr>{% endif %}
-    {% if page.MangoButter_ounces %}<tr><td>{{ page.MangoButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Mango Butter</td></tr>{% endif %}
-    {% if page.MangoOil_ounces %}<tr><td>{{ page.MangoOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Mango Oil</td></tr>{% endif %}
-    {% if page.MeadowfoamOil_ounces %}<tr><td>{{ page.MeadowfoamOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Meadowfoam Oil</td></tr>{% endif %}
-    {% if page.MowrahButter_ounces %}<tr><td>{{ page.MowrahButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Mowrah Butter</td></tr>{% endif %}
-    {% if page.NeemOil_ounces %}<tr><td>{{ page.NeemOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Neem Oil</td></tr>{% endif %}
-    {% if page.OatOil_ounces %}<tr><td>{{ page.OatOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Oat Oil</td></tr>{% endif %}
-    {% if page.OliveButter_ounces %}<tr><td>{{ page.OliveButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Olive Butter</td></tr>{% endif %}
-    {% if page.OliveOil_ounces %}<tr><td>{{ page.OliveOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Olive Oil</td></tr>{% endif %}
-    {% if page.OrangeButter_ounces %}<tr><td>{{ page.OrangeButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Orange Butter</td></tr>{% endif %}
-    {% if page.PalmKernelOil_ounces %}<tr><td>{{ page.PalmKernelOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Palm Kernel Oil</td></tr>{% endif %}
-    {% if page.PalmOil_ounces %}<tr><td>{{ page.PalmOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Palm Oil</td></tr>{% endif %}
-    {% if page.PassionFruitSeedOil_ounces %}<tr><td>{{ page.PassionFruitSeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Passion Fruit Seed Oil</td></tr>{% endif %}
-    {% if page.PeachKernelOil_ounces %}<tr><td>{{ page.PeachKernelOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Peach Kernel Oil</td></tr>{% endif %}
-    {% if page.PeanutOil_ounces %}<tr><td>{{ page.PeanutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Peanut Oil</td></tr>{% endif %}
-    {% if page.PecanOil_ounces %}<tr><td>{{ page.PecanOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Pecan Oil</td></tr>{% endif %}
-    {% if page.PistachioNutOil_ounces %}<tr><td>{{ page.PistachioNutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Pistachio Nut Oil</td></tr>{% endif %}
-    {% if page.PoppySeedOil_ounces %}<tr><td>{{ page.PoppySeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Poppy Seed Oil</td></tr>{% endif %}
-    {% if page.PumpkinSeedOil_ounces %}<tr><td>{{ page.PumpkinSeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Pumpkin Seed Oil</td></tr>{% endif %}
-    {% if page.RedRaspberrySeedOil_ounces %}<tr><td>{{ page.RedRaspberrySeedOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Red Raspberry Seed Oil</td></tr>{% endif %}
-    {% if page.RiceBranOil_ounces %}<tr><td>{{ page.RiceBranOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Rice Bran Oil</td></tr>{% endif %}
-    {% if page.RoseHipOil_ounces %}<tr><td>{{ page.RoseHipOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Rose Hip Oil</td></tr>{% endif %}
-    {% if page.SafflowerOil_ounces %}<tr><td>{{ page.SafflowerOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Safflower Oil</td></tr>{% endif %}
-    {% if page.SalButter_ounces %}<tr><td>{{ page.SalButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Sal Butter</td></tr>{% endif %}
-    {% if page.SeabuckthornFruitOil_ounces %}<tr><td>{{ page.SeabuckthornFruitOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Seabuckthorn Fruit Oil</td></tr>{% endif %}
-    {% if page.SesameOil_ounces %}<tr><td>{{ page.SesameOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Sesame Oil</td></tr>{% endif %}
-    {% if page.SheaButter_ounces %}<tr><td>{{ page.SheaButter_ounces }} ounces</td><td align="right">Calculating...</td><td>Shea Butter</td></tr>{% endif %}
-    {% if page.SheaOil_ounces %}<tr><td>{{ page.SheaOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Shea Oil</td></tr>{% endif %}
-    {% if page.SoybeanOil_ounces %}<tr><td>{{ page.SoybeanOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Soybean Oil</td></tr>{% endif %}
-    {% if page.SoyWax_ounces %}<tr><td>{{ page.SoyWax_ounces }} ounces</td><td align="right">Calculating...</td><td>Soy Wax</td></tr>{% endif %}
-    {% if page.StearicAcid_ounces %}<tr><td>{{ page.StearicAcid_ounces }} ounces</td><td align="right">Calculating...</td><td>Stearic Acid</td></tr>{% endif %}
-    {% if page.SunflowerOil_ounces %}<tr><td>{{ page.SunflowerOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Sunflower Oil</td></tr>{% endif %}
-    {% if page.TamanuOil_ounces %}<tr><td>{{ page.TamanuOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Tamanu Oil</td></tr>{% endif %}
-    {% if page.WalnutOil_ounces %}<tr><td>{{ page.WalnutOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Walnut Oil</td></tr>{% endif %}
-    {% if page.WheatGermOil_ounces %}<tr><td>{{ page.WheatGermOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Wheat Germ Oil</td></tr>{% endif %}
-    {% if page.Beeswax_ounces %}<tr><td>{{ page.Beeswax_ounces }} ounces</td><td align="right">Calculating...</td><td>Beeswax</td></tr>{% endif %}
-    {% if page.Butterfat_ounces %}<tr><td>{{ page.Butterfat_ounces }} ounces</td><td align="right">Calculating...</td><td>Butterfat</td></tr>{% endif %}
-    {% if page.EmuOil_ounces %}<tr><td>{{ page.EmuOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Emu Oil</td></tr>{% endif %}
-    {% if page.GoatFat_ounces %}<tr><td>{{ page.GoatFat_ounces }} ounces</td><td align="right">Calculating...</td><td>Goat Fat</td></tr>{% endif %}
-    {% if page.Lanolin_ounces %}<tr><td>{{ page.Lanolin_ounces }} ounces</td><td align="right">Calculating...</td><td>Lanolin</td></tr>{% endif %}
-    {% if page.Lard_ounces %}<tr><td>{{ page.Lard_ounces }} ounces</td><td align="right">Calculating...</td><td>Lard</td></tr>{% endif %}
-    {% if page.MinkOil_ounces %}<tr><td>{{ page.MinkOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Mink Oil</td></tr>{% endif %}
-    {% if page.Mutton_ounces %}<tr><td>{{ page.Mutton_ounces }} ounces</td><td align="right">Calculating...</td><td>Mutton</td></tr>{% endif %}
-    {% if page.NeatsFootOil_ounces %}<tr><td>{{ page.NeatsFootOil_ounces }} ounces</td><td align="right">Calculating...</td><td>Neats Foot Oil</td></tr>{% endif %}
-    {% if page.Tallow_ounces %}<tr><td>{{ page.Tallow_ounces }} ounces</td><td align="right">Calculating...</td><td>Tallow</td></tr>{% endif %}
+      <tr><td>Quantity</td><td>Percent</td><td>Ingredient</td></tr>
+      {% if page.abyssinian_oil_ounces %}<tr><td>{{ page.abyssinian_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/1">Abyssinian Oil</a></td></tr>{% endif %}
+      {% if page.almond_butter_ounces %}<tr><td>{{ page.almond_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/2">Almond Butter</a></td></tr>{% endif %}
+      {% if page.almond_oil_sweet_ounces %}<tr><td>{{ page.almond_oil_sweet_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
+      {% if page.aloe_butter_ounces %}<tr><td>{{ page.aloe_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/4">Aloe Butter</a></td></tr>{% endif %}
+      {% if page.andiroba_oil_karaba_crabwood_ounces %}<tr><td>{{ page.andiroba_oil_karaba_crabwood_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/5">Andiroba Oil (karaba, crabwood)</a></td></tr>{% endif %}
+      {% if page.apricot_kernal_oil_ounces %}<tr><td>{{ page.apricot_kernal_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/6">Apricot Kernal Oil</a></td></tr>{% endif %}
+      {% if page.argan_oil_ounces %}<tr><td>{{ page.argan_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/7">Argan Oil</a></td></tr>{% endif %}
+      {% if page.avocado_oil_ounces %}<tr><td>{{ page.avocado_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/9">Avocado Oil</a></td></tr>{% endif %}
+      {% if page.avocado_butter_ounces %}<tr><td>{{ page.avocado_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/8">Avocado Butter</a></td></tr>{% endif %}
+      {% if page.babassu_oil_ounces %}<tr><td>{{ page.babassu_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/10">Babassu Oil</a></td></tr>{% endif %}
+      {% if page.baobab_oil_ounces %}<tr><td>{{ page.baobab_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/11">Baobab Oil</a></td></tr>{% endif %}
+      {% if page.beeswax_ounces %}<tr><td>{{ page.beeswax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/12">Beeswax</a></td></tr>{% endif %}
+      {% if page.black_cumin_seed_oil_nigella_sativa_ounces %}<tr><td>{{ page.black_cumin_seed_oil_nigella_sativa_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/13">Black Cumin Seed Oil (nigella sativa)</a></td></tr>{% endif %}
+      {% if page.black_current_seed_oil_ounces %}<tr><td>{{ page.black_current_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/14">Black Current Seed Oil</a></td></tr>{% endif %}
+      {% if page.borage_oil_ounces %}<tr><td>{{ page.borage_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/15">Borage Oil</a></td></tr>{% endif %}
+      {% if page.brazil_nut_oil_ounces %}<tr><td>{{ page.brazil_nut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/16">Brazil Nut Oil</a></td></tr>{% endif %}
+      {% if page.broccoli_seed_oil_brassica_oleracea_ounces %}<tr><td>{{ page.broccoli_seed_oil_brassica_oleracea_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/17">Broccoli Seed Oil (Brassica Oleracea)</a></td></tr>{% endif %}
+      {% if page.buriti_oil_ounces %}<tr><td>{{ page.buriti_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/18">Buriti Oil</a></td></tr>{% endif %}
+      {% if page.camelina_seed_oil_ounces %}<tr><td>{{ page.camelina_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/19">Camelina Seed Oil</a></td></tr>{% endif %}
+      {% if page.camellia_oil_tea_seed_ounces %}<tr><td>{{ page.camellia_oil_tea_seed_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/20">Camellia Oil (Tea Seed)</a></td></tr>{% endif %}
+      {% if page.candelilla_wax_ounces %}<tr><td>{{ page.candelilla_wax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/21">Candelilla Wax</a></td></tr>{% endif %}
+      {% if page.canola_oil_ounces %}<tr><td>{{ page.canola_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/22">Canola Oil</a></td></tr>{% endif %}
+      {% if page.canola_oil_high_oleic_ounces %}<tr><td>{{ page.canola_oil_high_oleic_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/23">Canola Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.carrot_seed_oil_cold_pressed_ounces %}<tr><td>{{ page.carrot_seed_oil_cold_pressed_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/24">Carrot Seed Oil (cold pressed)</a></td></tr>{% endif %}
+      {% if page.castor_oil_ounces %}<tr><td>{{ page.castor_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/25">Castor Oil</a></td></tr>{% endif %}
+      {% if page.cherry_kern1_oil_p_avium_ounces %}<tr><td>{{ page.cherry_kern1_oil_p_avium_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/26">Cherry Kern1 Oil (p. avium)</a></td></tr>{% endif %}
+      {% if page.cherry_kern2_oil_p_cerasus_ounces %}<tr><td>{{ page.cherry_kern2_oil_p_cerasus_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/27">Cherry Kern2 Oil (p. cerasus)</a></td></tr>{% endif %}
+      {% if page.chicken_fat_ounces %}<tr><td>{{ page.chicken_fat_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/28">Chicken Fat</a></td></tr>{% endif %}
+      {% if page.cocoa_butter_ounces %}<tr><td>{{ page.cocoa_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/29">Cocoa Butter</a></td></tr>{% endif %}
+      {% if page.coconut_oil_76_deg_ounces %}<tr><td>{{ page.coconut_oil_76_deg_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/30">Coconut Oil (76 deg)</a></td></tr>{% endif %}
+      {% if page.coconut_oil_92_deg_ounces %}<tr><td>{{ page.coconut_oil_92_deg_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/31">Coconut Oil (92 deg)</a></td></tr>{% endif %}
+      {% if page.coconut_oil_fractionated_ounces %}<tr><td>{{ page.coconut_oil_fractionated_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/32">Coconut Oil (fractionated)</a></td></tr>{% endif %}
+      {% if page.coffee_bean_oil_green_ounces %}<tr><td>{{ page.coffee_bean_oil_green_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/33">Coffee Bean Oil (green)</a></td></tr>{% endif %}
+      {% if page.coffee_bean_oil_roasted_ounces %}<tr><td>{{ page.coffee_bean_oil_roasted_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/34">Coffee Bean Oil (roasted)</a></td></tr>{% endif %}
+      {% if page.cohune_oil_ounces %}<tr><td>{{ page.cohune_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/35">Cohune Oil</a></td></tr>{% endif %}
+      {% if page.corn_oil_ounces %}<tr><td>{{ page.corn_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/36">Corn Oil</a></td></tr>{% endif %}
+      {% if page.cottonseed_oil_ounces %}<tr><td>{{ page.cottonseed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/37">Cottonseed Oil</a></td></tr>{% endif %}
+      {% if page.cranberry_seed_oil_ounces %}<tr><td>{{ page.cranberry_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/38">Cranberry Seed Oil</a></td></tr>{% endif %}
+      {% if page.crisco_new_ounces %}<tr><td>{{ page.crisco_new_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/39">Crisco (new with palm)</a></td></tr>{% endif %}
+      {% if page.crisco_old_ounces %}<tr><td>{{ page.crisco_old_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/40">Crisco (old)</a></td></tr>{% endif %}
+      {% if page.cupuacu_butter_ounces %}<tr><td>{{ page.cupuacu_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/41">Cupuacu Butter</a></td></tr>{% endif %}
+      {% if page.duck_fat_flesh_and_skin_ounces %}<tr><td>{{ page.duck_fat_flesh_and_skin_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/42">Duck Fat (flesh and skin)</a></td></tr>{% endif %}
+      {% if page.emu_oil_ounces %}<tr><td>{{ page.emu_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/43">Emu Oil</a></td></tr>{% endif %}
+      {% if page.evening_primrose_oil_ounces %}<tr><td>{{ page.evening_primrose_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/44">Evening Primrose Oil</a></td></tr>{% endif %}
+      {% if page.flax_oil_linseed_ounces %}<tr><td>{{ page.flax_oil_linseed_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/45">Flax Oil (linseed)</a></td></tr>{% endif %}
+      {% if page.ghee_any_bovine_ounces %}<tr><td>{{ page.ghee_any_bovine_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/46">Ghee (any bovine)</a></td></tr>{% endif %}
+      {% if page.goose_fat_ounces %}<tr><td>{{ page.goose_fat_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/47">Goose Fat</a></td></tr>{% endif %}
+      {% if page.grapeseed_oil_ounces %}<tr><td>{{ page.grapeseed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/48">Grapeseed Oil</a></td></tr>{% endif %}
+      {% if page.hazelnut_oil_ounces %}<tr><td>{{ page.hazelnut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/49">Hazelnut Oil</a></td></tr>{% endif %}
+      {% if page.hemp_oil_ounces %}<tr><td>{{ page.hemp_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/50">Hemp Oil</a></td></tr>{% endif %}
+      {% if page.horse_oil_ounces %}<tr><td>{{ page.horse_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/51">Horse Oil</a></td></tr>{% endif %}
+      {% if page.illipe_butter_ounces %}<tr><td>{{ page.illipe_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/52">Illipe Butter</a></td></tr>{% endif %}
+      {% if page.japan_wax_ounces %}<tr><td>{{ page.japan_wax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/53">Japan Wax</a></td></tr>{% endif %}
+      {% if page.jatropha_oil_soapnut_seed_oil_ounces %}<tr><td>{{ page.jatropha_oil_soapnut_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/54">Jatropha Oil (soapnut seed oil)</a></td></tr>{% endif %}
+      {% if page.jojoba_oil_a_liquid_wax_ester_ounces %}<tr><td>{{ page.jojoba_oil_a_liquid_wax_ester_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/55">Jojoba Oil (a Liquid Wax Ester)</a></td></tr>{% endif %}
+      {% if page.karanja_oil_ounces %}<tr><td>{{ page.karanja_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/56">Karanja Oil</a></td></tr>{% endif %}
+      {% if page.kokum_butter_ounces %}<tr><td>{{ page.kokum_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/57">Kokum Butter</a></td></tr>{% endif %}
+      {% if page.kpangnan_butter_ounces %}<tr><td>{{ page.kpangnan_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/58">Kpangnan Butter</a></td></tr>{% endif %}
+      {% if page.kukui_nut_oil_ounces %}<tr><td>{{ page.kukui_nut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/59">Kukui nut Oil</a></td></tr>{% endif %}
+      {% if page.lanolin_liquid_wax_ounces %}<tr><td>{{ page.lanolin_liquid_wax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/60">Lanolin liquid Wax</a></td></tr>{% endif %}
+      {% if page.lard_pig_tallow_manteca_ounces %}<tr><td>{{ page.lard_pig_tallow_manteca_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/61">Lard, Pig Tallow (Manteca)</a></td></tr>{% endif %}
+      {% if page.laurel_fruit_oil_ounces %}<tr><td>{{ page.laurel_fruit_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/62">Laurel Fruit Oil</a></td></tr>{% endif %}
+      {% if page.lauric_acid_ounces %}<tr><td>{{ page.lauric_acid_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/63">Lauric Acid</a></td></tr>{% endif %}
+      {% if page.linseed_oil_flax_ounces %}<tr><td>{{ page.linseed_oil_flax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/64">Linseed Oil (flax)</a></td></tr>{% endif %}
+      {% if page.loofa_seed_oil_luffa_cylinderica_ounces %}<tr><td>{{ page.loofa_seed_oil_luffa_cylinderica_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/65">Loofa Seed Oil (Luffa cylinderica)</a></td></tr>{% endif %}
+      {% if page.macadamia_nut_butter_ounces %}<tr><td>{{ page.macadamia_nut_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/66">Macadamia Nut Butter</a></td></tr>{% endif %}
+      {% if page.macadamia_nut_oil_ounces %}<tr><td>{{ page.macadamia_nut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/67">Macadamia Nut Oil</a></td></tr>{% endif %}
+      {% if page.mafura_butter_trichilia_emetica_ounces %}<tr><td>{{ page.mafura_butter_trichilia_emetica_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/68">Mafura Butter (Trichilia emetica)</a></td></tr>{% endif %}
+      {% if page.mango_seed_butter_ounces %}<tr><td>{{ page.mango_seed_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/69">Mango Seed Butter</a></td></tr>{% endif %}
+      {% if page.mango_seed_oil_ounces %}<tr><td>{{ page.mango_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/70">Mango Seed Oil</a></td></tr>{% endif %}
+      {% if page.marula_oil_ounces %}<tr><td>{{ page.marula_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/71">Marula Oil</a></td></tr>{% endif %}
+      {% if page.meadowfoam_oil_ounces %}<tr><td>{{ page.meadowfoam_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/72">Meadowfoam Oil</a></td></tr>{% endif %}
+      {% if page.milk_fat_any_bovine_ounces %}<tr><td>{{ page.milk_fat_any_bovine_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/73">Milk Fat (any bovine)</a></td></tr>{% endif %}
+      {% if page.milk_thistle_oil_ounces %}<tr><td>{{ page.milk_thistle_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/74">Milk Thistle Oil</a></td></tr>{% endif %}
+      {% if page.mink_oil_ounces %}<tr><td>{{ page.mink_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/75">Mink Oil</a></td></tr>{% endif %}
+      {% if page.monoi_de_tahiti_oil_ounces %}<tr><td>{{ page.monoi_de_tahiti_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/76">Monoi de Tahiti Oil</a></td></tr>{% endif %}
+      {% if page.moringa_oil_ounces %}<tr><td>{{ page.moringa_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/77">Moringa Oil</a></td></tr>{% endif %}
+      {% if page.mowrah_butter_ounces %}<tr><td>{{ page.mowrah_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/78">Mowrah Butter</a></td></tr>{% endif %}
+      {% if page.murumuru_butter_ounces %}<tr><td>{{ page.murumuru_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/79">Murumuru Butter</a></td></tr>{% endif %}
+      {% if page.mustard_oil_kachi_ghani_ounces %}<tr><td>{{ page.mustard_oil_kachi_ghani_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/80">Mustard Oil (kachi ghani)</a></td></tr>{% endif %}
+      {% if page.myristic_acid_ounces %}<tr><td>{{ page.myristic_acid_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/81">Myristic Acid</a></td></tr>{% endif %}
+      {% if page.neatsfoot_oil_ounces %}<tr><td>{{ page.neatsfoot_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/82">Neatsfoot Oil</a></td></tr>{% endif %}
+      {% if page.neem_seed_oil_ounces %}<tr><td>{{ page.neem_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/83">Neem Seed Oil</a></td></tr>{% endif %}
+      {% if page.nutmeg_butter_ounces %}<tr><td>{{ page.nutmeg_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/84">Nutmeg Butter</a></td></tr>{% endif %}
+      {% if page.oat_oil_ounces %}<tr><td>{{ page.oat_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/85">Oat Oil</a></td></tr>{% endif %}
+      {% if page.oleic_acid_ounces %}<tr><td>{{ page.oleic_acid_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/86">Oleic Acid</a></td></tr>{% endif %}
+      {% if page.olive_oil_ounces %}<tr><td>{{ page.olive_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/87">Olive Oil</a></td></tr>{% endif %}
+      {% if page.olive_oil_pomace_ounces %}<tr><td>{{ page.olive_oil_pomace_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/88">Olive Oil (pomace)</a></td></tr>{% endif %}
+      {% if page.ostrich_oil_ounces %}<tr><td>{{ page.ostrich_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/89">Ostrich Oil</a></td></tr>{% endif %}
+      {% if page.palm_kernel_oil_ounces %}<tr><td>{{ page.palm_kernel_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/90">Palm Kernel Oil</a></td></tr>{% endif %}
+      {% if page.palm_kernel_oil_flakes_hydrogenated_ounces %}<tr><td>{{ page.palm_kernel_oil_flakes_hydrogenated_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/91">Palm Kernel Oil Flakes (hydrogenated)</a></td></tr>{% endif %}
+      {% if page.palm_oil_ounces %}<tr><td>{{ page.palm_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/92">Palm Oil</a></td></tr>{% endif %}
+      {% if page.palm_stearin_ounces %}<tr><td>{{ page.palm_stearin_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/93">Palm Stearin</a></td></tr>{% endif %}
+      {% if page.palmitic_acid_ounces %}<tr><td>{{ page.palmitic_acid_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/94">Palmitic Acid</a></td></tr>{% endif %}
+      {% if page.palmolein_ounces %}<tr><td>{{ page.palmolein_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/95">Palmolein</a></td></tr>{% endif %}
+      {% if page.papaya_seed_oil_carica_papaya_ounces %}<tr><td>{{ page.papaya_seed_oil_carica_papaya_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/96">Papaya seed oil (Carica papaya)</a></td></tr>{% endif %}
+      {% if page.passion_fruit_seed_oil_ounces %}<tr><td>{{ page.passion_fruit_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/97">Passion Fruit Seed Oil</a></td></tr>{% endif %}
+      {% if page.pataua_patawa_oil_ounces %}<tr><td>{{ page.pataua_patawa_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/98">Pataua (Patawa) Oil</a></td></tr>{% endif %}
+      {% if page.peach_kernel_oil_ounces %}<tr><td>{{ page.peach_kernel_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/99">Peach Kernel Oil</a></td></tr>{% endif %}
+      {% if page.peanut_oil_ounces %}<tr><td>{{ page.peanut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/100">Peanut Oil</a></td></tr>{% endif %}
+      {% if page.pecan_oil_ounces %}<tr><td>{{ page.pecan_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/101">Pecan Oil</a></td></tr>{% endif %}
+      {% if page.perilla_seed_oil_ounces %}<tr><td>{{ page.perilla_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/102">Perilla Seed Oil</a></td></tr>{% endif %}
+      {% if page.pine_tar_ounces %}<tr><td>{{ page.pine_tar_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/103">Pine Tar</a></td></tr>{% endif %}
+      {% if page.pistachio_oil_ounces %}<tr><td>{{ page.pistachio_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/104">Pistachio Oil</a></td></tr>{% endif %}
+      {% if page.plum_kernel_oil_ounces %}<tr><td>{{ page.plum_kernel_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/105">Plum Kernel Oil</a></td></tr>{% endif %}
+      {% if page.pomegranate_seed_oil_ounces %}<tr><td>{{ page.pomegranate_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/106">Pomegranate Seed Oil</a></td></tr>{% endif %}
+      {% if page.poppy_seed_oil_ounces %}<tr><td>{{ page.poppy_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/107">Poppy Seed Oil</a></td></tr>{% endif %}
+      {% if page.pracaxi_pracachy_seed_oil_hair_conditioner_ounces %}<tr><td>{{ page.pracaxi_pracachy_seed_oil_hair_conditioner_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/108">Pracaxi (Pracachy) Seed Oil</a></td></tr>{% endif %}
+      {% if page.pumpkin_seed_oil_virgin_ounces %}<tr><td>{{ page.pumpkin_seed_oil_virgin_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/109">Pumpkin Seed Oil (virgin)</a></td></tr>{% endif %}
+      {% if page.rabbit_fat_ounces %}<tr><td>{{ page.rabbit_fat_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/110">Rabbit Fat</a></td></tr>{% endif %}
+      {% if page.rapeseed_oil_unrefined_canola_ounces %}<tr><td>{{ page.rapeseed_oil_unrefined_canola_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/111">Rapeseed Oil (unrefined canola)</a></td></tr>{% endif %}
+      {% if page.raspberry_seed_oil_ounces %}<tr><td>{{ page.raspberry_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/112">Raspberry Seed Oil</a></td></tr>{% endif %}
+      {% if page.red_palm_butter_ounces %}<tr><td>{{ page.red_palm_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/113">Red Palm Butter</a></td></tr>{% endif %}
+      {% if page.rice_bran_oil_refined_ounces %}<tr><td>{{ page.rice_bran_oil_refined_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/114">Rice Bran Oil (refined)</a></td></tr>{% endif %}
+      {% if page.rosehip_oil_ounces %}<tr><td>{{ page.rosehip_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/115">Rosehip Oil</a></td></tr>{% endif %}
+      {% if page.sacha_inchi_plukenetia_volubilis_ounces %}<tr><td>{{ page.sacha_inchi_plukenetia_volubilis_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/116">Sacha Inchi (Plukenetia volubilis)</a></td></tr>{% endif %}
+      {% if page.safflower_oil_ounces %}<tr><td>{{ page.safflower_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/117">Safflower Oil</a></td></tr>{% endif %}
+      {% if page.safflower_oil_high_oleic_ounces %}<tr><td>{{ page.safflower_oil_high_oleic_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/118">Safflower Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.sal_butter_ounces %}<tr><td>{{ page.sal_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/119">Sal Butter</a></td></tr>{% endif %}
+      {% if page.salmon_oil_ounces %}<tr><td>{{ page.salmon_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/120">Salmon Oil</a></td></tr>{% endif %}
+      {% if page.saw_palmetto_extract_ounces %}<tr><td>{{ page.saw_palmetto_extract_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/121">Saw Palmetto Extract</a></td></tr>{% endif %}
+      {% if page.saw_palmetto_oil_ounces %}<tr><td>{{ page.saw_palmetto_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/122">Saw Palmetto Oil</a></td></tr>{% endif %}
+      {% if page.sea_buckthorn_oil_seed_ounces %}<tr><td>{{ page.sea_buckthorn_oil_seed_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/123">Sea Buckthorn Oil (seed)</a></td></tr>{% endif %}
+      {% if page.sea_buckthorn_oil_seed_and_berry_ounces %}<tr><td>{{ page.sea_buckthorn_oil_seed_and_berry_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/124">Sea Buckthorn Oil (seed and berry)</a></td></tr>{% endif %}
+      {% if page.sesame_oil_ounces %}<tr><td>{{ page.sesame_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/125">Sesame Oil</a></td></tr>{% endif %}
+      {% if page.shea_butter_ounces %}<tr><td>{{ page.shea_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/126">Shea Butter</a></td></tr>{% endif %}
+      {% if page.shea_oil_fractionated_ounces %}<tr><td>{{ page.shea_oil_fractionated_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/127">Shea Oil (fractionated)</a></td></tr>{% endif %}
+      {% if page.soapquick_conventional_ounces %}<tr><td>{{ page.soapquick_conventional_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/128">SoapQuick (conventional)</a></td></tr>{% endif %}
+      {% if page.soapquick_organic_ounces %}<tr><td>{{ page.soapquick_organic_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/129">SoapQuick (organic)</a></td></tr>{% endif %}
+      {% if page.soybean_oil_ounces %}<tr><td>{{ page.soybean_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/130">Soybean Oil</a></td></tr>{% endif %}
+      {% if page.soybean_27_5_hydrogenated_ounces %}<tr><td>{{ page.soybean_27_5_hydrogenated_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/131">Soybean, (27.5% hydrogenated)</a></td></tr>{% endif %}
+      {% if page.soybean_fully_hydrogenated_soy_wax_ounces %}<tr><td>{{ page.soybean_fully_hydrogenated_soy_wax_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/132">Soybean, (fully hydrogenated soy wax)</a></td></tr>{% endif %}
+      {% if page.stearic_acid_ounces %}<tr><td>{{ page.stearic_acid_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/133">Stearic Acid</a></td></tr>{% endif %}
+      {% if page.sunflower_oil_ounces %}<tr><td>{{ page.sunflower_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/134">Sunflower Oil</a></td></tr>{% endif %}
+      {% if page.sunflower_oil_high_oleic_ounces %}<tr><td>{{ page.sunflower_oil_high_oleic_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/135">Sunflower Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.tallow_bear_ounces %}<tr><td>{{ page.tallow_bear_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/136">Tallow Bear</a></td></tr>{% endif %}
+      {% if page.tallow_beef_ounces %}<tr><td>{{ page.tallow_beef_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/137">Tallow Beef</a></td></tr>{% endif %}
+      {% if page.tallow_deer_ounces %}<tr><td>{{ page.tallow_deer_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/138">Tallow Deer</a></td></tr>{% endif %}
+      {% if page.tallow_goat_ounces %}<tr><td>{{ page.tallow_goat_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/139">Tallow Goat</a></td></tr>{% endif %}
+      {% if page.tallow_sheep_ounces %}<tr><td>{{ page.tallow_sheep_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/140">Tallow Sheep</a></td></tr>{% endif %}
+      {% if page.tamanu_oil_kamani_ounces %}<tr><td>{{ page.tamanu_oil_kamani_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/141">Tamanu Oil (kamani)</a></td></tr>{% endif %}
+      {% if page.tucuma_seed_butter_ounces %}<tr><td>{{ page.tucuma_seed_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/142">Tucuma Seed Butter</a></td></tr>{% endif %}
+      {% if page.ucuuba_butter_ounces %}<tr><td>{{ page.ucuuba_butter_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/143">Ucuuba Butter</a></td></tr>{% endif %}
+      {% if page.walmart_gv_shortening_tallow_palm_ounces %}<tr><td>{{ page.walmart_gv_shortening_tallow_palm_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/144">Walmart GV Shortening (tallow and palm)</a></td></tr>{% endif %}
+      {% if page.walnut_oil_ounces %}<tr><td>{{ page.walnut_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/145">Walnut Oil</a></td></tr>{% endif %}
+      {% if page.watermelon_seed_oil_ounces %}<tr><td>{{ page.watermelon_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/146">Watermelon Seed Oil</a></td></tr>{% endif %}
+      {% if page.wheat_germ_oil_ounces %}<tr><td>{{ page.wheat_germ_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/147">Wheat Germ Oil</a></td></tr>{% endif %}
+      {% if page.yangu_cape_chestnut_ounces %}<tr><td>{{ page.yangu_cape_chestnut_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/148">Yangu (cape chestnut)</a></td></tr>{% endif %}
+      {% if page.zapote_seed_oil_ounces %}<tr><td>{{ page.zapote_seed_oil_ounces }} ounces</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/149">Zapote seed oil, (Aceite de Sapuyul or Mamey)</a></td></tr>{% endif %}
 
-    {% if page.AcaiButter_grams %}<tr><td>{{ page.AcaiButter_grams }} grams</td><td align="right">Calculating...</td><td>Acai Butter</td></tr>{% endif %}
-    {% if page.SweetAlmondButter_grams %}<tr><td>{{ page.SweetAlmondButter_grams }} grams</td><td align="right">Calculating...</td><td>Sweet Almond Butter</td></tr>{% endif %}
-    {% if page.SweetAlmondOil_grams %}<tr><td>{{ page.SweetAlmondOil_grams }} grams</td><td align="right">Calculating...</td><td>Sweet Almond Oil</td></tr>{% endif %}
-    {% if page.AloeExtract_grams %}<tr><td>{{ page.AloeExtract_grams }} grams</td><td align="right">Calculating...</td><td>Aloe Extract</td></tr>{% endif %}
-    {% if page.AloeVeraButter_grams %}<tr><td>{{ page.AloeVeraButter_grams }} grams</td><td align="right">Calculating...</td><td>Aloe Vera Butter</td></tr>{% endif %}
-    {% if page.ApricotKernelOil_grams %}<tr><td>{{ page.ApricotKernelOil_grams }} grams</td><td align="right">Calculating...</td><td>Apricot Kernel Oil</td></tr>{% endif %}
-    {% if page.ArganOil_grams %}<tr><td>{{ page.ArganOil_grams }} grams</td><td align="right">Calculating...</td><td>Argan Oil</td></tr>{% endif %}
-    {% if page.AvocadoButter_grams %}<tr><td>{{ page.AvocadoButter_grams }} grams</td><td align="right">Calculating...</td><td>Avocado Butter</td></tr>{% endif %}
-    {% if page.AvocadoOil_grams %}<tr><td>{{ page.AvocadoOil_grams }} grams</td><td align="right">Calculating...</td><td>Avocado Oil</td></tr>{% endif %}
-    {% if page.BabassuOil_grams %}<tr><td>{{ page.BabassuOil_grams }} grams</td><td align="right">Calculating...</td><td>Babassu Oil</td></tr>{% endif %}
-    {% if page.BlackCuminOil_grams %}<tr><td>{{ page.BlackCuminOil_grams }} grams</td><td align="right">Calculating...</td><td>Black Cumin Oil</td></tr>{% endif %}
-    {% if page.BlackCurrantOil_grams %}<tr><td>{{ page.BlackCurrantOil_grams }} grams</td><td align="right">Calculating...</td><td>Black Currant Oil</td></tr>{% endif %}
-    {% if page.BlackSeedOil_grams %}<tr><td>{{ page.BlackSeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Black Seed Oil</td></tr>{% endif %}
-    {% if page.BlueberryButter_grams %}<tr><td>{{ page.BlueberryButter_grams }} grams</td><td align="right">Calculating...</td><td>Blueberry Butter</td></tr>{% endif %}
-    {% if page.BorageOil_grams %}<tr><td>{{ page.BorageOil_grams }} grams</td><td align="right">Calculating...</td><td>Borage Oil</td></tr>{% endif %}
-    {% if page.CalendulaOil_grams %}<tr><td>{{ page.CalendulaOil_grams }} grams</td><td align="right">Calculating...</td><td>Calendula Oil</td></tr>{% endif %}
-    {% if page.CamelinaOil_grams %}<tr><td>{{ page.CamelinaOil_grams }} grams</td><td align="right">Calculating...</td><td>Camelina Oil</td></tr>{% endif %}
-    {% if page.CamelliaOil_grams %}<tr><td>{{ page.CamelliaOil_grams }} grams</td><td align="right">Calculating...</td><td>Camellia Oil</td></tr>{% endif %}
-    {% if page.CandelillaWax_grams %}<tr><td>{{ page.CandelillaWax_grams }} grams</td><td align="right">Calculating...</td><td>Candelilla Wax</td></tr>{% endif %}
-    {% if page.CanolaOil_grams %}<tr><td>{{ page.CanolaOil_grams }} grams</td><td align="right">Calculating...</td><td>Canola Oil</td></tr>{% endif %}
-    {% if page.CarnaubaWax_grams %}<tr><td>{{ page.CarnaubaWax_grams }} grams</td><td align="right">Calculating...</td><td>Carnauba Wax</td></tr>{% endif %}
-    {% if page.CarrotOil_grams %}<tr><td>{{ page.CarrotOil_grams }} grams</td><td align="right">Calculating...</td><td>Carrot Oil</td></tr>{% endif %}
-    {% if page.CastorOil_grams %}<tr><td>{{ page.CastorOil_grams }} grams</td><td align="right">Calculating...</td><td>Castor Oil</td></tr>{% endif %}
-    {% if page.CherryOil_grams %}<tr><td>{{ page.CherryOil_grams }} grams</td><td align="right">Calculating...</td><td>Cherry Oil</td></tr>{% endif %}
-    {% if page.CocoaButter_grams %}<tr><td>{{ page.CocoaButter_grams }} grams</td><td align="right">Calculating...</td><td>Cocoa Butter</td></tr>{% endif %}
-    {% if page.CoconutOil_grams %}<tr><td>{{ page.CoconutOil_grams }} grams</td><td align="right">Calculating...</td><td>Coconut Oil</td></tr>{% endif %}
-    {% if page.CoconutOilFractions_grams %}<tr><td>{{ page.CoconutOilFractions_grams }} grams</td><td align="right">Calculating...</td><td>Coconut Oil Fractions</td></tr>{% endif %}
-    {% if page.VirginCoconutOil_grams %}<tr><td>{{ page.VirginCoconutOil_grams }} grams</td><td align="right">Calculating...</td><td>Virgin Coconut Oil</td></tr>{% endif %}
-    {% if page.CoffeeButter_grams %}<tr><td>{{ page.CoffeeButter_grams }} grams</td><td align="right">Calculating...</td><td>Coffee Butter</td></tr>{% endif %}
-    {% if page.CoffeeOil_grams %}<tr><td>{{ page.CoffeeOil_grams }} grams</td><td align="right">Calculating...</td><td>Coffee Oil</td></tr>{% endif %}
-    {% if page.CornOil_grams %}<tr><td>{{ page.CornOil_grams }} grams</td><td align="right">Calculating...</td><td>Corn Oil</td></tr>{% endif %}
-    {% if page.CottonseedOil_grams %}<tr><td>{{ page.CottonseedOil_grams }} grams</td><td align="right">Calculating...</td><td>Cottonseed Oil</td></tr>{% endif %}
-    {% if page.CranberrySeedOil_grams %}<tr><td>{{ page.CranberrySeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Cranberry Seed Oil</td></tr>{% endif %}
-    {% if page.CupuacuButter_grams %}<tr><td>{{ page.CupuacuButter_grams }} grams</td><td align="right">Calculating...</td><td>Cupuacu Butter</td></tr>{% endif %}
-    {% if page.EveningPrimroseOil_grams %}<tr><td>{{ page.EveningPrimroseOil_grams }} grams</td><td align="right">Calculating...</td><td>Evening Primrose Oil</td></tr>{% endif %}
-    {% if page.FlaxSeedOil_grams %}<tr><td>{{ page.FlaxSeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Flax Seed Oil</td></tr>{% endif %}
-    {% if page.GrapeseedOil_grams %}<tr><td>{{ page.GrapeseedOil_grams }} grams</td><td align="right">Calculating...</td><td>Grapeseed Oil</td></tr>{% endif %}
-    {% if page.GreenTeaButter_grams %}<tr><td>{{ page.GreenTeaButter_grams }} grams</td><td align="right">Calculating...</td><td>Green Tea Butter</td></tr>{% endif %}
-    {% if page.HazelnutOil_grams %}<tr><td>{{ page.HazelnutOil_grams }} grams</td><td align="right">Calculating...</td><td>Hazelnut Oil</td></tr>{% endif %}
-    {% if page.HempButter_grams %}<tr><td>{{ page.HempButter_grams }} grams</td><td align="right">Calculating...</td><td>Hemp Butter</td></tr>{% endif %}
-    {% if page.HempOil_grams %}<tr><td>{{ page.HempOil_grams }} grams</td><td align="right">Calculating...</td><td>Hemp Oil</td></tr>{% endif %}
-    {% if page.IllipeButter_grams %}<tr><td>{{ page.IllipeButter_grams }} grams</td><td align="right">Calculating...</td><td>Illipe Butter</td></tr>{% endif %}
-    {% if page.JojobaOil_grams %}<tr><td>{{ page.JojobaOil_grams }} grams</td><td align="right">Calculating...</td><td>Jojoba Oil</td></tr>{% endif %}
-    {% if page.KokumButter_grams %}<tr><td>{{ page.KokumButter_grams }} grams</td><td align="right">Calculating...</td><td>Kokum Butter</td></tr>{% endif %}
-    {% if page.KukuiOil_grams %}<tr><td>{{ page.KukuiOil_grams }} grams</td><td align="right">Calculating...</td><td>Kukui Oil</td></tr>{% endif %}
-    {% if page.MacadamiaButter_grams %}<tr><td>{{ page.MacadamiaButter_grams }} grams</td><td align="right">Calculating...</td><td>Macadamia Butter</td></tr>{% endif %}
-    {% if page.MacadamiaNutOil_grams %}<tr><td>{{ page.MacadamiaNutOil_grams }} grams</td><td align="right">Calculating...</td><td>Macadamia Nut Oil</td></tr>{% endif %}
-    {% if page.MangoButter_grams %}<tr><td>{{ page.MangoButter_grams }} grams</td><td align="right">Calculating...</td><td>Mango Butter</td></tr>{% endif %}
-    {% if page.MangoOil_grams %}<tr><td>{{ page.MangoOil_grams }} grams</td><td align="right">Calculating...</td><td>Mango Oil</td></tr>{% endif %}
-    {% if page.MeadowfoamOil_grams %}<tr><td>{{ page.MeadowfoamOil_grams }} grams</td><td align="right">Calculating...</td><td>Meadowfoam Oil</td></tr>{% endif %}
-    {% if page.MowrahButter_grams %}<tr><td>{{ page.MowrahButter_grams }} grams</td><td align="right">Calculating...</td><td>Mowrah Butter</td></tr>{% endif %}
-    {% if page.NeemOil_grams %}<tr><td>{{ page.NeemOil_grams }} grams</td><td align="right">Calculating...</td><td>Neem Oil</td></tr>{% endif %}
-    {% if page.OatOil_grams %}<tr><td>{{ page.OatOil_grams }} grams</td><td align="right">Calculating...</td><td>Oat Oil</td></tr>{% endif %}
-    {% if page.OliveButter_grams %}<tr><td>{{ page.OliveButter_grams }} grams</td><td align="right">Calculating...</td><td>Olive Butter</td></tr>{% endif %}
-    {% if page.OliveOil_grams %}<tr><td>{{ page.OliveOil_grams }} grams</td><td align="right">Calculating...</td><td>Olive Oil</td></tr>{% endif %}
-    {% if page.OrangeButter_grams %}<tr><td>{{ page.OrangeButter_grams }} grams</td><td align="right">Calculating...</td><td>Orange Butter</td></tr>{% endif %}
-    {% if page.PalmKernelOil_grams %}<tr><td>{{ page.PalmKernelOil_grams }} grams</td><td align="right">Calculating...</td><td>Palm Kernel Oil</td></tr>{% endif %}
-    {% if page.PalmOil_grams %}<tr><td>{{ page.PalmOil_grams }} grams</td><td align="right">Calculating...</td><td>Palm Oil</td></tr>{% endif %}
-    {% if page.PassionFruitSeedOil_grams %}<tr><td>{{ page.PassionFruitSeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Passion Fruit Seed Oil</td></tr>{% endif %}
-    {% if page.PeachKernelOil_grams %}<tr><td>{{ page.PeachKernelOil_grams }} grams</td><td align="right">Calculating...</td><td>Peach Kernel Oil</td></tr>{% endif %}
-    {% if page.PeanutOil_grams %}<tr><td>{{ page.PeanutOil_grams }} grams</td><td align="right">Calculating...</td><td>Peanut Oil</td></tr>{% endif %}
-    {% if page.PecanOil_grams %}<tr><td>{{ page.PecanOil_grams }} grams</td><td align="right">Calculating...</td><td>Pecan Oil</td></tr>{% endif %}
-    {% if page.PistachioNutOil_grams %}<tr><td>{{ page.PistachioNutOil_grams }} grams</td><td align="right">Calculating...</td><td>Pistachio Nut Oil</td></tr>{% endif %}
-    {% if page.PoppySeedOil_grams %}<tr><td>{{ page.PoppySeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Poppy Seed Oil</td></tr>{% endif %}
-    {% if page.PumpkinSeedOil_grams %}<tr><td>{{ page.PumpkinSeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Pumpkin Seed Oil</td></tr>{% endif %}
-    {% if page.RedRaspberrySeedOil_grams %}<tr><td>{{ page.RedRaspberrySeedOil_grams }} grams</td><td align="right">Calculating...</td><td>Red Raspberry Seed Oil</td></tr>{% endif %}
-    {% if page.RiceBranOil_grams %}<tr><td>{{ page.RiceBranOil_grams }} grams</td><td align="right">Calculating...</td><td>Rice Bran Oil</td></tr>{% endif %}
-    {% if page.RoseHipOil_grams %}<tr><td>{{ page.RoseHipOil_grams }} grams</td><td align="right">Calculating...</td><td>Rose Hip Oil</td></tr>{% endif %}
-    {% if page.SafflowerOil_grams %}<tr><td>{{ page.SafflowerOil_grams }} grams</td><td align="right">Calculating...</td><td>Safflower Oil</td></tr>{% endif %}
-    {% if page.SalButter_grams %}<tr><td>{{ page.SalButter_grams }} grams</td><td align="right">Calculating...</td><td>Sal Butter</td></tr>{% endif %}
-    {% if page.SeabuckthornFruitOil_grams %}<tr><td>{{ page.SeabuckthornFruitOil_grams }} grams</td><td align="right">Calculating...</td><td>Seabuckthorn Fruit Oil</td></tr>{% endif %}
-    {% if page.SesameOil_grams %}<tr><td>{{ page.SesameOil_grams }} grams</td><td align="right">Calculating...</td><td>Sesame Oil</td></tr>{% endif %}
-    {% if page.SheaButter_grams %}<tr><td>{{ page.SheaButter_grams }} grams</td><td align="right">Calculating...</td><td>Shea Butter</td></tr>{% endif %}
-    {% if page.SheaOil_grams %}<tr><td>{{ page.SheaOil_grams }} grams</td><td align="right">Calculating...</td><td>Shea Oil</td></tr>{% endif %}
-    {% if page.SoybeanOil_grams %}<tr><td>{{ page.SoybeanOil_grams }} grams</td><td align="right">Calculating...</td><td>Soybean Oil</td></tr>{% endif %}
-    {% if page.SoyWax_grams %}<tr><td>{{ page.SoyWax_grams }} grams</td><td align="right">Calculating...</td><td>Soy Wax</td></tr>{% endif %}
-    {% if page.StearicAcid_grams %}<tr><td>{{ page.StearicAcid_grams }} grams</td><td align="right">Calculating...</td><td>Stearic Acid</td></tr>{% endif %}
-    {% if page.SunflowerOil_grams %}<tr><td>{{ page.SunflowerOil_grams }} grams</td><td align="right">Calculating...</td><td>Sunflower Oil</td></tr>{% endif %}
-    {% if page.TamanuOil_grams %}<tr><td>{{ page.TamanuOil_grams }} grams</td><td align="right">Calculating...</td><td>Tamanu Oil</td></tr>{% endif %}
-    {% if page.WalnutOil_grams %}<tr><td>{{ page.WalnutOil_grams }} grams</td><td align="right">Calculating...</td><td>Walnut Oil</td></tr>{% endif %}
-    {% if page.WheatGermOil_grams %}<tr><td>{{ page.WheatGermOil_grams }} grams</td><td align="right">Calculating...</td><td>Wheat Germ Oil</td></tr>{% endif %}
-    {% if page.Beeswax_grams %}<tr><td>{{ page.Beeswax_grams }} grams</td><td align="right">Calculating...</td><td>Beeswax</td></tr>{% endif %}
-    {% if page.Butterfat_grams %}<tr><td>{{ page.Butterfat_grams }} grams</td><td align="right">Calculating...</td><td>Butterfat</td></tr>{% endif %}
-    {% if page.EmuOil_grams %}<tr><td>{{ page.EmuOil_grams }} grams</td><td align="right">Calculating...</td><td>Emu Oil</td></tr>{% endif %}
-    {% if page.GoatFat_grams %}<tr><td>{{ page.GoatFat_grams }} grams</td><td align="right">Calculating...</td><td>Goat Fat</td></tr>{% endif %}
-    {% if page.Lanolin_grams %}<tr><td>{{ page.Lanolin_grams }} grams</td><td align="right">Calculating...</td><td>Lanolin</td></tr>{% endif %}
-    {% if page.Lard_grams %}<tr><td>{{ page.Lard_grams }} grams</td><td align="right">Calculating...</td><td>Lard</td></tr>{% endif %}
-    {% if page.MinkOil_grams %}<tr><td>{{ page.MinkOil_grams }} grams</td><td align="right">Calculating...</td><td>Mink Oil</td></tr>{% endif %}
-    {% if page.Mutton_grams %}<tr><td>{{ page.Mutton_grams }} grams</td><td align="right">Calculating...</td><td>Mutton</td></tr>{% endif %}
-    {% if page.NeatsFootOil_grams %}<tr><td>{{ page.NeatsFootOil_grams }} grams</td><td align="right">Calculating...</td><td>Neats Foot Oil</td></tr>{% endif %}
-    {% if page.Tallow_grams %}<tr><td>{{ page.Tallow_grams }} grams</td><td align="right">Calculating...</td><td>Tallow</td></tr>{% endif %}
+      {% if page.abyssinian_oil_grams %}<tr><td>{{ page.abyssinian_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/1">Abyssinian Oil</a></td></tr>{% endif %}
+      {% if page.almond_butter_grams %}<tr><td>{{ page.almond_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/2">Almond Butter</a></td></tr>{% endif %}
+      {% if page.almond_oil_sweet_grams %}<tr><td>{{ page.almond_oil_sweet_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/3">Sweet Almond Oil</a></td></tr>{% endif %}
+      {% if page.aloe_butter_grams %}<tr><td>{{ page.aloe_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/4">Aloe Butter</a></td></tr>{% endif %}
+      {% if page.andiroba_oil_karaba_crabwood_grams %}<tr><td>{{ page.andiroba_oil_karaba_crabwood_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/5">Andiroba Oil (karaba, crabwood)</a></td></tr>{% endif %}
+      {% if page.apricot_kernal_oil_grams %}<tr><td>{{ page.apricot_kernal_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/6">Apricot Kernal Oil</a></td></tr>{% endif %}
+      {% if page.argan_oil_grams %}<tr><td>{{ page.argan_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/7">Argan Oil</a></td></tr>{% endif %}
+      {% if page.avocado_oil_grams %}<tr><td>{{ page.avocado_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/9">Avocado Oil</a></td></tr>{% endif %}
+      {% if page.avocado_butter_grams %}<tr><td>{{ page.avocado_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/8">Avocado Butter</a></td></tr>{% endif %}
+      {% if page.babassu_oil_grams %}<tr><td>{{ page.babassu_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/10">Babassu Oil</a></td></tr>{% endif %}
+      {% if page.baobab_oil_grams %}<tr><td>{{ page.baobab_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/11">Baobab Oil</a></td></tr>{% endif %}
+      {% if page.beeswax_grams %}<tr><td>{{ page.beeswax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/12">Beeswax</a></td></tr>{% endif %}
+      {% if page.black_cumin_seed_oil_nigella_sativa_grams %}<tr><td>{{ page.black_cumin_seed_oil_nigella_sativa_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/13">Black Cumin Seed Oil (nigella sativa)</a></td></tr>{% endif %}
+      {% if page.black_current_seed_oil_grams %}<tr><td>{{ page.black_current_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/14">Black Current Seed Oil</a></td></tr>{% endif %}
+      {% if page.borage_oil_grams %}<tr><td>{{ page.borage_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/15">Borage Oil</a></td></tr>{% endif %}
+      {% if page.brazil_nut_oil_grams %}<tr><td>{{ page.brazil_nut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/16">Brazil Nut Oil</a></td></tr>{% endif %}
+      {% if page.broccoli_seed_oil_brassica_oleracea_grams %}<tr><td>{{ page.broccoli_seed_oil_brassica_oleracea_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/17">Broccoli Seed Oil (Brassica Oleracea)</a></td></tr>{% endif %}
+      {% if page.buriti_oil_grams %}<tr><td>{{ page.buriti_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/18">Buriti Oil</a></td></tr>{% endif %}
+      {% if page.camelina_seed_oil_grams %}<tr><td>{{ page.camelina_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/19">Camelina Seed Oil</a></td></tr>{% endif %}
+      {% if page.camellia_oil_tea_seed_grams %}<tr><td>{{ page.camellia_oil_tea_seed_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/20">Camellia Oil (Tea Seed)</a></td></tr>{% endif %}
+      {% if page.candelilla_wax_grams %}<tr><td>{{ page.candelilla_wax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/21">Candelilla Wax</a></td></tr>{% endif %}
+      {% if page.canola_oil_grams %}<tr><td>{{ page.canola_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/22">Canola Oil</a></td></tr>{% endif %}
+      {% if page.canola_oil_high_oleic_grams %}<tr><td>{{ page.canola_oil_high_oleic_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/23">Canola Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.carrot_seed_oil_cold_pressed_grams %}<tr><td>{{ page.carrot_seed_oil_cold_pressed_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/24">Carrot Seed Oil (cold pressed)</a></td></tr>{% endif %}
+      {% if page.castor_oil_grams %}<tr><td>{{ page.castor_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/25">Castor Oil</a></td></tr>{% endif %}
+      {% if page.cherry_kern1_oil_p_avium_grams %}<tr><td>{{ page.cherry_kern1_oil_p_avium_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/26">Cherry Kern1 Oil (p. avium)</a></td></tr>{% endif %}
+      {% if page.cherry_kern2_oil_p_cerasus_grams %}<tr><td>{{ page.cherry_kern2_oil_p_cerasus_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/27">Cherry Kern2 Oil (p. cerasus)</a></td></tr>{% endif %}
+      {% if page.chicken_fat_grams %}<tr><td>{{ page.chicken_fat_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/28">Chicken Fat</a></td></tr>{% endif %}
+      {% if page.cocoa_butter_grams %}<tr><td>{{ page.cocoa_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/29">Cocoa Butter</a></td></tr>{% endif %}
+      {% if page.coconut_oil_76_deg_grams %}<tr><td>{{ page.coconut_oil_76_deg_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/30">Coconut Oil (76 deg)</a></td></tr>{% endif %}
+      {% if page.coconut_oil_92_deg_grams %}<tr><td>{{ page.coconut_oil_92_deg_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/31">Coconut Oil (92 deg)</a></td></tr>{% endif %}
+      {% if page.coconut_oil_fractionated_grams %}<tr><td>{{ page.coconut_oil_fractionated_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/32">Coconut Oil (fractionated)</a></td></tr>{% endif %}
+      {% if page.coffee_bean_oil_green_grams %}<tr><td>{{ page.coffee_bean_oil_green_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/33">Coffee Bean Oil (green)</a></td></tr>{% endif %}
+      {% if page.coffee_bean_oil_roasted_grams %}<tr><td>{{ page.coffee_bean_oil_roasted_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/34">Coffee Bean Oil (roasted)</a></td></tr>{% endif %}
+      {% if page.cohune_oil_grams %}<tr><td>{{ page.cohune_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/35">Cohune Oil</a></td></tr>{% endif %}
+      {% if page.corn_oil_grams %}<tr><td>{{ page.corn_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/36">Corn Oil</a></td></tr>{% endif %}
+      {% if page.cottonseed_oil_grams %}<tr><td>{{ page.cottonseed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/37">Cottonseed Oil</a></td></tr>{% endif %}
+      {% if page.cranberry_seed_oil_grams %}<tr><td>{{ page.cranberry_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/38">Cranberry Seed Oil</a></td></tr>{% endif %}
+      {% if page.crisco_new_grams %}<tr><td>{{ page.crisco_new_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/39">Crisco (new with palm)</a></td></tr>{% endif %}
+      {% if page.crisco_old_grams %}<tr><td>{{ page.crisco_old_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/40">Crisco (old)</a></td></tr>{% endif %}
+      {% if page.cupuacu_butter_grams %}<tr><td>{{ page.cupuacu_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/41">Cupuacu Butter</a></td></tr>{% endif %}
+      {% if page.duck_fat_flesh_and_skin_grams %}<tr><td>{{ page.duck_fat_flesh_and_skin_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/42">Duck Fat (flesh and skin)</a></td></tr>{% endif %}
+      {% if page.emu_oil_grams %}<tr><td>{{ page.emu_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/43">Emu Oil</a></td></tr>{% endif %}
+      {% if page.evening_primrose_oil_grams %}<tr><td>{{ page.evening_primrose_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/44">Evening Primrose Oil</a></td></tr>{% endif %}
+      {% if page.flax_oil_linseed_grams %}<tr><td>{{ page.flax_oil_linseed_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/45">Flax Oil (linseed)</a></td></tr>{% endif %}
+      {% if page.ghee_any_bovine_grams %}<tr><td>{{ page.ghee_any_bovine_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/46">Ghee (any bovine)</a></td></tr>{% endif %}
+      {% if page.goose_fat_grams %}<tr><td>{{ page.goose_fat_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/47">Goose Fat</a></td></tr>{% endif %}
+      {% if page.grapeseed_oil_grams %}<tr><td>{{ page.grapeseed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/48">Grapeseed Oil</a></td></tr>{% endif %}
+      {% if page.hazelnut_oil_grams %}<tr><td>{{ page.hazelnut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/49">Hazelnut Oil</a></td></tr>{% endif %}
+      {% if page.hemp_oil_grams %}<tr><td>{{ page.hemp_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/50">Hemp Oil</a></td></tr>{% endif %}
+      {% if page.horse_oil_grams %}<tr><td>{{ page.horse_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/51">Horse Oil</a></td></tr>{% endif %}
+      {% if page.illipe_butter_grams %}<tr><td>{{ page.illipe_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/52">Illipe Butter</a></td></tr>{% endif %}
+      {% if page.japan_wax_grams %}<tr><td>{{ page.japan_wax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/53">Japan Wax</a></td></tr>{% endif %}
+      {% if page.jatropha_oil_soapnut_seed_oil_grams %}<tr><td>{{ page.jatropha_oil_soapnut_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/54">Jatropha Oil (soapnut seed oil)</a></td></tr>{% endif %}
+      {% if page.jojoba_oil_a_liquid_wax_ester_grams %}<tr><td>{{ page.jojoba_oil_a_liquid_wax_ester_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/55">Jojoba Oil (a Liquid Wax Ester)</a></td></tr>{% endif %}
+      {% if page.karanja_oil_grams %}<tr><td>{{ page.karanja_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/56">Karanja Oil</a></td></tr>{% endif %}
+      {% if page.kokum_butter_grams %}<tr><td>{{ page.kokum_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/57">Kokum Butter</a></td></tr>{% endif %}
+      {% if page.kpangnan_butter_grams %}<tr><td>{{ page.kpangnan_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/58">Kpangnan Butter</a></td></tr>{% endif %}
+      {% if page.kukui_nut_oil_grams %}<tr><td>{{ page.kukui_nut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/59">Kukui nut Oil</a></td></tr>{% endif %}
+      {% if page.lanolin_liquid_wax_grams %}<tr><td>{{ page.lanolin_liquid_wax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/60">Lanolin liquid Wax</a></td></tr>{% endif %}
+      {% if page.lard_pig_tallow_manteca_grams %}<tr><td>{{ page.lard_pig_tallow_manteca_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/61">Lard, Pig Tallow (Manteca)</a></td></tr>{% endif %}
+      {% if page.laurel_fruit_oil_grams %}<tr><td>{{ page.laurel_fruit_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/62">Laurel Fruit Oil</a></td></tr>{% endif %}
+      {% if page.lauric_acid_grams %}<tr><td>{{ page.lauric_acid_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/63">Lauric Acid</a></td></tr>{% endif %}
+      {% if page.linseed_oil_flax_grams %}<tr><td>{{ page.linseed_oil_flax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/64">Linseed Oil (flax)</a></td></tr>{% endif %}
+      {% if page.loofa_seed_oil_luffa_cylinderica_grams %}<tr><td>{{ page.loofa_seed_oil_luffa_cylinderica_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/65">Loofa Seed Oil (Luffa cylinderica)</a></td></tr>{% endif %}
+      {% if page.macadamia_nut_butter_grams %}<tr><td>{{ page.macadamia_nut_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/66">Macadamia Nut Butter</a></td></tr>{% endif %}
+      {% if page.macadamia_nut_oil_grams %}<tr><td>{{ page.macadamia_nut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/67">Macadamia Nut Oil</a></td></tr>{% endif %}
+      {% if page.mafura_butter_trichilia_emetica_grams %}<tr><td>{{ page.mafura_butter_trichilia_emetica_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/68">Mafura Butter (Trichilia emetica)</a></td></tr>{% endif %}
+      {% if page.mango_seed_butter_grams %}<tr><td>{{ page.mango_seed_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/69">Mango Seed Butter</a></td></tr>{% endif %}
+      {% if page.mango_seed_oil_grams %}<tr><td>{{ page.mango_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/70">Mango Seed Oil</a></td></tr>{% endif %}
+      {% if page.marula_oil_grams %}<tr><td>{{ page.marula_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/71">Marula Oil</a></td></tr>{% endif %}
+      {% if page.meadowfoam_oil_grams %}<tr><td>{{ page.meadowfoam_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/72">Meadowfoam Oil</a></td></tr>{% endif %}
+      {% if page.milk_fat_any_bovine_grams %}<tr><td>{{ page.milk_fat_any_bovine_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/73">Milk Fat (any bovine)</a></td></tr>{% endif %}
+      {% if page.milk_thistle_oil_grams %}<tr><td>{{ page.milk_thistle_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/74">Milk Thistle Oil</a></td></tr>{% endif %}
+      {% if page.mink_oil_grams %}<tr><td>{{ page.mink_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/75">Mink Oil</a></td></tr>{% endif %}
+      {% if page.monoi_de_tahiti_oil_grams %}<tr><td>{{ page.monoi_de_tahiti_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/76">Monoi de Tahiti Oil</a></td></tr>{% endif %}
+      {% if page.moringa_oil_grams %}<tr><td>{{ page.moringa_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/77">Moringa Oil</a></td></tr>{% endif %}
+      {% if page.mowrah_butter_grams %}<tr><td>{{ page.mowrah_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/78">Mowrah Butter</a></td></tr>{% endif %}
+      {% if page.murumuru_butter_grams %}<tr><td>{{ page.murumuru_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/79">Murumuru Butter</a></td></tr>{% endif %}
+      {% if page.mustard_oil_kachi_ghani_grams %}<tr><td>{{ page.mustard_oil_kachi_ghani_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/80">Mustard Oil (kachi ghani)</a></td></tr>{% endif %}
+      {% if page.myristic_acid_grams %}<tr><td>{{ page.myristic_acid_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/81">Myristic Acid</a></td></tr>{% endif %}
+      {% if page.neatsfoot_oil_grams %}<tr><td>{{ page.neatsfoot_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/82">Neatsfoot Oil</a></td></tr>{% endif %}
+      {% if page.neem_seed_oil_grams %}<tr><td>{{ page.neem_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/83">Neem Seed Oil</a></td></tr>{% endif %}
+      {% if page.nutmeg_butter_grams %}<tr><td>{{ page.nutmeg_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/84">Nutmeg Butter</a></td></tr>{% endif %}
+      {% if page.oat_oil_grams %}<tr><td>{{ page.oat_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/85">Oat Oil</a></td></tr>{% endif %}
+      {% if page.oleic_acid_grams %}<tr><td>{{ page.oleic_acid_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/86">Oleic Acid</a></td></tr>{% endif %}
+      {% if page.olive_oil_grams %}<tr><td>{{ page.olive_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/87">Olive Oil</a></td></tr>{% endif %}
+      {% if page.olive_oil_pomace_grams %}<tr><td>{{ page.olive_oil_pomace_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/88">Olive Oil (pomace)</a></td></tr>{% endif %}
+      {% if page.ostrich_oil_grams %}<tr><td>{{ page.ostrich_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/89">Ostrich Oil</a></td></tr>{% endif %}
+      {% if page.palm_kernel_oil_grams %}<tr><td>{{ page.palm_kernel_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/90">Palm Kernel Oil</a></td></tr>{% endif %}
+      {% if page.palm_kernel_oil_flakes_hydrogenated_grams %}<tr><td>{{ page.palm_kernel_oil_flakes_hydrogenated_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/91">Palm Kernel Oil Flakes (hydrogenated)</a></td></tr>{% endif %}
+      {% if page.palm_oil_grams %}<tr><td>{{ page.palm_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/92">Palm Oil</a></td></tr>{% endif %}
+      {% if page.palm_stearin_grams %}<tr><td>{{ page.palm_stearin_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/93">Palm Stearin</a></td></tr>{% endif %}
+      {% if page.palmitic_acid_grams %}<tr><td>{{ page.palmitic_acid_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/94">Palmitic Acid</a></td></tr>{% endif %}
+      {% if page.palmolein_grams %}<tr><td>{{ page.palmolein_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/95">Palmolein</a></td></tr>{% endif %}
+      {% if page.papaya_seed_oil_carica_papaya_grams %}<tr><td>{{ page.papaya_seed_oil_carica_papaya_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/96">Papaya seed oil (Carica papaya)</a></td></tr>{% endif %}
+      {% if page.passion_fruit_seed_oil_grams %}<tr><td>{{ page.passion_fruit_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/97">Passion Fruit Seed Oil</a></td></tr>{% endif %}
+      {% if page.pataua_patawa_oil_grams %}<tr><td>{{ page.pataua_patawa_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/98">Pataua (Patawa) Oil</a></td></tr>{% endif %}
+      {% if page.peach_kernel_oil_grams %}<tr><td>{{ page.peach_kernel_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/99">Peach Kernel Oil</a></td></tr>{% endif %}
+      {% if page.peanut_oil_grams %}<tr><td>{{ page.peanut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/100">Peanut Oil</a></td></tr>{% endif %}
+      {% if page.pecan_oil_grams %}<tr><td>{{ page.pecan_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/101">Pecan Oil</a></td></tr>{% endif %}
+      {% if page.perilla_seed_oil_grams %}<tr><td>{{ page.perilla_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/102">Perilla Seed Oil</a></td></tr>{% endif %}
+      {% if page.pine_tar_grams %}<tr><td>{{ page.pine_tar_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/103">Pine Tar</a></td></tr>{% endif %}
+      {% if page.pistachio_oil_grams %}<tr><td>{{ page.pistachio_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/104">Pistachio Oil</a></td></tr>{% endif %}
+      {% if page.plum_kernel_oil_grams %}<tr><td>{{ page.plum_kernel_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/105">Plum Kernel Oil</a></td></tr>{% endif %}
+      {% if page.pomegranate_seed_oil_grams %}<tr><td>{{ page.pomegranate_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/106">Pomegranate Seed Oil</a></td></tr>{% endif %}
+      {% if page.poppy_seed_oil_grams %}<tr><td>{{ page.poppy_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/107">Poppy Seed Oil</a></td></tr>{% endif %}
+      {% if page.pracaxi_pracachy_seed_oil_hair_conditioner_grams %}<tr><td>{{ page.pracaxi_pracachy_seed_oil_hair_conditioner_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/108">Pracaxi (Pracachy) Seed Oil</a></td></tr>{% endif %}
+      {% if page.pumpkin_seed_oil_virgin_grams %}<tr><td>{{ page.pumpkin_seed_oil_virgin_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/109">Pumpkin Seed Oil (virgin)</a></td></tr>{% endif %}
+      {% if page.rabbit_fat_grams %}<tr><td>{{ page.rabbit_fat_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/110">Rabbit Fat</a></td></tr>{% endif %}
+      {% if page.rapeseed_oil_unrefined_canola_grams %}<tr><td>{{ page.rapeseed_oil_unrefined_canola_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/111">Rapeseed Oil (unrefined canola)</a></td></tr>{% endif %}
+      {% if page.raspberry_seed_oil_grams %}<tr><td>{{ page.raspberry_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/112">Raspberry Seed Oil</a></td></tr>{% endif %}
+      {% if page.red_palm_butter_grams %}<tr><td>{{ page.red_palm_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/113">Red Palm Butter</a></td></tr>{% endif %}
+      {% if page.rice_bran_oil_refined_grams %}<tr><td>{{ page.rice_bran_oil_refined_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/114">Rice Bran Oil (refined)</a></td></tr>{% endif %}
+      {% if page.rosehip_oil_grams %}<tr><td>{{ page.rosehip_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/115">Rosehip Oil</a></td></tr>{% endif %}
+      {% if page.sacha_inchi_plukenetia_volubilis_grams %}<tr><td>{{ page.sacha_inchi_plukenetia_volubilis_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/116">Sacha Inchi (Plukenetia volubilis)</a></td></tr>{% endif %}
+      {% if page.safflower_oil_grams %}<tr><td>{{ page.safflower_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/117">Safflower Oil</a></td></tr>{% endif %}
+      {% if page.safflower_oil_high_oleic_grams %}<tr><td>{{ page.safflower_oil_high_oleic_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/118">Safflower Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.sal_butter_grams %}<tr><td>{{ page.sal_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/119">Sal Butter</a></td></tr>{% endif %}
+      {% if page.salmon_oil_grams %}<tr><td>{{ page.salmon_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/120">Salmon Oil</a></td></tr>{% endif %}
+      {% if page.saw_palmetto_extract_grams %}<tr><td>{{ page.saw_palmetto_extract_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/121">Saw Palmetto Extract</a></td></tr>{% endif %}
+      {% if page.saw_palmetto_oil_grams %}<tr><td>{{ page.saw_palmetto_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/122">Saw Palmetto Oil</a></td></tr>{% endif %}
+      {% if page.sea_buckthorn_oil_seed_grams %}<tr><td>{{ page.sea_buckthorn_oil_seed_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/123">Sea Buckthorn Oil (seed)</a></td></tr>{% endif %}
+      {% if page.sea_buckthorn_oil_seed_and_berry_grams %}<tr><td>{{ page.sea_buckthorn_oil_seed_and_berry_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/124">Sea Buckthorn Oil (seed and berry)</a></td></tr>{% endif %}
+      {% if page.sesame_oil_grams %}<tr><td>{{ page.sesame_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/125">Sesame Oil</a></td></tr>{% endif %}
+      {% if page.shea_butter_grams %}<tr><td>{{ page.shea_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/126">Shea Butter</a></td></tr>{% endif %}
+      {% if page.shea_oil_fractionated_grams %}<tr><td>{{ page.shea_oil_fractionated_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/127">Shea Oil (fractionated)</a></td></tr>{% endif %}
+      {% if page.soapquick_conventional_grams %}<tr><td>{{ page.soapquick_conventional_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/128">SoapQuick (conventional)</a></td></tr>{% endif %}
+      {% if page.soapquick_organic_grams %}<tr><td>{{ page.soapquick_organic_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/129">SoapQuick (organic)</a></td></tr>{% endif %}
+      {% if page.soybean_oil_grams %}<tr><td>{{ page.soybean_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/130">Soybean Oil</a></td></tr>{% endif %}
+      {% if page.soybean_27_5_hydrogenated_grams %}<tr><td>{{ page.soybean_27_5_hydrogenated_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/131">Soybean, (27.5% hydrogenated)</a></td></tr>{% endif %}
+      {% if page.soybean_fully_hydrogenated_soy_wax_grams %}<tr><td>{{ page.soybean_fully_hydrogenated_soy_wax_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/132">Soybean, (fully hydrogenated soy wax)</a></td></tr>{% endif %}
+      {% if page.stearic_acid_grams %}<tr><td>{{ page.stearic_acid_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/133">Stearic Acid</a></td></tr>{% endif %}
+      {% if page.sunflower_oil_grams %}<tr><td>{{ page.sunflower_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/134">Sunflower Oil</a></td></tr>{% endif %}
+      {% if page.sunflower_oil_high_oleic_grams %}<tr><td>{{ page.sunflower_oil_high_oleic_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/135">Sunflower Oil (high oleic)</a></td></tr>{% endif %}
+      {% if page.tallow_bear_grams %}<tr><td>{{ page.tallow_bear_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/136">Tallow Bear</a></td></tr>{% endif %}
+      {% if page.tallow_beef_grams %}<tr><td>{{ page.tallow_beef_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/137">Tallow Beef</a></td></tr>{% endif %}
+      {% if page.tallow_deer_grams %}<tr><td>{{ page.tallow_deer_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/138">Tallow Deer</a></td></tr>{% endif %}
+      {% if page.tallow_goat_grams %}<tr><td>{{ page.tallow_goat_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/139">Tallow Goat</a></td></tr>{% endif %}
+      {% if page.tallow_sheep_grams %}<tr><td>{{ page.tallow_sheep_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/140">Tallow Sheep</a></td></tr>{% endif %}
+      {% if page.tamanu_oil_kamani_grams %}<tr><td>{{ page.tamanu_oil_kamani_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/141">Tamanu Oil (kamani)</a></td></tr>{% endif %}
+      {% if page.tucuma_seed_butter_grams %}<tr><td>{{ page.tucuma_seed_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/142">Tucuma Seed Butter</a></td></tr>{% endif %}
+      {% if page.ucuuba_butter_grams %}<tr><td>{{ page.ucuuba_butter_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/143">Ucuuba Butter</a></td></tr>{% endif %}
+      {% if page.walmart_gv_shortening_tallow_palm_grams %}<tr><td>{{ page.walmart_gv_shortening_tallow_palm_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/144">Walmart GV Shortening (tallow and palm)</a></td></tr>{% endif %}
+      {% if page.walnut_oil_grams %}<tr><td>{{ page.walnut_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/145">Walnut Oil</a></td></tr>{% endif %}
+      {% if page.watermelon_seed_oil_grams %}<tr><td>{{ page.watermelon_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/146">Watermelon Seed Oil</a></td></tr>{% endif %}
+      {% if page.wheat_germ_oil_grams %}<tr><td>{{ page.wheat_germ_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/147">Wheat Germ Oil</a></td></tr>{% endif %}
+      {% if page.yangu_cape_chestnut_grams %}<tr><td>{{ page.yangu_cape_chestnut_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/148">Yangu (cape chestnut)</a></td></tr>{% endif %}
+      {% if page.zapote_seed_oil_grams %}<tr><td>{{ page.zapote_seed_oil_grams }} grams</td><td align="right">Calculating...</td><td><a href="http://soapee.com/oils/149">Zapote seed oil, (Aceite de Sapuyul or Mamey)</a></td></tr>{% endif %}
     </table>
 
     <br />
     <table id="lye-mixture">
     <tr><td>Quantity</td><td>Ingredient</td></tr>
-    {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
-    {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+      {% if page.LiquidBase_ounces %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_ounces }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
+      {% if page.LiquidBase_grams %}{% if page.LiquidBase_name %}<tr><td class="liquid-base">{{ page.LiquidBase_grams }} ounces</td><td>{{ page.LiquidBase_name }}</td></tr>{% endif %}{% endif %}
 
-    {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-    {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-    {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-    {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+      {% if page.SodiumHydroxide_NaOH_ounces %}<tr><td>{{ page.SodiumHydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+      {% if page.PotassiumHydroxide_KOH_ounces %}<tr><td>{{ page.PotassiumHydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+      {% if page.SodiumHydroxide_NaOH_grams %}<tr><td>{{ page.SodiumHydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
+      {% if page.PotassiumHydroxide_KOH_grams %}<tr><td>{{ page.PotassiumHydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
     </table>
     
-    {% if page.SpecialIngredients %}
+      {% if page.SpecialIngredients %}
     <h2>Special Ingredients</h2>
     {{ page.SpecialIngredients }}
     {% endif %}
