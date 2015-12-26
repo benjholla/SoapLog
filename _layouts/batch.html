@@ -320,14 +320,14 @@ layout: default
 
     <br />
     <table id="lye-mixture">
-    <tr><td>Quantity</td><td>Ingredient</td></tr>
-      {% if page.liquid_base_ounces %}{% if page.liquid_base_name %}<tr><td class="liquid-base">{{ page.liquid_base_ounces }} ounces</td><td>{{ page.liquid_base_name }}</td></tr>{% endif %}{% endif %}
-      {% if page.liquid_base_grams %}{% if page.liquid_base_name %}<tr><td class="liquid-base">{{ page.liquid_base_grams }} ounces</td><td>{{ page.liquid_base_name }}</td></tr>{% endif %}{% endif %}
+    <tr><td>Ingredient</td><td>Quantity</td></tr>
+      {% if page.liquid_base_ounces %}{% if page.liquid_base_name %}<tr><td>{{ page.liquid_base_name }}</td><td class="liquid-base">{{ page.liquid_base_ounces }} ounces</td></tr>{% endif %}{% endif %}
+      {% if page.liquid_base_grams %}{% if page.liquid_base_name %}<tr><td>{{ page.liquid_base_name }}</td><td class="liquid-base">{{ page.liquid_base_grams }} ounces</td></tr>{% endif %}{% endif %}
 
-      {% if page.sodium_hydroxide_NaOH_ounces %}<tr><td>{{ page.sodium_hydroxide_NaOH_ounces }} ounces</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-      {% if page.potassium_hydroxide_KOH_ounces %}<tr><td>{{ page.potassium_hydroxide_KOH_ounces }} ounces</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
-      {% if page.sodium_hydroxide_NaOH_grams %}<tr><td>{{ page.sodium_hydroxide_NaOH_grams }} grams</td><td>Sodium Hydroxide (NaOH)</td></tr>{% endif %}
-      {% if page.potassium_hydroxide_KOH_grams %}<tr><td>{{ page.potassium_hydroxide_KOH_grams }} grams</td><td>Potassium Hydroxide (KOH)</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_ounces %}<tr><td>Sodium Hydroxide (NaOH)</td><td>{{ page.sodium_hydroxide_NaOH_ounces }} ounces</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_ounces %}<tr><td>Potassium Hydroxide (KOH)</td><td>{{ page.potassium_hydroxide_KOH_ounces }} ounces</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_grams %}<tr><td>Sodium Hydroxide (NaOH)</td><td>{{ page.sodium_hydroxide_NaOH_grams }} grams</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_grams %}<tr><td>Potassium Hydroxide (KOH)</td><td>{{ page.potassium_hydroxide_KOH_grams }} grams</td></tr>{% endif %}
     </table>
     
       {% if page.SpecialIngredients %}
