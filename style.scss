@@ -337,6 +337,22 @@ code {
   }
 }
 
+// hover over tooltip styling
+.hover-tooltip {
+  color:#4183C4;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  border:1px solid #333;
+  background-color:#161616;
+  border-radius:5px;
+  padding:10px;
+  color:#fff;
+  font-size:12px Arial;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
