@@ -240,7 +240,7 @@ layout: default
         var row = $(this);
         // quantities are stored in the first cell of each row
         row.find('td:nth-child(1)').each(function() {
-           if(this.hasClass("liquid-base")){
+           if(this.classList.contains("liquid-base")){
              water = water + getQuantityPounds(this);
            } else {
              totalLye = totalLye + getQuantityPounds(this);
