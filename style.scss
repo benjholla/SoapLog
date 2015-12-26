@@ -263,17 +263,23 @@ code {
   background-color: $lightGray;
 }
 
-.posts > .post {
+.batchs > .batch {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+.batchs > .batch:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }
 
-.post {
+.batch {
+
+  table, th, td {
+    border: 1px solid black;
+    padding: 2px 4px 2px 4px;
+  }
+
   .comments {
     margin-top: 10px;
   }
