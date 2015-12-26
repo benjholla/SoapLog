@@ -412,10 +412,7 @@ layout: default
            row.find('td:nth-child(4)').each(function() {
              sap = parseFloat(this.innerHTML);
            });
-           // store the computed lye addition to the fifth cell of the row
-           row.find('td:nth-child(5)').each(function() {
-             lyeAdditions = lyeAdditions + (quantityPounds * sap);
-           });
+          lyeAdditions = lyeAdditions + (quantityPounds * sap);
         });
       });
       return lyeAdditions;
