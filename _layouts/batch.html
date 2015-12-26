@@ -415,7 +415,7 @@ layout: default
            // store the computed lye addition to the fifth cell of the row
            row.find('td:nth-child(5)').each(function() {
              var lyeAddition = (quantityPounds * sap);
-             $(this).html(lyeAddition.toFixed(2));
+             $(this).html(lyeAddition);
              totalLyeAdditions = totalLyeAdditions + lyeAddition;
            });
         });
