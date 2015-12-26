@@ -305,14 +305,64 @@ footer {
   font-size:12px Arial;
 }
 
+// tables
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb
+}
+
+table td, table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em
+}
+
+table td:first-child, table th:first-child {
+    border-left-width: 0
+}
+
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom
+}
+
+table td {
+    background-color: transparent
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #f2f2f2;
+}
+
 // code highlighting
 blockquote {
-  margin: 1.8em .8em;
-  border-left: 2px solid $gray;
-  padding: 0.1em 1em;
-  color: $gray;
-  font-size: 22px;
-  font-style: italic;
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+}
+
+pre {
+  code {
+    border: none;
+  }
+}
+
+code {
+  border: 1px solid #ddd;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: $lightGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
