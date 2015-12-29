@@ -438,7 +438,7 @@ layout: default
            });
            // store the computed lye addition to the fifth cell of the row
            row.find('td:nth-child(6)').each(function() {
-             var lyeAdditionGrams = ((quantityPounds * sap) * 453.592) * 0.713;
+             var lyeAdditionGrams = ((quantityPounds * (sap * 0.713)) * 453.592);
              $(this).html(lyeAdditionGrams);
              totalNaOHAdditionsGrams = totalNaOHAdditionsGrams + lyeAdditionGrams;
            });
@@ -447,12 +447,19 @@ layout: default
       return totalNaOHAdditionsGrams;
     }
 
+    function computeLyeBlendRatio(){
+      return 1; // TODO: consider blends with KOH
+    }
+
     $(document).ready(function() {
       // compute the total yield in pounds
       var oils = computeYield();
 
       // compute the percentage of each ingredient in the recipie
       computePercentages(oils);
+
+      // compute the NaOH to KOH ratio
+      var ratio = computeLyeBlendRatio();
 
       // computes the lye addition for each oil for each type of lye
       var totalKOHAdditionsGrams = computeKOHAdditions();
