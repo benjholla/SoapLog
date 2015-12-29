@@ -337,16 +337,16 @@ layout: default
     
     <table id="superfat-ranges">
       <tr><td>Superfat</td><td>Sodium Hydroxide</td><td>Potassium Hydroxide</td></tr>
-      <tr><td>1%</td><td></td><td></td></tr>
-      <tr><td>2%</td><td></td><td></td></tr>
-      <tr><td>3%</td><td></td><td></td></tr>
-      <tr><td>4%</td><td></td><td></td></tr>
-      <tr><td>5%</td><td></td><td></td></tr>
-      <tr><td>6%</td><td></td><td></td></tr>
-      <tr><td>7%</td><td></td><td></td></tr>
-      <tr><td>8%</td><td></td><td></td></tr>
-      <tr><td>9%</td><td></td><td></td></tr>
-      <tr><td>10%</td><td></td><td></td></tr>
+      <tr><td>1&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>2&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>3&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>4&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>5&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>6&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>7&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>8&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>9&nbsp;%</td><td></td><td></td></tr>
+      <tr><td>10&nbsp;%</td><td></td><td></td></tr>
     </table>
 
     {{ content }}
@@ -407,7 +407,7 @@ layout: default
            var quantityPounds = getQuantityPounds(this);
            // store the computed percentage to the third cell of the row
            row.find('td:nth-child(3)').each(function() {
-             $(this).html(((quantityPounds / oilsPounds) * 100).toFixed(2) + " %");
+             $(this).html(((quantityPounds / oilsPounds) * 100).toFixed(2) + "&nbsp;%");
            });
         });
       });
