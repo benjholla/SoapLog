@@ -469,22 +469,20 @@ layout: default
       totalNaOHAdditionsGrams = totalNaOHAdditionsGrams * ratio;
       totalKOHAdditionsGrams = totalKOHAdditionsGrams * (1 - ratio);
       // compute superfat ranges for 1% up to 10%
-      var tableRow = 1;
-      for (superfat = .01; superfat <= .1; superfat = superfat + .01) { 
-        var lyePercentage = (1 - superfat);
-        var discountedNaOHGrams = totalNaOHAdditionsGrams * lyePercentage;
-        var discountedKOHGrams = totalKOHAdditionsGrams * lyePercentage;
-        $("#superfat-ranges tr:nth-child(" + tableRow + ")").each(function() {
-            var row = $(this);
-            row.find('td:nth-child(2)').each(function(index) {
-               $(this).html(discountedNaOHGrams.toFixed(2));
-            });
-            row.find('td:nth-child(3)').each(function(index) {
-               $(this).html(discountedNaOHGrams.toFixed(2));
-            });
-         });
-         tableRow++;
-      }
+      var superfat = .01;
+      $("#superfat-ranges tr:gt(0)").each(function() {
+          var row = $(this);
+          var lyePercentage = (1 - superfat);
+          var discountedNaOHGrams = totalNaOHAdditionsGrams * lyePercentage;
+          var discountedKOHGrams = totalKOHAdditionsGrams * lyePercentage;
+          row.find('td:nth-child(2)').each(function(index) {
+             $(this).html(discountedNaOHGrams.toFixed(2));
+          });
+          row.find('td:nth-child(3)').each(function(index) {
+             $(this).html(discountedKOHGrams.toFixed(2));
+          });
+       });
+       superfat = superfat + .01;
     }
 
     $(document).ready(function() {
