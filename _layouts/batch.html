@@ -474,7 +474,15 @@ layout: default
         var lyePercentage = (1 - superfat);
         var discountedNaOHGrams = totalNaOHAdditionsGrams * lyePercentage;
         var discountedKOHGrams = totalKOHAdditionsGrams * lyePercentage;
-        console.log(superfat + " superfat, " + discountedNaOHGrams + " grams NaOH, " + discountedKOHGrams + " grams KOH");
+        $("#superfat-ranges tr:nth-child(" + tableRow++ + ")").each(function() {
+            var row = $(this);
+            row.find('td:nth-child(2)').each(function(index) {
+               $(this).html(discountedNaOHGrams.toFixed(2));
+            });
+            row.find('td:nth-child(3)').each(function(index) {
+               $(this).html(discountedNaOHGrams.toFixed(2));
+            });
+          });
       }
     }
 
