@@ -505,7 +505,8 @@ layout: default
          superfatted = 1 - (KOHGrams / totalKOHAdditionsGrams);
        }
        
-       $("#superfat").html(superfatted + "&nbsp;%");
+       superfatted = (superfatted * 100);
+       $("#superfat").html(superfatted.toFixed(2) + "&nbsp;%");
     }
 
     $(document).ready(function() {
