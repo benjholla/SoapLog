@@ -486,17 +486,17 @@ layout: default
        
        var NaOHGrams = 0;
        if($("#NaOH-ounces").length > 0){
-         NaOHGrams = NaOHGrams + parseFloat($("#NaOH-ounces").innerHTML.replace(" ounces", "")) * 28.3495;
+         NaOHGrams = NaOHGrams + parseFloat($("#NaOH-ounces").html().replace(" ounces", "")) * 28.3495;
        }
        if($("#NaOH-grams").length > 0){
-         NaOHGrams = NaOHGrams + parseFloat($("#NaOH-grams").innerHTML.replace(" grams", ""));
+         NaOHGrams = NaOHGrams + parseFloat($("#NaOH-grams").html().replace(" grams", ""));
        }
        var KOHGrams = 0;
        if($("#KOH-ounces").length > 0){
-         KOHGrams = KOHGrams + parseFloat($("#KOH-ounces").innerHTML.replace(" ounces", "")) * 28.3495;
+         KOHGrams = KOHGrams + parseFloat($("#KOH-ounces").html().replace(" ounces", "")) * 28.3495;
        }
        if($("#KOH-grams").length > 0){
-         KOHGrams = KOHGrams + parseFloat($("#KOH-grams").innerHTML.replace(" grams", ""));
+         KOHGrams = KOHGrams + parseFloat($("#KOH-grams").html().replace(" grams", ""));
        }
        var superfatted = 0;
        if(NaOHGrams != 0){
