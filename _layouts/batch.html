@@ -501,7 +501,7 @@ layout: default
        var superfatted = 0;
        if(NaOHGrams != 0){
          superfatted = 1 - (NaOHGrams / totalNaOHAdditionsGrams);
-       } else {
+       } else if(KOHGrams != 0){
          superfatted = 1 - (KOHGrams / totalKOHAdditionsGrams);
        }
        
