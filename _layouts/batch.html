@@ -324,10 +324,10 @@ layout: default
       {% if page.liquid_base_ounces %}{% if page.liquid_base_name %}<tr><td>{{ page.liquid_base_name }}</td><td class="liquid-base">{{ page.liquid_base_ounces }} ounces</td></tr>{% endif %}{% endif %}
       {% if page.liquid_base_grams %}{% if page.liquid_base_name %}<tr><td>{{ page.liquid_base_name }}</td><td class="liquid-base">{{ page.liquid_base_grams }} ounces</td></tr>{% endif %}{% endif %}
 
-      {% if page.sodium_hydroxide_NaOH_ounces %}<tr><td>Sodium Hydroxide (NaOH)</td><td>{{ page.sodium_hydroxide_NaOH_ounces }} ounces</td></tr>{% endif %}
-      {% if page.potassium_hydroxide_KOH_ounces %}<tr><td>Potassium Hydroxide (KOH)</td><td>{{ page.potassium_hydroxide_KOH_ounces }} ounces</td></tr>{% endif %}
-      {% if page.sodium_hydroxide_NaOH_grams %}<tr><td>Sodium Hydroxide (NaOH)</td><td>{{ page.sodium_hydroxide_NaOH_grams }} grams</td></tr>{% endif %}
-      {% if page.potassium_hydroxide_KOH_grams %}<tr><td>Potassium Hydroxide (KOH)</td><td>{{ page.potassium_hydroxide_KOH_grams }} grams</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_ounces %}<tr><td>Sodium Hydroxide (NaOH)</td><td id="NaOH-ounces">{{ page.sodium_hydroxide_NaOH_ounces }} ounces</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_ounces %}<tr><td>Potassium Hydroxide (KOH)</td><td id="KOH-ounces">{{ page.potassium_hydroxide_KOH_ounces }} ounces</td></tr>{% endif %}
+      {% if page.sodium_hydroxide_NaOH_grams %}<tr><td>Sodium Hydroxide (NaOH)</td><td id="NaOH-grams">{{ page.sodium_hydroxide_NaOH_grams }} grams</td></tr>{% endif %}
+      {% if page.potassium_hydroxide_KOH_grams %}<tr><td>Potassium Hydroxide (KOH)</td><td id="KOH-grams">{{ page.potassium_hydroxide_KOH_grams }} grams</td></tr>{% endif %}
     </table>
     
       {% if page.SpecialIngredients %}
@@ -476,13 +476,26 @@ layout: default
           var discountedNaOHGrams = totalNaOHAdditionsGrams * lyePercentage;
           var discountedKOHGrams = totalKOHAdditionsGrams * lyePercentage;
           row.find('td:nth-child(2)').each(function(index) {
-             $(this).html(discountedNaOHGrams.toFixed(2));
+             $(this).html(discountedNaOHGrams.toFixed(2) + " grams");
           });
           row.find('td:nth-child(3)').each(function(index) {
-             $(this).html(discountedKOHGrams.toFixed(2));
+             $(this).html(discountedKOHGrams.toFixed(2) + " grams");
           });
           superfat = superfat + .01;
        });
+       
+       var NaOHGrams = parseFloat($("#NaOH-ounces").innerHTML.replace(" ounces", "")) * 28.3495;
+       NaOHGrams = NaOHGrams + parseFloat($("#NaOH-grams").innerHTML.replace(" grams", ""));
+       var KOHGrams = parseFloat($("#KOH-ounces").innerHTML.replace(" ounces", "")) * 28.3495;
+       KOHGrams = KOHGrams + parseFloat($("#KOH-grams").innerHTML.replace(" grams", ""));
+       var superfatted = 0;
+       if(NaOHGrams != 0){
+         superfatted = 1 - (NaOHGrams / totalNaOHAdditionsGrams);
+       } else {
+         superfatted = 1 - (KOHGrams / totalKOHAdditionsGrams);
+       }
+       
+       $("#superfat").html(superfatted + "&nbsp;%");
     }
 
     $(document).ready(function() {
