@@ -330,18 +330,20 @@ layout: default
       {% if page.potassium_hydroxide_KOH_grams %}<tr><td>Potassium Hydroxide (KOH)</td><td id="KOH-grams">{{ page.potassium_hydroxide_KOH_grams }} grams</td></tr>{% endif %}
     </table>
 
+    <br />
     <table id="superfat-ranges">
-      <tr><td>Superfat</td><td>Sodium Hydroxide</td><td>Potassium Hydroxide</td></tr>
-      <tr><td align="right" style="background-color:#FFF380">1&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
-      <tr><td align="right" style="background-color:#FFF380">2&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
-      <tr><td align="right" style="background-color:#FFF380">3&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
-      <tr><td align="right" style="background-color:#FFF380">4&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
+      <tr><td>Superfat</td><td>Sodium Hydroxide (NaOH)</td><td>Potassium Hydroxide (KOH)</td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="A 1:1 chemical balance of lye and oils would make a good laundry soap, but would not be very emollient to your skin.">0&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Proceed with caution! Low superfat levels of 0-4% are not recommended unless actual saponification values are known and used.">1&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Proceed with caution! Low superfat levels of 0-4% are not recommended unless actual saponification values are known and used.">2&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Proceed with caution! Low superfat levels of 0-4% are not recommended unless actual saponification values are known and used.">3&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Proceed with caution! Low superfat levels of 0-4% are not recommended unless actual saponification values are known and used.">4&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
       <tr><td align="right">5&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
       <tr><td align="right">6&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
       <tr><td align="right">7&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
       <tr><td align="right">8&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
-      <tr><td align="right" style="background-color:#FFF380">9&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
-      <tr><td align="right" style="background-color:#FFF380">10&nbsp;%</td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Soap with 9-10% excess fat may be too soft!">9&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
+      <tr><td align="right"><pre class="hover-tooltip" tip="Soap with 9-10% excess fat may be too soft!">10&nbsp;%</pre></td><td align="right"></td><td align="right"></td></tr>
     </table>
     
       {% if page.SpecialIngredients %}
@@ -469,7 +471,7 @@ layout: default
       totalNaOHAdditionsGrams = totalNaOHAdditionsGrams * ratio;
       totalKOHAdditionsGrams = totalKOHAdditionsGrams * (1 - ratio);
       // compute superfat ranges for 1% up to 10%
-      var superfat = .01;
+      var superfat = 0;
       $("#superfat-ranges tr:gt(0)").each(function() {
           var row = $(this);
           var lyePercentage = (1 - superfat);
