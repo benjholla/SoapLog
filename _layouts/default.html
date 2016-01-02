@@ -27,27 +27,27 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/js/lightbox.js"></script>
     <script type="text/javascript">
-   	$(document).ready(function() {
-	        // Tooltip only Text
-	        $('.hover-tooltip').hover(function(){
-	                // Hover over code
-	                var tip = $(this).attr('tip');
-	                $(this).data('tipText', tip).removeAttr('tip');
-	                $('<p class="tooltip"></p>')
-	                .text(tip)
-	                .appendTo('body')
-	                .fadeIn('slow');
-	        }, function() {
-	                // Hover out code
-	                $(this).attr('tip', $(this).data('tipText'));
-	                $('.tooltip').remove();
-	        }).mousemove(function(e) {
-	                var mousex = e.pageX + 20; //Get X coordinates
-	                var mousey = e.pageY + 10; //Get Y coordinates
-	                $('.tooltip')
-	                .css({ top: mousey, left: mousex })
-	        });
-	});
+    $(document).ready(function() {
+            // Tooltip only Text
+            $('.hover-tooltip').hover(function(){
+                    // Hover over code
+                    var tip = $(this).attr('tip');
+                    $(this).data('tipText', tip).removeAttr('tip');
+                    $('<p class="tooltip"></p>')
+                    .text(tip)
+                    .appendTo('body')
+                    .fadeIn('slow');
+            }, function() {
+                    // Hover out code
+                    $(this).attr('tip', $(this).data('tipText'));
+                    $('.tooltip').remove();
+            }).mousemove(function(e) {
+                    var mousex = e.pageX + 20; //Get X coordinates
+                    var mousey = e.pageY + 10; //Get Y coordinates
+                    $('.tooltip')
+                    .css({ top: mousey, left: mousex })
+            });
+    });
     </script>
 
     <!-- Created with SoapLog - http://github.com/benjholla/SoapLog -->
