@@ -25,7 +25,6 @@
     <script>if(window.location.protocol != "https:") { window.location.href = "https:" + window.location.href.substring(window.location.protocol.length); }</script>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/js/lightbox-plus-jquery.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
             // Tooltip only Text
@@ -83,6 +82,8 @@
         </footer>
       </div>
     </div>
+
+    <script type="text/javascript" src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/js/lightbox-plus-jquery.min.js"></script>
 
     {% include analytics.html %}
   </body>
