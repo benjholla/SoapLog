@@ -13,6 +13,8 @@ liquid_base_name: Distilled Water
 liquid_base_ounces: 9
 
 SpecialIngredients: 1 tablespoon coarse bentonite, &frac12; tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
+
+image: honey-oatmeal.jpg
 ---
 
 ## Recipe
