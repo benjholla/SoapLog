@@ -10,7 +10,7 @@ layout: default
       
       {% if batch.image %}
       <center>
-        <a href="{{ site.baseurl }}/images/soap/{{ batch.image }}" data-lightbox="{{ batch.title }}">
+        <a href="{{ site.baseurl }}/images/soap/{{ batch.image }}" data-lightbox="{{ batch.title }}" data-title="{{ batch.title }}">
           <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="450" height="300" />
         </a>
       </center>
