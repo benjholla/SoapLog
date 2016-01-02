@@ -18,14 +18,14 @@
     <link rel="icon" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/css/lightbox.css" rel="stylesheet">
+    <link rel="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/css/lightbox.css" href="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <script>if(window.location.protocol != "https:") { window.location.href = "https:" + window.location.href.substring(window.location.protocol.length); }</script>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/js/lightbox.js"></script>
+    <script type="text/javascript" src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/js/lightbox.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
             // Tooltip only Text
