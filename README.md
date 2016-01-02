@@ -62,7 +62,7 @@ Edit `/_posts/2015-12-23-honey-oatmeal.md` to replace the default content and lo
 
 Note that file (batch day) dates are formatted as `yyyy-dd-mm`.
 
-> You can add additional batchs in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog batch and make sure the batch's filename is in this format: `year-month-day-title.md`
+> You can add additional batches in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog batch and make sure the batch's filename is in this format: `year-month-day-title.md`
 
 ## Local Development
 
@@ -74,7 +74,7 @@ Note that file (batch day) dates are formatted as `yyyy-dd-mm`.
 
 ## Features
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and publicly log your homebatchs  
+✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and publicly log your homebatches  
 ✓ Fully responsive and mobile optimized base theme (**[Live Demo](https://benjholla.github.io/SoapLog/)**)  
 ✓ Customized homebatching theme (with version control!)  
 ✓ Sass/Coffeescript support using Jekyll 2.0  

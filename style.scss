@@ -265,12 +265,12 @@ code {
 }
 
 // batch styling
-.batchs > .batch {
+.batches > .batch {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.batchs > .batch:last-child {
+.batches > .batch:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }

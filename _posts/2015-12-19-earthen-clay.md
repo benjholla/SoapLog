@@ -15,8 +15,8 @@ SpecialIngredients: 2 &frac12; tablespoons french green clay, &frac12; tablespoo
 ---
 
 <center>
-  <a href="images/soap/earthen-clay.jpg" data-lightbox="earthen-clay" data-title="Earthen Clay Soap">
-    <img src="images/soap/earthen-clay.jpg" alt="Earthen Clay Soap" width="450" height="300" />
+  <a href="{{ site.baseurl }}/images/soap/earthen-clay.jpg" data-lightbox="earthen-clay" data-title="Earthen Clay Soap">
+    <img src="{{ site.baseurl }}/images/soap/earthen-clay.jpg" alt="Earthen Clay Soap" width="450" height="300" />
   </a>
 </center>
 
