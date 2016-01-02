@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: Honey Oatmeal Soap
+title: Oatmeal Honey Soap
 
 sweet_almond_oil_ounces: .5
 coconut_oil_92_deg_ounces: 8
