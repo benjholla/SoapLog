@@ -58,7 +58,7 @@ There are 3 different ways that you can make changes to your blog's files:
   
 ### Step 3) Publish your first batch
 
-Edit `/_posts/2015-12-23-honey-oatmeal.md` to replace the default content and log your first blog batch. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+Edit `/_posts/2015-12-23-oatmeal-honey.md` to replace the default content and log your first blog batch. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
 Note that file (batch day) dates are formatted as `yyyy-dd-mm`.
 
