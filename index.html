@@ -9,11 +9,9 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ batch.url }}">{{ batch.title }}</a></h1>
       
       {% if batch.image %}
-      <center>
-        <a href="{{ site.baseurl }}{{ batch.url }}">
-          <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="450" height="300" />
-        </a>
-      </center>
+      <a href="{{ site.baseurl }}{{ batch.url }}">
+        <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="450" height="300" />
+      </a>
       <br />
       {% endif %}
       
