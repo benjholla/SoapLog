@@ -14,6 +14,12 @@ liquid_base_ounces: 19
 SpecialIngredients: 2 &frac12; tablespoons french green clay, &frac12; tablespoon coarse bentonite, 4.4 ounces of mint essential oil (olive oil base), 3.42 ounces distilled rose water
 ---
 
+<center>
+  <a href="soap/earthen-clay.jpg" data-lightbox="earthen-clay" data-title="Earthen Clay Soap">
+    <img src="soap/earthen-clay.jpg" alt="Earthen Clay Soap" width="225" height="150" />
+  </a>
+</center>
+
 ## Recipe
 Combine mint essential oil with 19.6 ounces of olive oil. Combine distilled rose water with 15.58 ounces distilled water. At trace add french green clay and bentonite.
 
