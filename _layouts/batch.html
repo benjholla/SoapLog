@@ -5,6 +5,15 @@ layout: default
 <article class="batch">
   <h1>{{ page.title }}</h1>
 
+  {% if page.image %}
+  <center>
+    <a href="{{ site.baseurl }}/images/soap/{{ page.image }}" data-lightbox="{{ page.title }}">
+      <img src="{{ site.baseurl }}/images/soap/{{ page.image }}" alt="{{ page.title }}" width="450" height="300" />
+    </a>
+  </center>
+  <br />
+  {% endif %}
+
   <div class="batch-details">
     <table>
         <tr><td>Batch Date</td><td align="right">{{ page.date | date: "%B %e, %Y" }}</td></tr>
@@ -12,15 +21,6 @@ layout: default
         <tr><td>Superfat</td><td id="superfat">Calculating...</td></tr>
     </table>
   </div>
-  
-  {% if page.image %}
-  <br />
-  <center>
-    <a href="{{ site.baseurl }}/images/soap/{{ page.image }}" data-lightbox="{{ page.title }}">
-      <img src="{{ site.baseurl }}/images/soap/{{ page.image }}" alt="{{ page.title }}" width="450" height="300" />
-    </a>
-  </center>
-  {% endif %}
 
   <div class="entry">
     <h2>Primary Ingredients</h2>

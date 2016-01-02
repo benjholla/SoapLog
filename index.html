@@ -7,11 +7,17 @@ layout: default
     <article class="batch">    
       
       <h1><a href="{{ site.baseurl }}{{ batch.url }}">{{ batch.title }}</a></h1>
+      
+      {% if batch.image %}
+      <center>
+        <a href="{{ site.baseurl }}/images/soap/{{ batch.image }}" data-lightbox="{{ batch.title }}">
+          <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="450" height="300" />
+        </a>
+      </center>
+      <br />
+      {% endif %}
+      
       <div class="date">Created on {{ batch.date | date: "%B %e, %Y" }}</div>
-        
-      <div class="entry">
-        {{ batch.content | truncatewords:25}}
-      </div>
       
       <a href="{{ site.baseurl }}{{ batch.url }}" class="read-more">Read More</a>
     </article>
