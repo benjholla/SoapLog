@@ -11,7 +11,7 @@ sodium_hydroxide_NaOH_grams: 239.27
 liquid_base_name: Distilled Water + Distilled Rose Water
 liquid_base_ounces: 19
 
-SpecialIngredients: 2 &frac12; tablespoons french green clay, &frac12; tablespoon coarse bentonite, 4.4 ounces of mint essential oil (olive oil base), 3.42 ounces distilled rose water
+SpecialIngredients: 2 &frac12; tablespoons [french green clay](http://amzn.to/1mO8E4M), &frac12; tablespoon [coarse sodium bentonite clay](http://amzn.to/1P0vJan), 4.4 ounces of mint essential oil (olive oil base), 3.42 ounces distilled rose water
 
 image: earthen-clay.jpg
 ---

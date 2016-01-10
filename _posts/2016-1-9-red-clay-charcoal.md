@@ -12,7 +12,7 @@ sodium_hydroxide_NaOH_grams: 128.9
 liquid_base_name: Chamomile and peppermint tea
 liquid_base_ounces: 12
 
-SpecialIngredients: 1 &frac12 tablespoons Moroccan red clay powder, &frac12 tablespoon Indian healing clay powder (calcium bentonite), 1 tablespoon hardwood activated charcoal powder, &frac12; coarse sodium bentonite clay, 4 teabags chamomile tea, 4 teabags peppermint tea
+SpecialIngredients: 1 &frac12 tablespoons [Moroccan red clay powder](http://amzn.to/1P0vxbg), &frac12 tablespoon [Indian healing clay powder (calcium bentonite)](http://amzn.to/1mO82Mu), 1 tablespoon [hardwood activated charcoal powder](http://amzn.to/1P0vDQ6), &frac12; [coarse sodium bentonite clay](http://amzn.to/1P0vJan), 4 [teabags chamomile tea](http://amzn.to/1P0w1Or), 4 [teabags peppermint tea](http://amzn.to/1mO8ryl)
 
 ---
 
