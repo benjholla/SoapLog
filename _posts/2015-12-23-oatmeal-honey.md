@@ -12,7 +12,7 @@ sodium_hydroxide_NaOH_grams: 114.25
 liquid_base_name: Distilled Water
 liquid_base_ounces: 9
 
-SpecialIngredients: 1 tablespoon [coarse sodium bentonite clay](http://amzn.to/1P0vJan), &frac12; tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
+SpecialIngredients: 1 tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, &frac12; tablespoon honey, 1 tablespoon ground oats, 5 drops of tea tree essential oil, and 8 drops sweet orange essential oil
 
 image: oatmeal-honey.jpg
 ---
