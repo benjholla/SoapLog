@@ -14,6 +14,7 @@ liquid_base_ounces: 12
 
 SpecialIngredients: 1 &frac12 tablespoons Moroccan red clay powder, &frac12 tablespoon Indian healing clay powder (calcium bentonite), 1 tablespoon hardwood activated charcoal powder, &frac12; coarse sodium bentonite clay, 4 teabags chamomile tea, 4 teabags peppermint tea
 
+image: red-clay-charcoal.jpg
 ---
 
 ## Recipe
