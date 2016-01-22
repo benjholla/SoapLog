@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: Grapfruit Charcoal Soap
+title: Grapefruit Charcoal Soap
 
 castor_oil_ounces: 4.8
 shea_butter_ounces: 9.6
