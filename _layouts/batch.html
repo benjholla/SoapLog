@@ -391,7 +391,7 @@ layout: default
       });
       
       var yield = totalOilsAndFats + totalLye;
-      $("#yield").html(yield.toFixed(2) + " - " + (yield + water).toFixed(2) + " pounds");
+      $("#yield").html(yield.toFixed(2).toString() + " - " + (yield + water).toFixed(2).toString() + " pounds");
       
       return totalOilsAndFats;
     }
@@ -418,7 +418,7 @@ layout: default
            var quantityPounds = getQuantityPounds(this);
            // store the computed percentage to the third cell of the row
            row.find('td:nth-child(3)').each(function() {
-             $(this).html(((quantityPounds / oilsPounds) * 100).toFixed(2) + "&nbsp;%");
+             $(this).html(((quantityPounds / oilsPounds) * 100).toFixed(2).toString() + "&nbsp;%");
            });
         });
       });
@@ -487,10 +487,10 @@ layout: default
           var discountedNaOHGrams = totalNaOHAdditionsGrams * lyePercentage;
           var discountedKOHGrams = totalKOHAdditionsGrams * lyePercentage;
           row.find('td:nth-child(2)').each(function(index) {
-             $(this).html(discountedNaOHGrams.toFixed(2) + "&nbsp;grams");
+             $(this).html(discountedNaOHGrams.toFixed(2).toString() + "&nbsp;grams");
           });
           row.find('td:nth-child(3)').each(function(index) {
-             $(this).html(discountedKOHGrams.toFixed(2) + "&nbsp;grams");
+             $(this).html(discountedKOHGrams.toFixed(2).toString() + "&nbsp;grams");
           });
           superfat = superfat + .01;
        });
@@ -517,7 +517,7 @@ layout: default
        }
        
        superfatted = (superfatted * 100);
-       $("#superfat").html(superfatted.toFixed(2) + "&nbsp;%");
+       $("#superfat").html(superfatted.toFixed(2).toString() + "&nbsp;%");
     }
 
     $(document).ready(function() {
