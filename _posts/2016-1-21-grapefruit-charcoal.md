@@ -14,6 +14,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 1 &frac12 tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a> and .5 oz. grapefruit essential oil (Crafty Bubbles brand).
 
+image: grapefruit-charcoal.jpg
+
 ---
 
 ## Recipe
