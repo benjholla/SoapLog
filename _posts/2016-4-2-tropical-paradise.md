@@ -14,7 +14,7 @@ sodium_hydroxide_NaOH_grams: 128.3
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 2 tablespoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, &frac12; <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 1 oz. grapefruit essential oil (Crafty Bubbles brand), and .5 oz. sweet orange essential oil (Crafty Bubbles brand).
+SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 2 tablespoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 1 oz. grapefruit essential oil (Crafty Bubbles brand), and .5 oz. sweet orange essential oil (Crafty Bubbles brand).
 
 ---
 

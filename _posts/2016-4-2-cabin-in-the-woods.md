@@ -14,7 +14,7 @@ sodium_hydroxide_NaOH_grams: 130.3
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 2 tablespoons <a href="http://amzn.to/1mO8E4M">french green clay</a>, &frac12; <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, .5 oz. <a href="http://amzn.to/1qeFkGp">cedarwood essential oil</a>, and .5 oz. <a href="http://amzn.to/1W1QJF9">dark patchouli essential oil</a>. Note the pig tallow was from saved bacon drippings.
+SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 2 tablespoons <a href="http://amzn.to/1mO8E4M">french green clay</a>, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, .5 oz. <a href="http://amzn.to/1qeFkGp">cedarwood essential oil</a>, and .5 oz. <a href="http://amzn.to/1W1QJF9">dark patchouli essential oil</a>. Note the pig tallow was from saved bacon drippings.
 
 ---
 
