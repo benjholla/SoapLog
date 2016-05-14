@@ -19,7 +19,7 @@ image: energy-bar.jpg
 ---
 
 ## Recipe
-Combine all oils except for the shea butter, leaving the shea butter aside to combine with the essential oils. Before adding the lye water, bring up the oils to 120 degrees Fahrenheit and add the powdered goat's milk.  Stir the goat's milk until well disolved and then add the lye water solution and bring to a light trace.  Stir in the clay powder and then stir in the blended essential oils. Pour into mold and place uncovered in the refrigerator to cool.
+Combine all oils except for the shea butter, leaving the shea butter aside to combine with the essential oils. Before adding the lye water, bring up the oils to 100 degrees Fahrenheit and add the powdered goat's milk.  Stir the goat's milk until well dissolved and then add the lye water solution and bring to a light trace.  Stir in the clay powder and then stir in the blended essential oils. Pour into mold and place uncovered in the refrigerator to cool.
 
 ## Batch Notes
-I probably added too much clay to this recipie, I was going for a lighter red color, but it came out more red-brown. The essential oil belnd is an odd mixture for a milk recipie, but I think it works.
+I probably added too much clay to this recipe, I was going for a lighter red color, but it came out more red-brown. The essential oil blend is an odd mixture for a milk recipe, but I think it works.
