@@ -13,7 +13,7 @@ sodium_hydroxide_NaOH_grams: 126.6
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1VfIFBc">Powdered Goat Milk</a>, 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 6 grams each of <a href="https://www.brambleberry.com/Brazilian-Clay-Sampler-P5510.aspx">natural Brazilian clay, purple Brazilian clay, yellow Brazilian clay, pink Brazilian clay, and dark red Brazilian clay</a>, 1.36 oz. <a href="https://www.brambleberry.com/Dragons-Blood-Fragrance-Oil-P3885.aspx">dragon's blood fragrance oil</a>(amber, incense, Madagascar vanilla, patchouli, rose, jasmine and lilac, blood orange, and grapefruit).
+SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1VfIFBc">powdered goat's milk</a>, 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 6 grams each of <a href="https://www.brambleberry.com/Brazilian-Clay-Sampler-P5510.aspx">natural Brazilian clay, purple Brazilian clay, yellow Brazilian clay, pink Brazilian clay, and dark red Brazilian clay</a>, 1.36 oz. <a href="https://www.brambleberry.com/Dragons-Blood-Fragrance-Oil-P3885.aspx">dragon's blood fragrance oil</a> (amber, incense, Madagascar vanilla, patchouli, rose, jasmine and lilac, blood orange, and grapefruit).
 
 ---
 
