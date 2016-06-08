@@ -13,7 +13,7 @@ sodium_hydroxide_NaOH_grams: 134.6
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 1 &frac12; tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 tablespoon <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 tablespoon ground oats, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, &frac12; oz. peppermint and &frac12; oz. eucalyptus essential oils (Natures Truth brand), and 1 oz. <a href="https://www.amazon.com/gp/product/B01A3PBMFI/">jewelweed extract</a>.
+SpecialIngredients: 1 &frac12; tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 tablespoon <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 tablespoon ground oats, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, &frac12; oz. peppermint and &frac12; oz. eucalyptus essential oils (Natures Truth brand), and 1 oz. <a href="https://www.amazon.com/gp/product/B01A3PBMFI/">jewelweed extract</a> (<a href="https://en.wikipedia.org/wiki/Impatiens_pallida">Impatiens pallida</a>).
 
 ---
 
