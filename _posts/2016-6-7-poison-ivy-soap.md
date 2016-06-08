@@ -18,7 +18,7 @@ SpecialIngredients: 1 &frac12; tablespoons <a href="http://amzn.to/1P0vDQ6">hard
 ---
 
 ## Recipe
-Set aside 1 oz. of the melted shear butter to combine with essential oils and jewelweed extract. Combine all remaining oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Stir in the charcoal powder, ground oats, Indian healing powder, and coarse sodium bentonite clay, and then add the shea butter, fragrance oils, jewelweed extract mixture.  Pour the batch into a mold and let sit overnight. Cut the soap bars and let cure for 3-4 weeks.
+Set aside 1 oz. of the melted shear butter to combine with essential oils and jewelweed extract. Combine all remaining oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Stir in the charcoal powder, ground oats, Indian healing powder, and coarse sodium bentonite clay, and then add the shea butter, fragrance oils, jewelweed extract mixture.  Pour the batch into a mold and let sit overnight. Cut the soap bars and let cure for 4 weeks before using.
 
 ## Batch Notes
 Very refreshing scent!
