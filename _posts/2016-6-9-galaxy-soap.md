@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: TEST
+title: Galaxy Soap
 
 castor_oil_ounces: 3.2
 cocoa_butter_ounces: 4.8
@@ -18,7 +18,7 @@ SpecialIngredients: 1 &frac12; tablespoons <a href="http://amzn.to/1P0vDQ6">hard
 ---
 
 ## Recipe
-Set aside 1 oz. of the melted shear butter to combine with essential oils and jewelweed extract. Combine all remaining oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Stir in the charcoal powder, ground oats, Indian healing powder, and coarse sodium bentonite clay, and then add the shea butter, fragrance oils, jewelweed extract mixture.  Pour the batch into a mold and let sit overnight. Cut the soap bars and let cure for 4 weeks before using.
+Mix the mica/pigment/colorant/charcoal powder in separate small containers with &frac12; tablespoon light oil such as sweet almond oil and set aside for later. Combine all oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Stir in fragrance oils. Divide the base mixture into four equal containers leaving a fourth of the base mixture in the original mixing bowl. Add one colorant/oil mixture prepared earlier to each portion of the base mixture, adding the charcoal to the mixing bowl portion. Add the silver colorant to the charcoal mixture and lightly swirl. Alternate pouring the the pink, blue, and purple colored portions into the mixing bowl. Pour the entire mixing bowl into the soap mold and then lightly swirl with a skewer. 
 
 ## Batch Notes
-Very refreshing scent!
+This is another scent that is very edible smelling. I was concerned at first that we had too much charcoal and the colors would all bleed together but after unmolding the pink and purple colors really popped against the black.
