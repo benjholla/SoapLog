@@ -23,4 +23,15 @@ Originally this recipe was for a sort of galaxy soap, but we didn't work fast en
 
 After rebatching the other colorants we had added for the original recipe were overtaken by the charcoal, which actually make a cool gun metal sort of look. Later I found that simply rebatching other soaps that contained charcoal reproduced the gun metal look as well.
 
-The passionfruit rose fragrance truly smelled delicious. At one point I even thought of tasting it, but then thought better of it. Thinking about it now I probably could have because this was also marketed as a flavor oil for lip balm. 
+The passionfruit rose fragrance truly smelled delicious. At one point I even thought of tasting it, but then thought better of it. Thinking about it now I probably could have because this was also marketed as a flavor oil for lip balm.
+
+I referenced a few different sources that led me to deciding to add the vitamin C.
+
+[http://www.fs.fed.us/t-d/pubs/html/05231301/05231301.html](http://www.fs.fed.us/t-d/pubs/html/05231301/05231301.html)
+> Two forms of vitamin C, ascorbic acid and sodium ascorbate, will neutralize chlorine. Neither is considered a hazardous chemical. First, vitamin C does not lower the dissolved oxygen as much as sulfur-based chemicals do. Second, vitamin C is not toxic to aquatic life at the levels used for dechlorinating water.
+
+[http://classicbells.com/soap/lacticAscorbic.html](http://classicbells.com/soap/lacticAscorbic.html)
+> **What does it do in soap?** Ascorbic acid and Sodium hydroxide (NaOH) make Sodium ascorbate in soap. Ascorbic acid and sodium ascorbate are both considered to be Vitamin C, an important dietary additive.
+
+> **How much lye does it neutralize?** 10 g ascorbic acid neutralizes 2.02 g NaOH. 10 g ascorbic acid neutralizes 2.83 g KOH. When using ascorbic acid in your recipe, add the appropriate extra weight of lye needed to react with the acid. If you do not add extra lye, the acid will increase the superfat in your soap.
+
