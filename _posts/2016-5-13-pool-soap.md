@@ -13,6 +13,7 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 oz. <a href="http://www.amazon.com/20-Vitamin-Ferulic-Acid-Serum/dp/B0036BI56G">Timeless Vitamin C + E Face Serum</a>, 1.36 oz. (medium strength) <a href="https://www.brambleberry.com/Passionfruit-Rose-Fragrance-And-Flavor-Oil-P3336.aspx">passionfruit rose fragrance and flavor oil</a>.
 
+image: pool-soap.jpg
 ---
 
 ## Recipe
