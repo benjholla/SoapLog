@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: Galaxy Soap
+title: Rose Petal Soap
 
 castor_oil_ounces: 1.6
 coconut_oil_92_deg_ounces: 9.6
