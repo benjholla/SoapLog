@@ -21,4 +21,4 @@ SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lac
 Combine all oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Add the red clay powder and fragrance oils, blending well. Hand stir in the rose petals. Pour the mixture into the soap mold. 
 
 ## Batch Notes
-The saffron and honey fragrance oil is a mellow sweet smell. I got it as a sampler with some other fragrances and thought it would pair well with the roses as very light scent in the soap.
+The saffron and honey fragrance oil is a mellow sweet smell. It is described as a "cardamom, clover, musk and honey rounded out with smooth, milky notes". I got it as a sampler with some other fragrances and thought it would pair well with the roses as very light scent in the soap.
