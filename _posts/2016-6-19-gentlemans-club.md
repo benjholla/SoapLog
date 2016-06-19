@@ -22,4 +22,5 @@ Combine all oils. Add the sodium lactate to the cooled lye water mixture.  Add t
 The scent of the fragrance inspired this man soap.
 
 As described at [Brambleberry](https://www.brambleberry.com/Beau-Brummel-Cybilla-Fragrance-Oil-P3358.aspx):
+
 > We asked our perfumer to create a scent that reminded us of the Gentlemen's clubs of the 18th century. Tobacco and black tea are the dominate notes with hints of fruit and  spice. This fragrance is heady, masculine and evokes images of the classic well dressed gentleman, [Beau Brummel](https://en.wikipedia.org/wiki/Beau_Brummell).
