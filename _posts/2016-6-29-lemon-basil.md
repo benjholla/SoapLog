@@ -10,7 +10,7 @@ olive_oil_ounces: 12.8
 
 beeswax_grams: 27.2
 
-sodium_hydroxide_NaOH_grams: 131.9
+sodium_hydroxide_NaOH_grams: 127
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
