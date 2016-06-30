@@ -24,3 +24,8 @@ Pour a few ounces of the olive oil into a blender and added the basil. Blend wel
 
 ## Batch Notes
 No idea how the basil is going to perform here. Some recipes called for half the amount of dried basil, which looked nice. I imagine the fresh pesto mixture will oxidize so I added some french green clay to counter balance that effect a bit later. The lemongrass-litsea smell is nice, but I think the litsea could be replaced with basil essential oil.
+
+I was inspired by the following recipes.
+
+- [http://www.sincerelykinsey.com/2013/03/homemade-lemon-herb-soap-clean-living.html](http://www.sincerelykinsey.com/2013/03/homemade-lemon-herb-soap-clean-living.html)
+- [http://soapdelinews.com/2013/10/handmade-natural-lemon-basil-soap-recipe.html](http://soapdelinews.com/2013/10/handmade-natural-lemon-basil-soap-recipe.html)
