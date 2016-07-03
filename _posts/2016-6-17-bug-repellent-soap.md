@@ -16,6 +16,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 2 teaspoons <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 2 teaspoons <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, 1.25 oz. <a href="https://www.amazon.com/gp/product/B01DLSV2E0">citronella essential oil</a>, .5 oz. <a href="https://www.amazon.com/gp/product/B0019LRZ2A">eucalyptus essential oil</a>, .2 oz. tea tree essential oil (Crafty Bubbles brand).
 
+image: bug-repellent.jpg
+
 ---
 
 ## Recipe

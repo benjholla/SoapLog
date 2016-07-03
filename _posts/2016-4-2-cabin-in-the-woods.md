@@ -18,6 +18,7 @@ SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vDQ6">hardwood acti
 
 image1: cabin-in-the-woods.jpg
 image2: rebatch-1.jpg
+
 ---
 
 ## Recipe

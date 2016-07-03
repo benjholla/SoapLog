@@ -13,6 +13,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 30 grams lightly ground oatmeal, 2 teaspoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 teaspoon <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>,  &frac12; oz. <a href="https://www.brambleberry.com/Beau-Brummel-Cybilla-Fragrance-Oil-P3358.aspx">beau brummel cybilla fragrance oil</a>.
 
+image: gentlemans-club.jpg
+
 ---
 
 ## Recipe

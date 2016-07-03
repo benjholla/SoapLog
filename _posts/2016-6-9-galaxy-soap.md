@@ -15,6 +15,9 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, &frac12; tablespoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, &frac12; tablespoon <a href="https://www.brambleberry.com/Electric-Bubble-Gum-Colorant-P4966.aspx">electric bubble gum colorant</a>, &frac12; tablespoon <a href="https://www.brambleberry.com/Queens-Purple-Mica-P6345.aspx">queen's purple mica</a>, &frac12; tablespoon <a href="https://www.brambleberry.com/Ultramarine-Blue-Pigment-medium-P4043.aspx">ultramarine blue pigment</a>, &frac12; tablespoon <a href="https://www.brambleberry.com/Pewter-Silver-Mica-P6358.aspx">pewter silver mica</a>, and 1.48 oz. <a href="https://www.brambleberry.com/passionfruit-papaya-fragrance-oil-p3346.aspx">passionfruit papaya fragrance oil</a>.
 
+image1: galaxy-soap-1.jpg
+image2: galaxy-soap-2.jpg
+
 ---
 
 ## Recipe

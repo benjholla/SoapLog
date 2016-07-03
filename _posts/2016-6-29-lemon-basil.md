@@ -17,6 +17,9 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 oz. fresh Genovese basil, 2 tablespoons <a href="http://amzn.to/1mO8E4M">french green clay</a>, 4 teaspoons poppy seeds, &frac12; oz. <a href="http://amzn.to/296XzIV">lemongrass essential oil</a>, and &frac12; oz. <a href="https://www.brambleberry.com/litsea-essential-oil-p3824.aspx">litsea essential oil</a>.
 
+image1: lemon-basil-1.jpg
+image2: lemon-basil-2.jpg
+
 ---
 
 ## Recipe

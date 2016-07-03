@@ -15,6 +15,7 @@ liquid_base_ounces: 9
 SpecialIngredients: 1 tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, &frac12; tablespoon honey, 1 tablespoon finely ground oats, 5 drops of <a href="http://amzn.to/1JDTd96">tea tree essential oil</a>, and 8 drops <a href="http://amzn.to/1mObVRr">sweet orange essential oil</a>.
 
 image: oatmeal-honey.jpg
+
 ---
 
 ## Recipe

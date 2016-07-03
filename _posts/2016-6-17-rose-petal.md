@@ -15,6 +15,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, &frac12; oz. dried rose petals (buds and stems removed), 1 teaspoon <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, &frac12; oz. <a href="https://www.brambleberry.com/Saffron-and-Honey-Fragrance-Oil-P4656.aspx">saffron and honey fragrance oil</a>.
 
+image: rose-petal.jpg
+
 ---
 
 ## Recipe

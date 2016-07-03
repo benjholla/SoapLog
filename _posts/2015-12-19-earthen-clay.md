@@ -15,6 +15,7 @@ SpecialIngredients: 2 &frac12; tablespoons <a href="http://amzn.to/1mO8E4M">fren
 
 image1: earthen-clay.jpg
 image2: rebatch-1.jpg
+
 ---
 
 ## Recipe

@@ -16,6 +16,7 @@ liquid_base_ounces: 12.16
 SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1VfIFBc">powdered goat's milk</a>, 2 tablespoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 2 tablespoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 oz. energy blend (Natures Truth brand) essential oils (consists of grapefruit, juniper berry, bergamot, sweet orange, tangerine, and geranium essential oils).
 
 image: energy-bar.jpg
+
 ---
 
 ## Recipe
