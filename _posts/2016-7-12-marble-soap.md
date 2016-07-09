@@ -1,22 +1,31 @@
 ---
 layout: batch
-title: Marble Soap
+title: Lemon Basil Soap
 
+avocado_oil_ounces: 3.2
 castor_oil_ounces: 1.6
-coconut_oil_92_deg_ounces: 9.6
-lard_pig_tallow_manteca_ounces: 20.8
+coconut_oil_92_deg_ounces: 10.24
+grapeseed_oil_ounces: 3.2
+olive_oil_ounces: 12.8
 
-sodium_hydroxide_NaOH_grams: 131.9
+beeswax_grams: 27.2
+
+sodium_hydroxide_NaOH_grams: 127
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 oz. 4 Thiefs Nature's Truth brand essential oil blend (consists of clove, lemon, eucalyptus, and rosemary essential oils).
+SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 oz. fresh Genovese basil, 2 tablespoons <a href="http://amzn.to/1mO8E4M">french green clay</a>, 4 teaspoons poppy seeds, &frac12; oz. <a href="http://amzn.to/296XzIV">lemongrass essential oil</a>, and &frac12; oz. <a href="https://www.brambleberry.com/litsea-essential-oil-p3824.aspx">litsea essential oil</a>.
+
+image1: lemon-basil-1.jpg
+image2: lemon-basil-2.jpg
 
 ---
 
 ## Recipe
-Prepare half of the oils and make a black soap colored soap using the charcoal. Let cure for a few days and then cut into small random shapes. Prepare the remaining oils and make a white colored soap using the titanium dioxide pigment. After the white soap is at trace add the black soap fragments and hand stir to make sure the black soap bits are all covered. Pour the mixture into the soap mold. The essential oils and sodium lactate was split evenly between the two batches. Make sure to add the sodium lactate to the cooled lye water before mixing with the oils.
+Pour a few ounces of the olive oil into a blender and add the basil. Blend well into a pesto. In separate bowl combine the essential oils, French green clay, pesto, and poppy seeds. Combine the remaining oils. Add the sodium lactate to the cooled lye water mixture.  Stir in the lye water to the oils, then add the bowl of the pesto mixture. Blend well until trace and pour into mold.
 
 ## Batch Notes
-These soap came out really cool. The black and white soaps contrast really well and making the soap in two batches made sure the lines were really sharp when we cut the soap. I particularly like the top of the soap where a few chunks of the black soap protruded. The essential oil blend was really well balanced and worked well in cold process soap.
+No idea how the basil is going to perform here. Some recipes called for half the amount of dried basil, which looked nice. I imagine the Fresh pesto mixture will oxidize so I added some french green clay to counter balance that effect a bit later. The lemongrass-litsea smell is nice, but I think the litsea could be replaced with basil essential oil. After a week there hasn't been any discoloration of the soap yet (see photographs).
+
+I was partially inspired by [this recipe](http://www.sincerelykinsey.com/2013/03/homemade-lemon-herb-soap-clean-living.html).
