@@ -16,7 +16,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 2 tablespoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, &frac12; tablespoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 1 oz. grapefruit essential oil (Crafty Bubbles brand), and &frac12; oz. sweet orange essential oil (Crafty Bubbles brand).
 
-image: citrus-fusion.jpg
+image1: citrus-fusion-1.jpg
+image2: citrus-fusion-2.jpg
 
 ---
 

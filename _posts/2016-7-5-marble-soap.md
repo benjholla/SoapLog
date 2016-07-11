@@ -13,6 +13,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 oz. 4 Thiefs Nature's Truth brand essential oil blend (consists of clove, lemon, eucalyptus, and rosemary essential oils).
 
+image: marble-soap.jpg
+
 ---
 
 ## Recipe
