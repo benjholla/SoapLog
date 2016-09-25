@@ -8,7 +8,7 @@ coconut_oil_92_deg_ounces: 9.6
 lard_pig_tallow_manteca_ounces: 4.8
 beeswax_grams: 18.1
 
-sodium_hydroxide_NaOH_grams: 131.9
+sodium_hydroxide_NaOH_grams: 128.7
 
 liquid_base_name: Chamomile, Licorice Root, Burdock Root, and Valerian Root Tea
 liquid_base_ounces: 12.16
