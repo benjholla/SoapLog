@@ -3,24 +3,35 @@
     "base_cost": 6.99,
     "tax_percent": 0.07,
     "ounces": 8,
-	"supplier": "Hobby Lobby"
+	"supplier": "Hobby Lobby",
+	"notes": ""
+  },
+  "beeswax": {
+    "base_cost": 8.994,
+    "tax_percent": 0.07,
+    "ounces": 16,
+	"supplier": "Hobby Lobby",
+	"notes": "Used a 40% discount coupon, original cost was 14.99 for 1 pound block."
   },
   "lard_pig_tallow_manteca": {
     "base_cost": 5.88,
     "tax_percent": 0.07,
     "ounces": 64,
-	"supplier": "Walmart"
+	"supplier": "Walmart",
+	"notes": ""
   },
   "olive_oil": {
     "base_cost": 18,
     "tax_percent": 0.07,
     "ounces": 101,
-	"supplier": "Walmart"
+	"supplier": "Walmart",
+	"notes": ""
   },
   "coconut_oil_92_deg": {
     "base_cost": 9.98,
     "tax_percent": 0.07,
     "ounces": 60,
-	"supplier": "Walmart"
+	"supplier": "Walmart",
+	"notes": ""
   }
 }
