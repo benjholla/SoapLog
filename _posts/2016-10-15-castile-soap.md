@@ -4,7 +4,7 @@ title: Castile Soap
 
 coconut_oil_92_deg_ounces: 32
 
-sodium_hydroxide_NaOH_grams: 132.9
+sodium_hydroxide_NaOH_grams: 116.7
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 9.73
