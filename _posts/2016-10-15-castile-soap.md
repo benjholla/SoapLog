@@ -2,7 +2,7 @@
 layout: batch
 title: Castile Soap
 
-coconut_oil_92_deg_ounces: 32
+olive_oil_ounces: 32
 
 sodium_hydroxide_NaOH_grams: 116.7
 
