@@ -14,10 +14,7 @@ SpecialIngredients: 12.16 oz. <a href="http://amzn.to/2djlVN9">aloe vera juice</
 ---
 
 ## Recipe
-This recipe was based off of the following recipes.
-
-- [https://www.soapqueen.com/bath-and-body-tutorials/cold-process-soap/defying-the-rules-of-soapmaking-100-coconut-oil-soap-with-aloe-vera-and-a-mantra-swirl](https://www.soapqueen.com/bath-and-body-tutorials/cold-process-soap/defying-the-rules-of-soapmaking-100-coconut-oil-soap-with-aloe-vera-and-a-mantra-swirl/)
-- [http://www.mommypotamus.com/how-to-make-pure-coconut-oil-soap-for-cleansing-and-laundry](http://www.mommypotamus.com/how-to-make-pure-coconut-oil-soap-for-cleansing-and-laundry/)
+This recipe was based off of the following recipes shared at [soapqueen.com](https://www.soapqueen.com/bath-and-body-tutorials/cold-process-soap/defying-the-rules-of-soapmaking-100-coconut-oil-soap-with-aloe-vera-and-a-mantra-swirl/) and [mommypotamus.com](http://www.mommypotamus.com/how-to-make-pure-coconut-oil-soap-for-cleansing-and-laundry/).
 
 ## Batch Notes
-I combined the lye mixture and coconut oils at around 140 degrees Fahrenheit. I love the mixture of the lemongrass and spearmint, very refreshing.
+I combined the lye mixture and coconut oils at around 140 degrees Fahrenheit. I love the mixture of the lemongrass and spearmint, very refreshing. I use the yellow colorant to make a bright green color, but a swirl of the two colors would be nice too.
