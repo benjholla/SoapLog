@@ -18,7 +18,7 @@ image: gentlemans-club.jpg
 ---
 
 ## Recipe
-Combine all oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Add the fragrance oils and blend well. Pour a fifth of the batch into a seperate bowl and add the charcoal powder. Add the clays and ground oatmeal to what is remaining. Drizzle the charcoal mixture into the main bowl and add a few swirls by hand. Pour the entire mixture into the soap mold. 
+Combine all oils. Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Add the fragrance oils and blend well. Pour a fifth of the batch into a separate bowl and add the charcoal powder. Add the clays and ground oatmeal to what is remaining. Drizzle the charcoal mixture into the main bowl and add a few swirls by hand. Pour the entire mixture into the soap mold. 
 
 ## Batch Notes
 The scent of the fragrance inspired this man soap.
