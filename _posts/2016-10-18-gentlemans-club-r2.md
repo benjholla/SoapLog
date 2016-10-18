@@ -1,11 +1,11 @@
 ---
 layout: batch
-title: Man Soap (18th Century Gentleman's Club - Revision 2)
+title: Man Soap (18th Century Gentleman's Club, Rev. 2)
 
 avocado_oil_ounces: 3.2
 castor_oil_ounces: 3.2
 coconut_oil_92_deg_ounces: 19.2
-olive_oil_ounces: 35.3
+olive_oil_ounces: 35.2
 shea_butter_ounces: 3.2
 
 sodium_hydroxide_NaOH_grams: 256.6
