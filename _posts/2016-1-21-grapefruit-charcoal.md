@@ -4,7 +4,7 @@ title: Grapefruit Charcoal Soap
 
 castor_oil_ounces: 4.8
 shea_butter_ounces: 9.6
-coconut_oil_92_deg_ounces: 1.6
+coconut_oil_76_deg_ounces: 1.6
 olive_oil_ounces: 16
 
 sodium_hydroxide_NaOH_grams: 115.8

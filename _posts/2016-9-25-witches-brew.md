@@ -4,7 +4,7 @@ title: Witches Brew Soap
 
 sweet_almond_oil_ounces: .96
 olive_oil_ounces: 16
-coconut_oil_92_deg_ounces: 9.6
+coconut_oil_76_deg_ounces: 9.6
 lard_pig_tallow_manteca_ounces: 4.8
 beeswax_grams: 18.1
 

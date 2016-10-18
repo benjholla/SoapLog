@@ -2,7 +2,7 @@
 layout: batch
 title: Pure Coconut Soap
 
-coconut_oil_92_deg_ounces: 32
+coconut_oil_76_deg_ounces: 32
 
 sodium_hydroxide_NaOH_grams: 132.9
 

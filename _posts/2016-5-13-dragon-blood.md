@@ -3,7 +3,7 @@ layout: batch
 title: Dragon Blood Soap
 
 avocado_oil_ounces: 3.2
-coconut_oil_92_deg_ounces: 8.32
+coconut_oil_76_deg_ounces: 8.32
 olive_oil_ounces: 12.48
 shea_butter_ounces: 1.92
 sunflower_oil_ounces: 6.08

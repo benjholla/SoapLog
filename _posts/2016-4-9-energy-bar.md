@@ -4,7 +4,7 @@ title: Energy Bar Soap
 
 avocado_oil_ounces: 3.2
 castor_oil_ounces: 3.2
-coconut_oil_92_deg_ounces: 9.6
+coconut_oil_76_deg_ounces: 9.6
 olive_oil_ounces: 12.8
 shea_butter_ounces: 3.2
 

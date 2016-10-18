@@ -4,7 +4,7 @@ title: Red Clay and Charcoal Soap
 
 avocado_oil_ounces: 1.6
 sunflower_oil_ounces: 1.6
-coconut_oil_92_deg_ounces: 9.6
+coconut_oil_76_deg_ounces: 9.6
 olive_oil_ounces: 19.2
 
 sodium_hydroxide_NaOH_grams: 128.9

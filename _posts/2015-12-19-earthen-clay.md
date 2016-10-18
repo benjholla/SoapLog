@@ -3,7 +3,7 @@ layout: batch
 title: Earthen Clay Soap
 
 avocado_oil_ounces: 4
-coconut_oil_92_deg_ounces: 28
+coconut_oil_76_deg_ounces: 28
 olive_oil_ounces: 24
 
 sodium_hydroxide_NaOH_grams: 239.27

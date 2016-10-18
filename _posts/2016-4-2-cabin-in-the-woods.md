@@ -5,7 +5,7 @@ title: Man Soap (Cabin in the Woods)
 beeswax_grams: 18.1
 
 castor_oil_ounces: 1.28
-coconut_oil_92_deg_ounces: 9.6
+coconut_oil_76_deg_ounces: 9.6
 lard_pig_tallow_manteca_ounces: 19.2
 shea_butter_ounces: 1.28
 

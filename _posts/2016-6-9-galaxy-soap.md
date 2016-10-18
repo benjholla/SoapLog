@@ -3,7 +3,7 @@ layout: batch
 title: Galaxy Soap
 
 avocado_oil_ounces: 3.2
-coconut_oil_92_deg_ounces: 16
+coconut_oil_76_deg_ounces: 16
 grapeseed_oil_ounces: 1.6
 mango_seed_butter_ounces: 3.2
 olive_oil_ounces: 8

@@ -3,7 +3,7 @@ layout: batch
 title: Lavender Soap
 
 castor_oil_ounces: 1.92
-coconut_oil_92_deg_ounces: 10.24
+coconut_oil_76_deg_ounces: 10.24
 olive_oil_ounces: 19.2
 beeswax_grams: 18.1
 

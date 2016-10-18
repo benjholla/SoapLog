@@ -5,7 +5,7 @@ title: Bug Repellent Soap
 sweet_almond_oil_ounces: 1.6
 avocado_oil_ounces: 2.56
 castor_oil_ounces: 1.28
-coconut_oil_92_deg_ounces: 11.2
+coconut_oil_76_deg_ounces: 11.2
 olive_oil_ounces: 12.8
 sunflower_oil_ounces: 2.56
 

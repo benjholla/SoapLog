@@ -4,7 +4,7 @@ title: Poison Ivy (Block) Soap
 
 castor_oil_ounces: 3.2
 cocoa_butter_ounces: 4.8
-coconut_oil_92_deg_ounces: 14.4
+coconut_oil_76_deg_ounces: 14.4
 olive_oil_ounces: 8
 shea_butter_ounces: 1.6
 
