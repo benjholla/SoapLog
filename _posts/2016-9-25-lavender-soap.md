@@ -23,4 +23,4 @@ Add the sodium lactate to the cooled lye water mixture.  Add the lye water to th
 
 
 ## Batch Notes
-TODO
+At first I thought the colorant wasn't going to be enough to make any difference, but once the soap set it seemed to be just the right amount.
