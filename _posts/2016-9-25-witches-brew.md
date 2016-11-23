@@ -15,6 +15,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 2 tablespoons <a href="http://amzn.to/1VfIFBc">powdered goat's milk</a>, 2 teaspoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1 teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 2 teabags sleepy time tea (chamomile and licorice root), 2 teabags Valerian root, 2 teabags <a href="https://www.amazon.com/Celebration-Herbals-Organic-Burdock-Caffeine/dp/B0011DTL2S">burdock root</a>, 1.6 oz. <a href="https://www.brambleberry.com/Spellbound-Woods-Cybilla-Fragrance-Oil-P3403.aspx">spellbound woods cybilla fragrance oil</a>.
 
+image: witches-brew.jpg
+
 ---
 
 ## Recipe

@@ -14,6 +14,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/queens-purple-mica-p6345.aspx">queen's purple mica</a>, 1 teaspoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, .25 oz. <a href="https://www.amazon.com/gp/product/B016BHH0OE">dried lavender</a>, 1 oz. lavender <a href="https://www.amazon.com/Natures-Truth-Aromatherapy-Essential-Lavender/dp/B01GSGS2Q8">Nature's Truth brand essential oil</a>.
 
+image: lavender.jpg
+
 ---
 
 ## Recipe
