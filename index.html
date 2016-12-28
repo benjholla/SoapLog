@@ -11,10 +11,10 @@ layout: default
       {% if batch.image or batch.image1 %}
       <a href="{{ site.baseurl }}{{ batch.url }}">
 	    {% unless batch.image1 %}
-        <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="450" height="300" />
+        <img src="{{ site.baseurl }}/images/soap/{{ batch.image }}" alt="{{ batch.title }}" width="70%" height="70%" />
 		{% endunless %} 
 		{% unless batch.image %}
-        <img src="{{ site.baseurl }}/images/soap/{{ batch.image1 }}" alt="{{ batch.title }}" width="450" height="300" />
+        <img src="{{ site.baseurl }}/images/soap/{{ batch.image1 }}" alt="{{ batch.title }}" width="70%" height="70%" />
 		{% endunless %} 
       </a>
       <br />
