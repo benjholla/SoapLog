@@ -22,6 +22,4 @@ Add the sodium lactate to the cooled lye water mixture.  Add the lye water to th
 
 
 ## Batch Notes
-At first I thought the colorant wasn't going to be enough to make any difference, but once the soap set it seemed to be just the right amount.
-
-**Update 12-20-2016:** I made this batch again following the same recipe and it came out more purple this time. It looks like the whole batch gelled a bit more.
+This fragrance caused the soap to trace very quickly. We didn't get it as mixed as we would have liked and there was some minor color separation in the soap and was difficult to get into the mold without trapping air little air pockets. It did make an interesting pattern however and the soap is just fine. I enjoy the scent.
