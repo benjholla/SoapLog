@@ -4,11 +4,11 @@ title: Ocean Soap
 
 avocado_oil_ounces: 2.56
 coconut_oil_76_deg_ounces: 6.4
-mango_seed_butter_ounces: 5
-olive_oil_ounces: 19.2
-beeswax_grams: 20.8
+mango_seed_butter_ounces: 1.6
+olive_oil_ounces: 20.8
+beeswax_grams: 18.1
 
-sodium_hydroxide_NaOH_grams: 128.3
+sodium_hydroxide_NaOH_grams: 123.6
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
