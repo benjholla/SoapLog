@@ -1,0 +1,27 @@
+---
+layout: batch
+title: Ocean Soap
+
+avocado_oil_ounces: 2.56
+coconut_oil_76_deg_ounces: 6.4
+mango_seed_butter_ounces: 5
+olive_oil_ounces: 19.2
+beeswax_grams: 20.8
+
+sodium_hydroxide_NaOH_grams: 128.3
+
+liquid_base_name: Distilled Water
+liquid_base_ounces: 12.16
+
+SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/Ultramarine-Blue-Pigment-medium-P4043.aspx">ultramarine blue pigment</a>, 2 teaspoons <a href="http://amzn.to/1mO8E4M">French green clay</a>, 1.6 oz. <a href="https://www.brambleberry.com/celestial-waters-cybilla-fragrance-oil-p3361.aspx">Celestial Waters Cybilla fragrance oil</a>.
+
+---
+
+## Recipe
+Add the sodium lactate to the cooled lye water mixture.  Add the lye water to the oils and bring to a very light trace. Split mixture into two bowls. Use the stick blender to stir in the blue and yellow colorants into one bowl and the titanium dioxide and green clay powder in the other bowl. Pour all of one bowl into the mold and the pour the second bowl on top. Use a spoon to gently push a bit of the top color down into the bottom color. Let the batch sit overnight. Cut the soap bars and let cure for 4 weeks before using.
+
+
+## Batch Notes
+At first I thought the colorant wasn't going to be enough to make any difference, but once the soap set it seemed to be just the right amount.
+
+**Update 12-20-2016:** I made this batch again following the same recipe and it came out more purple this time. It looks like the whole batch gelled a bit more.
