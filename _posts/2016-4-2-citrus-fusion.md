@@ -18,6 +18,7 @@ SpecialIngredients: 2 tablespoons <a href="http://amzn.to/1P0vxbg">Moroccan red 
 
 image1: citrus-fusion-1.jpg
 image2: citrus-fusion-2.jpg
+image3: citrus-fusion-3.jpg
 
 ---
 
