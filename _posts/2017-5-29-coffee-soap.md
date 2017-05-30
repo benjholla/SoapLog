@@ -8,7 +8,7 @@ coconut_oil_76_deg_ounces: 9.13
 olive_oil_ounces: 15.23
 shea_butter_ounces: 3.2
 
-sodium_hydroxide_NaOH_grams: 132
+sodium_hydroxide_NaOH_grams: 127.8
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
