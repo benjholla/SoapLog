@@ -20,4 +20,4 @@ SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lac
 Add the sodium lactate to the cooled lye water mixture.  Stir in the fragrance and colorant to the oil. Add the lye water to the oils and bring to a trace. Pour into rubber duck molds. Release the soap from the mold and let cure for 4 weeks before using.
 
 ## Batch Notes
-I created the silicon duck mold by casting a toy rubber duck in [liquid silicone](https://www.amazon.com/Smooth-Silicone-Making-OOMOO-30/dp/B004BNF3TK). I lowered the amount of coconut oil in this recipe to make a less astringent soap for children.
+I created the silicone duck mold by casting a toy rubber duck in [liquid silicone](https://www.amazon.com/Smooth-Silicone-Making-OOMOO-30/dp/B004BNF3TK). I lowered the amount of coconut oil in this recipe to make a less astringent soap for children.
