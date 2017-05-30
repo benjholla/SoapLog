@@ -2,12 +2,14 @@
 layout: batch
 title: Black Cherry Champagne Soap
 
-castor_oil_ounces: 1.6
-coconut_oil_76_deg_ounces: 6.4
-lard_pig_tallow_manteca_ounces: 20.8
-olive_oil_ounces: 3.2
+avocado_oil_ounces: 3.2
+coconut_oil_76_deg_ounces: 5.5
+grapeseed_oil_ounces: 3.2
+mango_seed_butter_ounces: 1.6
+olive_oil_ounces: 16.9
+sunflower_oil_ounces: 1.6
 
-sodium_hydroxide_NaOH_grams: 127.8
+sodium_hydroxide_NaOH_grams: 123
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
