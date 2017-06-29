@@ -11,6 +11,9 @@ liquid_base_ounces: 9.73
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 4 teaspoons <a href="http://amzn.to/1mO8E4M">French green clay</a>, 1.6 oz. <a href="https://www.brambleberry.com/Celestial-Waters-Cybilla-Fragrance-Oil-P3361.aspx">celestial waters cybilla fragrance oil</a>.
 
+image1: castile1.jpg
+image2; castile2.jpg
+
 ---
 
 ## Recipe

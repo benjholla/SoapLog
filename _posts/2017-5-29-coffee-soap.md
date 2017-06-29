@@ -15,6 +15,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, .5 oz. coarsely ground coffee, 4 teaspoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, homemade coffee butter (see batch notes).
 
+image: coffee.jpg
+
 ---
 
 ## Recipe

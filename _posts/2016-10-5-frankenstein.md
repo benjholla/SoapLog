@@ -13,6 +13,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 2 teaspoons <a href="https://www.brambleberry.com/Green-Chrome-Oxide-Pigment-P4042.aspx">green chrome oxide pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/Pewter-Silver-Mica-P6358.aspx">pewter silver mica</a>, .5 oz. <a href="http://amzn.to/2e1QfOg">frankincense essential oil</a>, .5 oz. <a href="http://amzn.to/2egC6zW">cedarwood essential oil</a>.
 
+image: frankenstein.jpg
+
 ---
 
 ## Recipe

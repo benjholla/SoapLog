@@ -14,6 +14,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, and 1.6 oz. <a href="https://www.brambleberry.com/Pink-Grapefruit-Fragrance-Oil-P3913.aspx">pink grapefruit fragrance oil</a>.
 
+image: duck.jpg
+
 ---
 
 ## Recipe

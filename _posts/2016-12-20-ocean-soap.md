@@ -15,6 +15,10 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/Ultramarine-Blue-Pigment-medium-P4043.aspx">ultramarine blue pigment</a>, 2 teaspoons <a href="http://amzn.to/1mO8E4M">French green clay</a>, 1.6 oz. <a href="https://www.brambleberry.com/celestial-waters-cybilla-fragrance-oil-p3361.aspx">Celestial Waters Cybilla fragrance oil</a>.
 
+image1: ocean1.jpg
+image2: ocean2.jpg
+image3: ocean3.jpg
+
 ---
 
 ## Recipe

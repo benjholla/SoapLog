@@ -11,6 +11,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 12.16 oz. <a href="http://amzn.to/2djlVN9">aloe vera juice</a>, 1 teaspoons <a href="https://www.brambleberry.com/Green-Chrome-Oxide-Pigment-P4042.aspx">green chrome oxide pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, .5 oz. <a href="https://www.brambleberry.com/Spearmint-Essential-Oil-P3821.aspx">spearmint essential oil</a>, .5 oz. <a href="http://amzn.to/2dWhrT2">lemongrass essential oil</a>.
 
+image: coconut.jpg
+
 ---
 
 ## Recipe

@@ -15,6 +15,8 @@ liquid_base_ounces: 24.32
 
 SpecialIngredients: 24.32 oz. <a href="http://amzn.to/2djlVN9">aloe vera juice</a>, 4 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 60 grams lightly ground oatmeal, 4 teaspoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 2 teaspoon <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 1 teaspoon <a href="http://amzn.to/1P0vJan">coarse sodium bentonite clay</a>, 2 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>,  1 oz. <a href="https://www.brambleberry.com/Beau-Brummel-Cybilla-Fragrance-Oil-P3358.aspx">beau brummel cybilla fragrance oil</a>.
 
+image: gentlemans-club2.jpg
+
 ---
 
 ## Recipe
