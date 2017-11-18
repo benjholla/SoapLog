@@ -17,8 +17,8 @@ liquid_base_ounces: 12.16
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoon <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 1 teaspoons <a href="http://amzn.to/1mO8E4M">French green clay</a>, 1 teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 3 teaspoons <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 oz. <a href="https://www.brambleberry.com/Champagne-Fragrance-Oil-P4374.aspx">Champagne fragrance oil</a>, and 1 oz. <a href="https://www.brambleberry.com/Black-Cherry-Fragrance-Oil-P4607.aspx">black cherry fragrance oil</a>.
 
 image1: black-cherry-champagne-1.jpg
-image2: black-cherry-champagne-3.jpg
-image3: black-cherry-champagne-2.jpg
+image2: black-cherry-champagne-2.jpg
+image3: black-cherry-champagne-3.jpg
 
 ---
 
