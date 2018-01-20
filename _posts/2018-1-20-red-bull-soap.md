@@ -3,12 +3,13 @@ layout: batch
 title: Red Bull Soap
 
 beeswax_ounces: 0.96
+castor_oil_ounces: 3.2
 coconut_oil_76_deg_ounces: 9.6
 lard_pig_tallow_manteca_ounces: 9.6
 olive_oil_ounces: 8.64
 sunflower_oil_ounces: 3.2
 
-sodium_hydroxide_NaOH_grams: 130.5
+sodium_hydroxide_NaOH_grams: 130.8
 
 liquid_base_name: Orange Red Bull
 liquid_base_ounces: 12.16
