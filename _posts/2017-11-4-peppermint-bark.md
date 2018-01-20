@@ -11,7 +11,7 @@ sodium_hydroxide_NaOH_grams: 130.5
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, and 1 oz. <a href="https://www.amazon.com/Natures-Truth-Aromatherapy-Essential-Peppermint/dp/B00X47GZOG">Nature's Truth peppermint essential oil</a>, .5 oz <a href="https://www.brambleberry.com/Spearmint-Essential-Oil-P3821.aspx">spearmint essential oil</a>.
+SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 oz. <a href="https://www.amazon.com/Natures-Truth-Aromatherapy-Essential-Peppermint/dp/B00X47GZOG">Nature's Truth peppermint essential oil</a>, and .5 oz <a href="https://www.brambleberry.com/Spearmint-Essential-Oil-P3821.aspx">spearmint essential oil</a>.
 
 ---
 
