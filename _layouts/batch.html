@@ -455,6 +455,7 @@ layout: default
     function computeLyeBlendRatio(){
 	  // return 1 to indicate the blend is 100% NaOH
 	  // return 0 to indicate the blend is 100% KOH
+	  /*
 	  var NaOHGrams = 0;
       if($("#NaOH-ounces").length > 0){
         NaOHGrams = NaOHGrams + parseFloat($("#NaOH-ounces").html().replace("&nbsp;ounces", "")) * 28.3495;
@@ -470,6 +471,12 @@ layout: default
         KOHGrams = KOHGrams + parseFloat($("#KOH-grams").html().replace("&nbsp;grams", ""));
       }
       return NaOHGrams / KOHGrams;
+	  */
+	  if($("#KOH-grams").length > 0 || $("#KOH-ounces").length > 0) {
+	    return 0;
+	  } else {
+	    return 1;
+	  }
     }
 
     function computeKOHAdditions(){
