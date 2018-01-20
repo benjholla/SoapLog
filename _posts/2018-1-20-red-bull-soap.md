@@ -4,7 +4,7 @@ title: Red Bull Soap
 
 beeswax_ounces: 0.96
 coconut_oil_76_deg_ounces: 9.6
-lard_pig_tallow_manteca_ounces: 9.6 
+lard_pig_tallow_manteca_ounces: 9.6
 olive_oil_ounces: 8.64
 sunflower_oil_ounces: 3.2
 
@@ -13,7 +13,7 @@ sodium_hydroxide_NaOH_grams: 130.5
 liquid_base_name: Orange Red Bull
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 4 teaspoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 1.5 oz <a href="https://www.brambleberry.com/energy-fragrance-oil-p3861.aspx">energy fragrance oil</a>, and 1 twelve ounce can of [Orange Red Bull](https://www.amazon.com/Red-Bull-Tangerine-Energy-Orange/dp/B017TSP6WC).
+SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/Fizzy-Lemonade-Colorant-P4965.aspx">fizzy lemonade colorant</a>, &frac12; teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 4 teaspoons <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, 1.5 oz <a href="https://www.brambleberry.com/energy-fragrance-oil-p3861.aspx">energy fragrance oil</a>, and 1 twelve ounce can of <a href="https://www.amazon.com/Red-Bull-Tangerine-Energy-Orange/dp/B017TSP6WC">Orange Red Bull</a>.
 
 ---
 
