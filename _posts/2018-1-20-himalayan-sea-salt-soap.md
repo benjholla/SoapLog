@@ -15,6 +15,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 oz. rose hips, .5 oz. chamomile, 16 oz. <a href="https://www.amazon.com/Milliard-Himalayan-Salt-Coarse-Crystals/dp/B0117QV3PG">Himalayan sea salt</a>, and 1 oz lavender <a href="https://www.amazon.com/Natures-Truth-Aromatherapy-Essential-Lavender/dp/B01GSGS2Q8">Nature's Truth brand essential oil</a>.
 
+image: himalayan-sea-salt.jpg
+
 ---
 
 ## Recipe

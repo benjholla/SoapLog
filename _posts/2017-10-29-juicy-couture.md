@@ -13,6 +13,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/ultramarine-blue-pigment-p4043.aspx">ultramarine blue pigment</a>, and 1 oz. <a href="https://www.brambleberry.com/Bramble-Berrys-Juicy-Couture-Type-Fragrance-Oil-P6341.aspx">juicy couture fragrance oil</a>.
 
+image: juicy-couture.jpg
+
 ---
 
 ## Recipe

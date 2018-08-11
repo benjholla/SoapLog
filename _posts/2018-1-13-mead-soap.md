@@ -15,6 +15,8 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 4 teaspoons <a href="http://amzn.to/1mO82Mu">Indian healing clay powder (calcium bentonite)</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1.2 oz. <a href="https://www.brambleberry.com/blackberry-sage-cybilla-fragrance-oil-p3360.aspx">blackberry sage cybilla fragrance oil</a>, .5 oz. <a href="https://www.brambleberry.com/apple-sage-fragrance-oil-p6562.aspx">apple sage fragrance oil</a>, and <a href="/BrewLog/mead-experiment-1B-yeast-strains/">show mead (fermented honey wine)</a>.
 
+image: mead.jpg
+
 ---
 
 ## Recipe

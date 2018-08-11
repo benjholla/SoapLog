@@ -11,6 +11,8 @@ liquid_base_ounces: 9.73
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 4 teaspoons <a href="http://amzn.to/1mO8E4M">French green clay</a>, 1.6 oz. <a href="https://www.brambleberry.com/champagne-fragrance-oil-p4374.aspx">champagne fragrance oil</a>.
 
+image: champagne.jpg
+
 ---
 
 ## Recipe

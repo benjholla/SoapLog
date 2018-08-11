@@ -15,6 +15,9 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/burgundy-pigment-p4051.aspx">burgundy pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/Electric-Bubble-Gum-Colorant-P4966.aspx">electric bubble gum colorant</a>, 1.6 oz. <a href="https://www.brambleberry.com/passionfruit-rose-fragrance-and-flavor-oil-p3336.aspx">passionfruit rose fragrance oil</a>.
 
+image1: valentines-passion-rose-1.jpg
+image2: valentines-passion-rose-2.jpg
+
 ---
 
 ## Recipe
