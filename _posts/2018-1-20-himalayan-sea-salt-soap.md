@@ -24,3 +24,5 @@ This recipe was adapted from the recipe at [wellnessmama.com](https://wellnessma
 
 ## Batch Notes
 I added the salt after reaching a medium trace, but in the future I might wait until a heavy trace since the salt went straight to the bottom and the batch was not thick enough to hold it in place. I also used the individual silicone molds but some got more salt than others because it was difficult to distribute the salt when it kept sinking to the bottom. The tea was partially frozen when the lye was added. The 15% superfatting is to counteract the drying of the coconut oil and the high amounts of coconut oil counteract the reduced lather caused by the salt addition.
+
+Personally I didn't have any problems with this soap being too drying, but I would make sure not to use it more than once or twice a week. My girlfriend found a single use to be far too drying for her tastes and did not like this recipe at all. So...take that information with a grain of salt... :wink:
