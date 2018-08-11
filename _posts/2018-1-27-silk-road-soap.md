@@ -14,7 +14,7 @@ sodium_hydroxide_NaOH_grams: 124.3
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
 
-SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, a cotton ball sized puff of <a href="https://www.amazon.com/gp/product/B074TS2268">Tussah silk fiber</a>, 1 teaspoons <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/green-chrome-oxide-pigment-p4042.aspx">green chrome oxide pigment></a>, 1.6 oz. <a href="https://www.brambleberry.com/Mandarin-Myrrh-Fragrance-Oil-P4557.aspx">mandarin myrrh fragrance oil</a>, .2 oz. <a href="https://www.brambleberry.com/pink-grapefruit-fragrance-oil-p3913.aspx">pink grapefruit fragrance oil</a>.
+SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, a cotton ball sized puff of <a href="https://www.amazon.com/gp/product/B074TS2268">Tussah silk fiber</a>, 1 teaspoons <a href="https://www.brambleberry.com/titanium-dioxide-pigment-p4040.aspx">titanium dioxide pigment</a>, 1 teaspoon <a href="https://www.brambleberry.com/green-chrome-oxide-pigment-p4042.aspx">green chrome oxide pigment</a>, 1.6 oz. <a href="https://www.brambleberry.com/Mandarin-Myrrh-Fragrance-Oil-P4557.aspx">mandarin myrrh fragrance oil</a>, .2 oz. <a href="https://www.brambleberry.com/pink-grapefruit-fragrance-oil-p3913.aspx">pink grapefruit fragrance oil</a>.
 
 image: silk-road.jpg
 
