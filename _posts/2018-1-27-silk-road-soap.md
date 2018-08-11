@@ -9,7 +9,7 @@ grapeseed_oil_ounces: 4.8
 lard_pig_tallow_manteca_ounces: 11.2
 shea_butter_ounces: 3.2
 
-sodium_hydroxide_NaOH_grams: 124
+sodium_hydroxide_NaOH_grams: 124.3
 
 liquid_base_name: Distilled Water
 liquid_base_ounces: 12.16
