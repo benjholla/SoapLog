@@ -24,4 +24,4 @@ image: silk-road.jpg
 In the hot lye water solution dissolve the silk fibers. Add the sodium lactate to the cooled lye water mixture. Add the lye water to the oils and bring to a trace. Stir in fragrance oils. Separate one third of the mixture and color with the white colorant and color the remainder with the green colorant. Swirl the white mixture into the green mixture bowl and then pour into mold. Cut the soap bars and let cure for 4 weeks before using.
 
 ## Batch Notes
-This is a masculine smell.
+The addition of the silk makes the soap feel softer (sort of like the difference between hard and soft water). 
