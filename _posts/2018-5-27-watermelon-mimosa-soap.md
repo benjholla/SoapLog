@@ -1,6 +1,6 @@
 ---
 layout: batch
-title: Woodsman Soap
+title: Watermelon Mimosa Soap
 
 avocado_oil_ounces: 3.84
 beeswax_ounces: 0.64
