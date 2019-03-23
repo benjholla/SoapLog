@@ -2,7 +2,7 @@
 layout: batch
 title: Nuclear Carrot Soap
 
-carrot_seed_oil_cold_pressed_ounces: .16
+carrot_seed_oil_cold_pressed_ounces: .5
 castor_oil_ounces: 1.6
 coconut_oil_76_deg_ounces: 9.6
 lard_pig_tallow_manteca_ounces: 11.2
