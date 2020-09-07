@@ -14,7 +14,7 @@ liquid_base_ounces: 10.94
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, .67 oz. <a href="https://www.brambleberry.com/discontinued-products/discontinued---sunflower-fragrance-oil/V000293.html">sunflower fragrance oil</a>, .53 oz. <a href="https://www.brambleberry.com/shop-by-product/ingredients/fragrance-oils/daisy-chain-fragrance-oil/V000200.html">daisy chain fragrance oil</a>
 
-iamge: modern-african-black.jpg
+image: modern-african-black.jpg
 ---
 
 ## Recipe
