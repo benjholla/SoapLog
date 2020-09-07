@@ -18,6 +18,7 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="https://www.brambleberry.com/shop-by-product/ingredients/colorants/micas/orchid-mica/V000481.html">orchid mica</a>, <a href="https://www.amazon.com/gp/product/B074TS2268">a cotton ball sized puff of Tussah silk fiber</a>, 2 oz. <a href="https://www.brambleberry.com/shop-by-product/ingredients/fragrance-oils/blushing-orchid-fragrance-oil/V000206.html">blushing orchid fragrance oil</a>.
 
+image: blushing-orchid.jpg
 ---
 
 ## Recipe

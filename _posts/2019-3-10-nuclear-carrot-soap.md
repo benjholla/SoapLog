@@ -15,6 +15,7 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 2 teaspoons <a href="https://www.brambleberry.com/shop-by-product/ingredients/colorants/micas/nuclear-orange-pigment/V000494.html">nuclear orange pigment</a>, 1 teaspoon <a href="http://amzn.to/1P0vDQ6">hardwood activated charcoal powder</a>, 1.5 oz. <a href="https://www.brambleberry.com/shop-by-product/ingredients/fragrance-oils/energy-fragrance-oil/V000150.html">energy fragrance oil</a>, .75 oz. <a href="https://www.brambleberry.com/shop-by-product/ingredients/fragrance-oils/apricot-freesia-fragrance-oil/V000372.html">apricot freesia fragrance oil</a>.
 
+image: carrot.jpg
 ---
 
 ## Recipe

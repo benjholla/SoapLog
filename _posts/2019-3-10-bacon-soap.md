@@ -13,6 +13,7 @@ liquid_base_ounces: 12.16
 
 SpecialIngredients: 2 teaspoons <a href="https://www.brambleberry.com/Sodium-Lactate-P5127.aspx">sodium lactate</a>, 1 teaspoon <a href="https://www.brambleberry.com/shop-by-product/ingredients/colorants/pigments/burgundy-pigment/V000600.html">burgundy pigment</a>, 1 tablespoon <a href="http://amzn.to/1P0vxbg">Moroccan red clay powder</a>, .8 oz. <a href="https://www.brambleberry.com/santas-spruce-fragrance-oil-p3867.aspx">Santa's spruce fragrance oil</a>, .2 oz. <a href="http://amzn.to/1W1QJF9">dark patchouli essential oil</a>.
 
+image: bacon.jpg
 ---
 
 ## Recipe
